@@ -1,0 +1,3 @@
+"""
+stock_scanner package.
+"""
