@@ -1,0 +1,115 @@
+# Stock Scanner Configuration V1.3 (completed US equity weeks)
+
+scanner_version: "1.3"
+
+indicators:
+  daily:
+    ema_periods: [20, 50, 200]
+    rsi_period: 14
+    macd_fast: 12
+    macd_slow: 26
+    macd_signal: 9
+    atr_period: 14
+    roc_period: 20
+    volume_sma_period: 20
+    high_low_periods: [20, 50]
+  weekly:
+    ema_periods: [10, 20, 40, 50]
+    rsi_period: 14
+    macd_fast: 12
+    macd_slow: 26
+    macd_signal: 9
+    atr_period: 14
+    high_low_periods: [20, 52]
+    volume_sma_period: 20
+
+structure:
+  swing_lookback: 5
+  consolidation_threshold_pct: 3.0
+  breakout_lookback: 20
+
+scoring:
+  weights:
+    trend:
+      weekly_trend: 25
+      daily_trend: 25
+      momentum: 15
+      relative_strength: 15
+      volume: 10
+      structure: 10
+    bottom:
+      decline_52w: 15
+      stabilization: 15
+      higher_low: 15
+      rsi_improvement: 10
+      macd_improvement: 10
+      ema20_reclaim: 10
+      volume_confirmation: 10
+      rs_improvement: 10
+      distance_from_low: 5
+    reversal:
+      prior_downtrend: 15
+      higher_low: 15
+      ema20_reclaim: 15
+      ema20_slope_positive: 10
+      rsi_improvement: 10
+      macd_bullish_cross: 10
+      swing_breakout: 10
+      volume_confirmation: 5
+      rs_improvement: 5
+    entry_quality:
+      distance_from_ema20_optimal_min: 0.0
+      distance_from_ema20_optimal_max: 5.0
+      extension_moderate: 8.0
+      extension_extreme: 10.0
+      atr_pct_optimal_min: 1.5
+      atr_pct_optimal_max: 4.5
+    candidate:
+      trend_weight: 0.45
+      entry_quality_weight: 0.30
+      relative_strength_weight: 0.15
+      state_quality_weight: 0.10
+    state_quality:
+      REVERSAL: 95
+      EARLY_UPTREND: 90
+      BOTTOM_BREAKOUT: 85
+      UPTREND: 80
+      STRONG_UPTREND: 75
+      BOTTOM_FORMING: 70
+      REVERSAL_CONFIRMED: 65
+      NEUTRAL: 50
+      DOWNTREND: 30
+      STRONG_DOWNTREND: 20
+      AVOID: 0
+
+bottom_breakout:
+  min_bottom_score: 65
+  volume_ratio_threshold: 1.2
+  volume_confirmation_window: 3
+
+market_regime:
+  ema_fast: 20
+  ema_slow: 50
+
+classification:
+  strong_uptrend:
+    min_trend_score: 85
+    weekly_close_above_ema20: true
+    weekly_ema_bullish: true
+    weekly_ema_slope_positive: true
+    daily_close_above_ema20: true
+    daily_ema_bullish: true
+    min_rsi: 50
+  uptrend:
+    min_trend_score: 70
+    weekly_bullish: true
+    daily_bullish: true
+  downtrend:
+    max_trend_score: 35
+    bearish_structure: true
+  strong_downtrend:
+    max_trend_score: 20
+
+gemini:
+  default_model: "gemini-2.5-flash"
+  enabled_by_default: false

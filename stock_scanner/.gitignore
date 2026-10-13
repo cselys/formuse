@@ -16,7 +16,6 @@ data/history_lookup/
 *.tif
 *.csv
 *.ipynb
-*.yaml
 .env
 data/
 output/

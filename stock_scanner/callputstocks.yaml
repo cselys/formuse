@@ -1,0 +1,25 @@
+jobs:
+- name: call
+  stocks:
+  - BOAT
+  - CVX
+  - PSX
+  - DINO
+  - EXPD
+  - AVTR
+  - XLE
+  - EBAY
+  - AAPL
+  - UMC
+- name: put
+  stocks:
+  - LUNR
+  - PL
+  - LEU
+  - CBRS
+  - OPEN
+  - LWLG
+  - RGTI
+  - PONY
+  - AAOI
+  - OSS

@@ -1,0 +1,493 @@
+market_benchmarks:
+- SPY
+- QQQ
+sector_indexes:
+  technology: XLK
+  financials: XLF
+  energy: XLE
+  healthcare: XLV
+  industrials: XLI
+  consumer_discretionary: XLY
+  consumer_staples: XLP
+  utilities: XLU
+  communication_services: XLC
+  real_estate: XLRE
+  materials: XLB
+categories:
+  indexes_and_etfs:
+    benchmark: SPY
+    instrument_type: index
+    symbols:
+    - XLE
+    - XLF
+    - XLY
+    - XLC
+    - XLI
+    - XLV
+    - XLU
+    - XME
+    - XLB
+    - XLP
+    - XLK
+    - XLRE
+    - CHAT
+    - URA
+    - NLR
+    - BUZZ
+  semiconductors:
+    benchmark: SMH
+    symbols:
+    - NVDA
+    - AMD
+    - AVGO
+    - MU
+    - INTC
+    - TSM
+    - QCOM
+    - MRVL
+    - ARM
+    - NVTS
+    - ASML
+    - SNPS
+    - QRVO
+    - AMAT
+    - ALAB
+    - AEHR
+    - ANET
+    - SWKS
+    - UMC
+    - TSEM
+    - CBRS
+    - CRDO
+    - FN
+    - ADI
+    - TER
+    - ICHR
+    - MPWR
+    - PLAB
+    - TTMI
+    - MKSI
+    - AEIS
+    - SIMO
+    - MTSI
+    - COM
+  technology:
+    benchmark: QQQ
+    symbols:
+    - AAPL
+    - MSFT
+    - GOOG
+    - GOOGL
+    - AMZN
+    - META
+    - TSLA
+    - NFLX
+    - CRM
+    - ADBE
+    - SPCX
+    - ORCL
+    - RDDT
+    - DJT
+    - SE
+    - VUZI
+    - LAES
+    - ETOR
+    - QUIK
+    - APLD
+    - APP
+    - MGNI
+    - PGY
+  energy:
+    benchmark: XLE
+    symbols:
+    - XOM
+    - SLB
+    - EOG
+    - OXY
+    - PSX
+    - VLO
+    - VG
+    - LNG
+    - TRGP
+    - ET
+    - MPC
+    - DINO
+    - CVX
+    - RIG
+    - COP
+  financials:
+    benchmark: XLF
+    symbols:
+    - JPM
+    - BAC
+    - WFC
+    - C
+    - GS
+    - MS
+    - BLK
+    - SCHW
+    - QNST
+    - SOFI
+    - UPST
+    - AFRM
+    - PYPL
+    - QTWO
+    - QCRH
+    - SOUN
+    - DAVE
+    - KKR
+    - CFR
+    - CHYM
+    - LMND
+    - BRK-B
+    - SAR
+    - MPG
+  healthcare_and_bio:
+    benchmark: XLV
+    symbols:
+    - UNH
+    - JNJ
+    - LLY
+    - PFE
+    - ABBV
+    - MRK
+    - TMO
+    - MRNA
+    - CVS
+    - CI
+    - CNC
+    - HUM
+    - MCK
+    - BAX
+    - ZTS
+    - QDEL
+    - QGEN
+    - QURE
+    - XBI
+    - DNA
+    - RVMD
+    - CORT
+    - AVTR
+    - OSCR
+    - THC
+    - BTSG
+    - HIMS
+    - ZYME
+    - NVS
+    - RGC
+    - WGS
+    - PEN
+    - PSNL
+    - HALO
+    - BMRN
+    - TEVA
+    - NTLA
+  consumer_discretionary_and_retail:
+    benchmark: XLY
+    symbols:
+    - HD
+    - NKE
+    - MCD
+    - SBUX
+    - LOW
+    - BKNG
+    - TGT
+    - WMT
+    - COST
+    - DLTR
+    - ROST
+    - TJX
+    - DG
+    - EBAY
+    - MELI
+    - EXPE
+    - WING
+    - DECK
+  small_caps:
+    benchmark: IWM
+    instrument_type: index
+    symbols:
+    - IWM
+    - ARKK
+    - TNA
+    - SQQQ
+    - RWM
+  rare_metal_and_commodities:
+    symbols:
+    - MP
+    - CRML
+    - ALOY
+    - UUUU
+    - USAR
+    - GLD
+    - SLV
+    - NRG
+    - AEM
+    - GFS
+    - HL
+    - NREF
+    - AG
+    - ALB
+    - FCX
+    - NEM
+    - RIO
+    - VALE
+    - BHP
+    - SCCO
+    - CCJ
+    - IDR
+    - SBSW
+    - PPTA
+    - ASPI
+  software:
+    symbols:
+    - FIG
+    - SNOW
+    - MDB
+    - U
+    - NOW
+    - TEAM
+    - AI
+    - PLTR
+    - TWLO
+    - PATH
+    - ZETA
+    - INOD
+    - AKAM
+    - NET
+  hardware:
+    symbols:
+    - DELL
+    - HPE
+    - HPQ
+  datacenter_and_infrastructure:
+    symbols:
+    - NBIS
+    - HUT
+    - CIFR
+    - IREN
+    - CRWV
+    - ETN
+    - VRT
+    - HUBB
+    - SMR
+    - OSS
+  power:
+    symbols:
+    - CEG
+    - GEV
+    - VST
+    - PWR
+    - PLPC
+    - VICR
+    - NEE
+    - DUK
+    - MYRG
+    - POWL
+    - AMSC
+  light:
+    symbols:
+    - AAOI
+    - LITE
+    - AXTI
+    - GLW
+    - NOK
+    - COHR
+    - POET
+    - BB
+  lightrelated:
+    symbols:
+    - AMPX
+    - LWLG
+    - KLAC
+    - LRCX
+    - AMKR
+    - ASX
+  storage:
+    symbols:
+    - SNDK
+    - WDC
+    - STX
+    - SKHY
+    - KXIAY
+  defense_and_aerospace:
+    symbols:
+    - LMT
+    - NOC
+    - RTX
+    - GD
+    - TXT
+    - HII
+    - BA
+    - SAIC
+    - LHX
+    - TDY
+    - AVAV
+    - RCAT
+    - UMAC
+    - PDYN
+    - GE
+    - HWM
+    - HEI
+    - TDG
+    - CW
+    - ONDS
+    - FTAI
+    - ESLT
+    - KTOS
+  space:
+    symbols:
+    - RKLB
+    - ASTS
+    - RDW
+    - PL
+    - VOYG
+    - LUNR
+  crypto:
+    symbols:
+    - COIN
+    - HOOD
+    - CRCL
+    - MSTR
+    - BMNR
+    - SBET
+    - XXRP
+    - SOLT
+    - MARA
+    - RIOT
+    - BTBT
+    - FIGR
+    - BLSH
+  foreign:
+    symbols:
+    - EWZ
+    - EWY
+    - KWEB
+  china:
+    symbols:
+    - BABA
+    - BIDU
+    - PDD
+    - FUTU
+    - PONY
+    - NIO
+    - LI
+    - XPEV
+  penny:
+    symbols:
+    - NMAX
+    - OPEN
+    - SIVEF
+  energy_clean:
+    symbols:
+    - ENPH
+    - RUN
+    - SEDG
+    - FSLR
+    - CSIQ
+    - BE
+    - BW
+    - QS
+    - EOSE
+    - FLNC
+    - TE
+  triple_and_leveraged:
+    symbols:
+    - LABU
+    - NAIL
+    - KORU
+    - RAM
+    - UTSL
+    - DPST
+    - NUGT
+    - DUST
+    - EURL
+    - CURE
+  longterm_and_industrial:
+    symbols:
+    - FIX
+    - MT
+    - CAT
+  quantum:
+    symbols:
+    - QUBT
+    - QBTS
+    - IONQ
+    - RGTI
+    - IBM
+  freight_and_logistics:
+    symbols:
+    - FDX
+    - UPS
+    - JBHT
+    - EXPD
+    - KEX
+    - R
+    - XPO
+    - BOAT
+    - FRO
+    - MATX
+    - CHRW
+    - HAFN
+    - NSC
+    - UNP
+    - CSX
+  motor oil:
+    symbols:
+    - VVV
+    - ORLY
+  advanced_mobility:
+    symbols:
+    - JOBY
+  industrial_engineering:
+    symbols:
+    - ACM
+    - EMR
+    - MOG-A
+    - AGX
+    - MOD
+    - PRIM
+    - PH
+    - STRL
+    - FLR
+    - DE
+    - AMTM
+  foreign_financials:
+    symbols:
+    - MUFG
+    - HSBC
+  airlines:
+    symbols:
+    - LUV
+    - LTM
+  cybersecurity:
+    symbols:
+    - PANW
+    - CRWD
+    - FTNT
+    - OKTA
+    - ZS
+  electronics_components:
+    symbols:
+    - LFUS
+    - BELFB
+  construction_materials:
+    symbols:
+    - VMC
+    - MLM
+  fintech:
+    symbols:
+    - RELY
+  foreign_telecom:
+    symbols:
+    - AMX
+  nuclear:
+    symbols:
+    - BWXT
+    - LEU
+    - NNE
+    - IMSR
+  consumer_staples_and_distribution:
+    symbols:
+    - USFD
+    - PM
