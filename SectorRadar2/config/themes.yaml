@@ -1,0 +1,331 @@
+Semiconductor:
+  tickers:
+  - NVDA
+  - AMD
+  - AVGO
+  - QCOM
+  - MRVL
+  - TSM
+  - "ON"
+  - MPWR
+  - NXPI
+  etf:
+  - SMH
+  - SOXX
+AI / Compute:
+  tickers:
+  - DELL
+  - SMCI
+  etf: []
+Data Center:
+  tickers:
+  - EQIX
+  - DLR
+  - NTNX
+  etf: []
+Optical / Photonics:
+  tickers:
+  - LITE
+  - COHR
+  - AAOI
+  etf: []
+Networking:
+  tickers:
+  - ANET
+  - CSCO
+  etf: []
+Memory:
+  tickers:
+  - MU
+  - WDC
+  - STX
+  etf: []
+Semiconductor Equipment:
+  tickers:
+  - AMAT
+  - LRCX
+  - KLAC
+  - ASML
+  - ACN
+  - ONTO
+  - VECO
+  - APP
+  etf: []
+Nuclear:
+  tickers:
+  - OKLO
+  - SMR
+  - LEU
+  - BWXT
+  - CCJ
+  - UEC
+  etf:
+  - URA
+Uranium:
+  tickers:
+  - BTU
+  etf:
+  - URA
+Solar:
+  tickers:
+  - FSLR
+  - ENPH
+  - SEDG
+  - NXT
+  - ARRY
+  etf:
+  - TAN
+Clean Energy:
+  tickers:
+  - RUN
+  - BE
+  etf:
+  - ICLN
+  - QCLN
+Oil & Gas:
+  tickers:
+  - XOM
+  - CVX
+  - COP
+  - OXY
+  - EOG
+  - FANG
+  - SLB
+  - HAL
+  - MPC
+  - VLO
+  - PSX
+  - DVN
+  etf:
+  - XLE
+  - XOP
+Natural Gas:
+  tickers:
+  - EQT
+  - KNSL
+  - APA
+  etf:
+  - XOP
+Power / Utilities:
+  tickers:
+  - NRG
+  - VST
+  - CEG
+  - EIX
+  - DUK
+  - SO
+  - XEL
+  - AEP
+  - PEG
+  - D
+  - SRE
+  - NEE
+  - WEC
+  - TLN
+  etf:
+  - XLU
+Electrical Infrastructure:
+  tickers:
+  - VRT
+  - ETN
+  - PWR
+  - GE
+  - NVT
+  - POWI
+  - HUBB
+  etf: []
+Biotech:
+  tickers:
+  - AMGN
+  - GILD
+  - REGN
+  - VRTX
+  - BIIB
+  - MRNA
+  - ALNY
+  - ILMN
+  etf:
+  - XBI
+  - IBB
+Pharmaceuticals:
+  tickers:
+  - PFE
+  - MRK
+  - JNJ
+  - LLY
+  - ABBV
+  - BMY
+  - ABT
+  - GSK
+  etf:
+  - XPH
+Medical Devices:
+  tickers:
+  - BDX
+  - ISRG
+  - SYK
+  - MDT
+  - HWM
+  etf: []
+Defense / Aerospace:
+  tickers:
+  - LMT
+  - NOC
+  - RTX
+  - GD
+  - LHX
+  - BA
+  - AVAV
+  - TXT
+  - GNRC
+  - TKO
+  etf:
+  - ITA
+EV:
+  tickers:
+  - TSLA
+  - RIVN
+  - NIO
+  - LI
+  - XPEV
+  - BYDDY
+  etf: []
+China / China Tech:
+  tickers:
+  - BABA
+  - JD
+  - PDD
+  - BIDU
+  - BILI
+  - TCOM
+  - NTES
+  - FUTU
+  etf:
+  - KWEB
+  - FXI
+  - ASHR
+Quantum Computing:
+  tickers:
+  - IONQ
+  - RGTI
+  - QBTS
+  - QUBT
+  - INFQ
+  - XNDU
+  - HQ
+  - QNT
+  etf: []
+Lithium:
+  tickers:
+  - ALB
+  - SQM
+  etf: []
+Copper / Metals:
+  tickers:
+  - FCX
+  - SCCO
+  - MO
+  - NEM
+  - GOLD
+  etf:
+  - CPER
+Steel:
+  tickers:
+  - CLF
+  - STLD
+  - CM
+  etf: []
+Financials:
+  tickers:
+  - JPM
+  - BAC
+  - WFC
+  - C
+  - GS
+  - MS
+  - BLK
+  - SCHW
+  - AXP
+  - V
+  etf:
+  - XLF
+Homebuilders:
+  tickers:
+  - DHI
+  - MTH
+  - LEN
+  - PH
+  - NVR
+  - MHO
+  - TOL
+  etf:
+  - XHB
+Retail:
+  tickers:
+  - WMT
+  - COST
+  - AMZN
+  - TJX
+  - LOW
+  - ORLY
+  - HD
+  - M
+  - NKE
+  etf:
+  - XRT
+Travel / Airlines:
+  tickers:
+  - DAL
+  - UAL
+  - LUV
+  - AAL
+  - RCL
+  - CCL
+  - WYNN
+  - MGM
+  etf:
+  - JETS
+Cybersecurity:
+  tickers:
+  - CRWD
+  - ZS
+  - S
+  - PANW
+  - TENB
+  - CHKP
+  - OKTA
+  - FTNT
+  - WCC
+  etf: []
+Cloud Software:
+  tickers:
+  - CRM
+  - NOW
+  - SNOW
+  - MDB
+  - DDOG
+  - TEAM
+  - WDAY
+  - NET
+  - ORCL
+  - PLTR
+  etf: []
+AI Infrastructure / Data Center Power:
+  tickers:
+  - NBIS
+  - CRWV
+  - IREN
+  - CIFR
+  - HUT
+  etf: []
+Crypto / Digital Assets:
+  tickers:
+  - COIN
+  - HOOD
+  - MSTR
+  - BMNR
+  - SBET
+  - XXRP
+  - SOLT
+  - CRCL
+  etf: []

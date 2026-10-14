@@ -1,0 +1,61 @@
+# SectorRadar — Python / Streamlit / pytest / SQLite application
+# Lines beginning with # are comments; blank lines are ignored.
+
+# --- Environment and secrets ---
+.env
+*.env.local
+*.env.*.secret
+
+# --- Python bytecode and caches ---
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Virtual environments ---
+venv/
+env/
+ENV/
+.virtualenv/
+conda env/
+
+# --- SQLite databases and sidecar files (keep explicit data/.db if needed as fixture) ---
+data/*.db
+data/*.sqlite3
+data/*.db-wal
+data/*.db-shm
+
+# --- Generated runtime data and logs ---
+logs/
+*.log
+tmp/
+temp/
+*.tmp
+
+# --- Streamlit cache and runtime state ---
+.streamlit/
+.streamlit/cache
+
+# --- Editor and OS artifacts ---
+*.swp
+*.swo
+*~
+.DS_Store
+/oberon/
+/ windows/
+
+# --- Project-specific generated / scratch ---
+scratch/
+__dataclasses__/
+
+# --- Packages and distributable ---
+dist/
+build/
+*.egg-info/
+
+# --- Streamlit secrets (never commit)
+.streamlit/secrets.toml
+
+# Finnhub API key — never commit real keys
+# Set SECTOR_RADAR_FINNHUB_API_KEY in .env locally; never track in git
