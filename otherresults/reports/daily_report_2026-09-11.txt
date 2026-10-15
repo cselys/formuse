@@ -1,0 +1,74 @@
+==============================================================================================================
+                                  STOCK SCANNER DAILY REPORT
+==============================================================================================================
+Date: 2026-09-11
+Data source: yfinance
+Universe: 284 stocks
+Market Regime: MARKET_NEUTRAL
+==============================================================================================================
+
+TOP 10 STOCKS UP
+--------------------------------------------------------------------------------------------------------------
+Rank  Symbol   Category        Close     Change %   State              Score    EntryQ   RS(20d)    RS Trend    
+--------------------------------------------------------------------------------------------------------------
+1     HPE      hardware        62.09     +12.44%    UPTREND            72.90    50.00    +6.14%     positive    
+2     DELL     hardware        567.29    +11.98%    STRONG_UPTREND     77.80    50.00    +17.07%    positive    
+3     BW       energy_clean    7.94      +10.74%    NEUTRAL            42.00    70.00    -12.73%    recovering  
+4     KORU     triple_and_leveraged 23.07     +8.97%     REVERSAL           64.30    48.00    +10.81%    improving_strong
+5     HUT      datacenter_and_infrastructure 98.60     +8.83%     EARLY_UPTREND      65.70    40.00    +21.21%    improving_strong
+6     HPQ      hardware        35.48     +8.40%     STRONG_UPTREND     81.30    50.00    +16.80%    positive    
+7     BE       energy_clean    275.75    +6.68%     UPTREND            72.90    43.00    +19.08%    improving_strong
+8     FIX      longterm_and_industrial 1690.82   +6.29%     REVERSAL           70.90    88.00    +0.22%     improving_strong
+9     WING     consumer_discretionary_and_retail 117.10    +5.95%     BOTTOM_BREAKOUT    60.00    80.00    +7.74%     improving_strong
+10    CIFR     datacenter_and_infrastructure 16.85     +5.71%     NEUTRAL            46.70    50.00    +3.73%     improving_strong
+
+TOP 10 STOCKS DOWN
+--------------------------------------------------------------------------------------------------------------
+Rank  Symbol   Category        Close     Change %   State              Score    EntryQ   RS(20d)    RS Trend    
+--------------------------------------------------------------------------------------------------------------
+1     SMR      datacenter_and_infrastructure 8.61      -15.67%    BOTTOM_BREAKOUT    45.70    48.00    -10.24%    recovering  
+2     LEU      energy_clean    152.31    -8.18%     DOWNTREND          20.20    40.00    -18.25%    lagging     
+3     SEDG     energy_clean    34.68     -5.63%     BOTTOM_BREAKOUT    60.80    70.00    +10.12%    improving_strong
+4     UUUU     rare_metal_and_commodities 12.95     -4.99%     BOTTOM_FORMING     33.50    58.00    -8.83%     recovering  
+5     FIGR     crypto          34.87     -4.65%     REVERSAL           71.20    58.00    +11.73%    positive    
+6     ALOY     rare_metal_and_commodities 8.41      -4.32%     BOTTOM_FORMING     30.90    48.00    -32.71%    recovering  
+7     CRML     rare_metal_and_commodities 6.43      -4.32%     BOTTOM_FORMING     39.50    48.00    +0.07%     improving_strong
+8     STX      storage         830.17    -3.73%     EARLY_UPTREND      54.50    50.00    -7.55%     recovering  
+9     SNDK     storage         1633.35   -3.50%     UPTREND            80.20    78.00    +9.24%     improving_strong
+10    ALB      rare_metal_and_commodities 117.52    -3.43%     BOTTOM_FORMING     34.00    58.00    -7.58%     recovering  
+
+TOP 3 SECTORS UP - STOCK BREADTH
+--------------------------------------------------------------------------------------------------------------
+Rank  Sector               Up     Down   Flat   Total    Up %     Down %   Avg Change
+--------------------------------------------------------------------------------------------------------------
+1     hardware             3      0      0      3        100.0%   0.0%     +10.94%   
+2     semiconductors       17     2      0      19       89.5%    10.5%    +2.27%    
+3     light                7      1      0      8        87.5%    12.5%    +2.31%    
+
+TOP 3 SECTORS DOWN - STOCK BREADTH
+--------------------------------------------------------------------------------------------------------------
+Rank  Sector               Up     Down   Flat   Total    Up %     Down %   Avg Change
+--------------------------------------------------------------------------------------------------------------
+1     foreign              0      1      0      1        0.0%     100.0%   -0.96%    
+2     storage              1      3      0      4        25.0%    75.0%    -2.32%    
+3     space                1      3      0      4        25.0%    75.0%    -0.66%    
+
+TOP 3 SECTOR INDEXES UP
+--------------------------------------------------------------------------------------------------------------
+Rank  Index    Sector                     Close      Change %  
+--------------------------------------------------------------------------------------------------------------
+1     XLK      Technology                 187.67     +1.32%    
+2     XLI      Industrials                172.37     +1.07%    
+3     XLC      Communication Services     112.60     +0.99%    
+
+TOP 3 SECTOR INDEXES DOWN
+--------------------------------------------------------------------------------------------------------------
+Rank  Index    Sector                     Close      Change %  
+--------------------------------------------------------------------------------------------------------------
+1     XLU      Utilities                  42.39      -0.31%    
+2     XLV      Healthcare                 165.36     -0.18%    
+3     XLE      Energy                     65.14      +0.32%    
+
+TOP SCANNER SIGNALS
+--------------------------------------------------------------------------------------------------------------
+[Existing scanner candidate/state tables appear below.]

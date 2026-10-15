@@ -1,0 +1,64 @@
+STOCK_SCANNER_DAILY_REPORT,2026-09-24
+
+market_regime,MARKET_UPTREND
+
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,DNA,healthcare_and_bio,10.25,+19.46%,REVERSAL,66.5,50.0,+39.03%,improving_strong
+2,PL,freight_and_logistics,17.6200008392334,+7.57%,STRONG_DOWNTREND,28.8,60.0,-20.91%,recovering
+3,NBIS,datacenter_and_infrastructure,243.47999572753906,+7.44%,UPTREND,73.0,58.0,+9.63%,improving_strong
+4,MRNA,healthcare_and_bio,194.82000732421875,+6.98%,STRONG_UPTREND,75.0,43.0,+25.75%,positive
+5,CRML,rare_metal_and_commodities,8.170000076293945,+5.83%,BOTTOM_BREAKOUT,41.7,25.0,-1.93%,recovering
+6,IONQ,quantum,44.97999954223633,+5.74%,EARLY_UPTREND,52.6,35.0,+8.19%,improving_strong
+7,UMAC,defense_and_aerospace,23.93000030517578,+5.46%,NEUTRAL,58.1,70.0,-4.01%,lagging
+8,AFRM,financials,71.56999969482422,+5.11%,DOWNTREND,40.7,60.0,-1.70%,recovering
+9,CORT,healthcare_and_bio,118.51000213623047,+4.93%,UPTREND,74.4,88.0,-1.00%,lagging
+10,SOLT,crypto,74.66999816894531,+4.92%,UPTREND,67.1,33.0,+35.13%,positive
+
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,QURE,healthcare_and_bio,38.31999969482422,-10.38%,BOTTOM_FORMING,46.5,58.0,-21.84%,recovering
+2,FSLR,energy_clean,172.16000366210938,-10.32%,STRONG_DOWNTREND,21.5,50.0,-21.03%,recovering
+3,EOSE,energy_clean,3.244999885559082,-9.36%,DOWNTREND,24.4,40.0,-7.02%,recovering
+4,ARM,semiconductors,306.3399963378906,-7.88%,STRONG_UPTREND,73.2,43.0,+13.97%,improving_strong
+5,BW,energy_clean,6.170000076293945,-7.08%,STRONG_DOWNTREND,21.6,40.0,-25.48%,recovering
+6,RUN,energy_clean,7.78000020980835,-6.83%,STRONG_DOWNTREND,25.0,50.0,-18.97%,recovering
+7,U,software,41.41999816894531,-6.08%,BOTTOM_FORMING,53.6,58.0,-12.21%,lagging
+8,FIGR,crypto,32.65999984741211,-5.77%,BOTTOM_FORMING,36.5,48.0,-24.89%,lagging
+9,TE,energy_clean,3.809999942779541,-5.69%,DOWNTREND,19.6,40.0,-19.70%,recovering
+10,OSCR,healthcare_and_bio,28.8700008392334,-5.44%,NEUTRAL,53.3,58.0,-3.57%,recovering
+
+Sector,Up,Down,Flat,Total,Up %,Down %,Avg Change %
+space,4,0,0,4,100.0%,0.0%,+3.11%
+quantum,4,1,0,5,80.0%,20.0%,+2.16%
+financials,15,4,0,19,78.9%,21.1%,+0.76%
+penny,2,1,0,3,66.7%,33.3%,+0.71%
+healthcare_and_bio,16,9,0,25,64.0%,36.0%,+1.44%
+other,7,4,0,11,63.6%,36.4%,+0.30%
+energy,5,3,0,8,62.5%,37.5%,+0.25%
+motor oil,5,3,0,8,62.5%,37.5%,+0.20%
+crypto,7,5,0,12,58.3%,41.7%,-0.05%
+power,4,2,1,7,57.1%,28.6%,+0.24%
+longterm_and_industrial,1,1,0,2,50.0%,50.0%,+0.11%
+technology,9,12,0,21,42.9%,57.1%,-0.36%
+semiconductors,8,10,1,19,42.1%,52.6%,-0.53%
+freight_and_logistics,5,7,0,12,41.7%,58.3%,-0.61%
+consumer_discretionary_and_retail,7,11,0,18,38.9%,61.1%,-0.32%
+triple_and_leveraged,3,5,0,8,37.5%,62.5%,-1.20%
+datacenter_and_infrastructure,3,6,0,9,33.3%,66.7%,+0.41%
+hardware,1,2,0,3,33.3%,66.7%,-1.26%
+light,2,6,0,8,25.0%,75.0%,+0.15%
+software,3,10,0,13,23.1%,76.9%,-0.93%
+defense_and_aerospace,4,14,1,19,21.1%,73.7%,-0.18%
+rare_metal_and_commodities,4,18,0,22,18.2%,81.8%,-0.96%
+lightrelated,1,5,0,6,16.7%,83.3%,-0.47%
+china,1,7,0,8,12.5%,87.5%,-0.89%
+energy_clean,1,12,0,13,7.7%,92.3%,-4.33%
+foreign,0,3,0,3,0.0%,100.0%,-1.19%
+storage,0,3,0,3,0.0%,100.0%,-3.42%
+
+Symbol,Sector,Close,Change %
+XLC,Communication Services,113.98999786376953,+1.27%
+XLV,Healthcare,169.8699951171875,+0.63%
+XLE,Energy,62.599998474121094,+0.37%
+XLB,Materials,49.68000030517578,-1.19%
+XLU,Utilities,39.36000061035156,-0.98%
+XLP,Consumer Staples,81.69999694824219,-0.89%

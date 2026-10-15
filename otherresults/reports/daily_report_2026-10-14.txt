@@ -1,0 +1,509 @@
+==============================================================================================================
+                                  STOCK SCANNER DAILY REPORT
+==============================================================================================================
+Date: 2026-10-14
+Data source: yfinance
+Universe: 368 stocks
+Market Regime: MARKET_NEUTRAL
+==============================================================================================================
+
+TOP 10 STOCKS UP
+--------------------------------------------------------------------------------------------------------------
+Rank  Symbol   Category        Close     Change %   State              Score    EntryQ   RS(20d)    RS Trend    
+--------------------------------------------------------------------------------------------------------------
+1     DUST     triple_and_leveraged 43.77     +8.83%     REVERSAL           60.90    43.00    +16.77%    improving_strong
+2     CURE     triple_and_leveraged 140.94    +7.43%     STRONG_UPTREND     86.30    90.00    +7.65%     positive    
+3     HALO     healthcare_and_bio 116.82    +6.57%     STRONG_UPTREND     80.00    83.00    +3.64%     positive    
+4     WGS      healthcare_and_bio 68.61     +5.62%     DOWNTREND          27.80    48.00    -33.66%    lagging     
+5     ESLT     defense_and_aerospace 701.38    +5.05%     NEUTRAL            46.40    90.00    -8.53%     recovering  
+6     GFS      rare_metal_and_commodities 48.94     +4.80%     BOTTOM_BREAKOUT    65.00    80.00    +10.19%    improving_strong
+7     UNH      healthcare_and_bio 395.62    +4.73%     EARLY_UPTREND      71.90    90.00    +1.34%     improving_strong
+8     DLTR     consumer_discretionary_and_retail 121.76    +4.71%     REVERSAL           75.40    90.00    +6.91%     improving_strong
+9     MRNA     healthcare_and_bio 226.30    +4.65%     STRONG_UPTREND     74.10    43.00    +51.32%    positive    
+10    DG       consumer_discretionary_and_retail 129.94    +3.95%     UPTREND            80.50    90.00    +4.21%     positive    
+
+TOP 10 STOCKS DOWN
+--------------------------------------------------------------------------------------------------------------
+Rank  Symbol   Category        Close     Change %   State              Score    EntryQ   RS(20d)    RS Trend    
+--------------------------------------------------------------------------------------------------------------
+1     EOSE     energy_clean    1.95      -15.95%    STRONG_DOWNTREND   18.50    40.00    -53.99%    recovering  
+2     CRWV     datacenter_and_infrastructure 65.78     -15.46%    DOWNTREND          19.50    40.00    -24.63%    lagging     
+3     MPG      financials      2.56      -12.52%    STRONG_DOWNTREND   18.50    40.00    -34.07%    lagging     
+4     CIFR     datacenter_and_infrastructure 9.94      -12.35%    BOTTOM_FORMING     30.90    48.00    -44.10%    recovering  
+5     IREN     datacenter_and_infrastructure 30.56     -12.18%    BOTTOM_FORMING     30.90    48.00    -31.84%    lagging     
+6     KORU     triple_and_leveraged 12.93     -12.16%    AVOID              22.50    48.00    -32.81%    recovering  
+7     AAOI     light           86.22     -11.82%    DOWNTREND          26.10    40.00    -14.42%    recovering  
+8     DELL     hardware        507.93    -11.27%    NEUTRAL            56.60    58.00    -13.37%    lagging     
+9     U        software        41.40     -11.22%    NEUTRAL            55.40    50.00    -5.28%     lagging     
+10    BTBT     crypto          1.08      -11.16%    BOTTOM_FORMING     28.60    48.00    -28.37%    recovering  
+
+TOP 3 SECTORS UP - STOCK BREADTH
+--------------------------------------------------------------------------------------------------------------
+Rank  Sector               Up     Down   Flat   Total    Up %     Down %   Avg Change
+--------------------------------------------------------------------------------------------------------------
+1     consumer_staples_and_distribution 2      0      0      2        100.0%   0.0%     +1.85%    
+2     motor oil            2      0      0      2        100.0%   0.0%     +0.75%    
+3     foreign_telecom      1      0      0      1        100.0%   0.0%     +0.74%    
+
+TOP 3 SECTORS DOWN - STOCK BREADTH
+--------------------------------------------------------------------------------------------------------------
+Rank  Sector               Up     Down   Flat   Total    Up %     Down %   Avg Change
+--------------------------------------------------------------------------------------------------------------
+1     crypto               0      13     0      13       0.0%     100.0%   -7.09%    
+2     energy_clean         0      11     0      11       0.0%     100.0%   -7.43%    
+3     light                0      8      0      8        0.0%     100.0%   -6.91%    
+
+TOP 3 SECTOR INDEXES UP
+--------------------------------------------------------------------------------------------------------------
+Rank  Index    Sector                     Close      Change %  
+--------------------------------------------------------------------------------------------------------------
+1     XLV      Healthcare                 173.96     +2.53%    
+2     XLP      Consumer Staples           86.06      +2.22%    
+3     XLE      Energy                     67.63      +0.64%    
+
+TOP 3 SECTOR INDEXES DOWN
+--------------------------------------------------------------------------------------------------------------
+Rank  Index    Sector                     Close      Change %  
+--------------------------------------------------------------------------------------------------------------
+1     XLK      Technology                 190.43     -2.98%    
+2     XLC      Communication Services     110.82     -1.30%    
+3     XLI      Industrials                167.04     -0.97%    
+
+==============================================================================================================
+                                        STATE BREAKDOWN
+==============================================================================================================
+
+--- STRONG_UPTREND (22 symbols) ---
+Symbol   Cat             CandScore  Trend   EntryQ  Bottom  Revers  RS(20d)   RSI    EMA20% 
+--------------------------------------------------------------------------------------------------------------
+PLTR     software        91.1       94.0    98.0    59.5    75.5    +11.7%     63.3   +4.1%   
+MSFT     technology      88.7       94.0    98.0    59.5    75.5    +5.3%      62.5   +2.6%   
+SNPS     semiconductors  87.8       85.0    90.0    55.5    74.5    +23.3%     59.7   +3.4%   
+EWZ      foreign         86.9       96.0    83.0    62.5    77.5    +10.1%     68.3   +5.5%   
+TEVA     healthcare_and_bio 86.8       93.0    98.0    62.5    77.5    +1.6%      61.2   +2.8%   
+FTNT     cybersecurity   86.7       91.0    98.0    67.5    75.5    +3.6%      56.1   +1.2%   
+CURE     triple_and_leveraged 86.3       92.0    90.0    62.5    87.5    +7.7%      61.0   +7.2%   
+FRO      freight_and_logistics 86.2       96.0    83.0    62.5    77.5    +8.4%      65.5   +6.8%   
+ABBV     healthcare_and_bio 84.9       92.0    90.0    59.5    85.5    +3.9%      69.7   +5.3%   
+HAFN     freight_and_logistics 84.5       94.0    83.0    59.5    75.5    +6.0%      66.7   +5.9%   
+XLV      indexes_and_etfs 84.4       86.0    100.0   70.5    87.5    +1.8%      62.2   +2.6%   
+AAPL     technology      84.0       87.0    100.0   58.5    78.5    -0.4%      62.1   +2.2%   
+BOAT     freight_and_logistics 83.8       88.0    98.0    58.5    74.5    -0.6%      63.6   +3.0%   
+EBAY     consumer_discretionary_and_retail 81.6       88.0    83.0    55.5    68.5    +5.6%      71.1   +6.1%   
+MCK      healthcare_and_bio 81.3       87.0    83.0    59.5    78.5    +6.0%      71.4   +6.7%   
+HALO     healthcare_and_bio 80.0       86.0    83.0    57.5    70.5    +3.6%      64.4   +5.7%   
+PSX      energy          79.5       93.0    68.0    55.5    78.5    +6.1%      79.0   +9.7%   
+CVX      energy          78.6       87.0    83.0    55.5    75.5    -1.3%      71.3   +5.6%   
+MPC      energy          76.8       93.0    53.0    55.5    78.5    +10.9%     80.0   +12.4%  
+VLO      energy          75.7       93.0    53.0    55.5    78.5    +7.8%      76.5   +10.6%  
+MRNA     healthcare_and_bio 74.1       86.0    43.0    59.5    75.5    +51.3%     69.1   +17.2%  
+DINO     energy          73.1       89.0    53.0    55.5    68.5    +5.8%      78.8   +10.6%  
+
+--- UPTREND (37 symbols) ---
+Symbol   Cat             CandScore  Trend   EntryQ  Bottom  Revers  RS(20d)   RSI    EMA20% 
+--------------------------------------------------------------------------------------------------------------
+RWM      small_caps      87.8       90.0    95.0    66.5    80.5    +8.7%      72.3   +3.4%   
+PFE      healthcare_and_bio 85.1       86.0    100.0   49.5    84.5    +2.3%      66.5   +3.7%   
+META     technology      85.0       84.0    98.0    53.5    68.5    +6.1%      58.1   +2.6%   
+PYPL     financials      84.1       80.0    98.0    74.0    75.5    +8.6%      58.3   +2.5%   
+BRK-B    financials      83.1       84.0    95.0    54.5    75.5    +3.4%      71.9   +3.1%   
+EMR      industrial_engineering 82.4       83.0    90.0    52.5    72.5    +6.9%      57.6   +1.6%   
+ZS       cybersecurity   81.8       89.0    73.0    70.0    75.5    +11.7%     60.9   +5.8%   
+GOOG     technology      81.1       81.0    100.0   69.5    76.5    -2.3%      50.7   +0.0%   
+LLY      healthcare_and_bio 81.0       77.0    100.0   53.5    78.5    +2.1%      60.4   +3.3%   
+COST     consumer_discretionary_and_retail 80.6       71.0    100.0   49.5    77.5    +8.5%      72.1   +4.9%   
+DG       consumer_discretionary_and_retail 80.5       81.0    90.0    50.5    82.5    +4.2%      60.9   +4.7%   
+TMO      healthcare_and_bio 80.4       79.0    98.0    45.5    65.5    -0.3%      60.3   +2.4%   
+EXPD     freight_and_logistics 80.4       84.0    90.0    44.5    82.5    +0.3%      62.1   +2.6%   
+GOOGL    technology      79.6       79.0    98.0    69.5    72.5    -2.2%      51.3   +0.2%   
+ADI      semiconductors  79.2       75.0    90.0    50.5    67.5    +8.0%      55.8   +1.1%   
+AVTR     healthcare_and_bio 79.1       79.0    98.0    58.5    65.5    -3.5%      59.7   +2.4%   
+XOM      energy          79.0       84.0    83.0    59.5    78.5    +2.1%      74.9   +6.2%   
+QRVO     semiconductors  78.8       76.0    98.0    49.5    65.5    -0.8%      55.9   +1.3%   
+AI       software        78.7       76.0    88.0    74.5    75.5    +7.0%      62.6   +4.7%   
+OKTA     cybersecurity   78.0       78.0    80.0    45.5    67.5    +9.1%      57.0   +1.6%   
+XLE      indexes_and_etfs 77.3       84.0    75.0    40.5    75.5    +3.9%      71.4   +5.2%   
+THC      healthcare_and_bio 77.3       79.0    90.0    46.5    79.5    -1.9%      62.6   +3.6%   
+HUM      healthcare_and_bio 77.2       76.0    83.0    55.5    75.5    +7.0%      62.0   +6.1%   
+DNA      healthcare_and_bio 76.8       73.0    70.0    54.0    65.5    +59.2%     55.1   +4.4%   
+QGEN     healthcare_and_bio 76.6       74.0    90.0    54.5    72.5    +2.1%      57.2   +2.2%   
+BAX      healthcare_and_bio 76.3       74.0    90.0    60.5    72.5    +1.3%      57.3   +2.4%   
+MATX     freight_and_logistics 76.0       72.0    98.0    63.5    72.5    -3.6%      60.0   +3.3%   
+PM       consumer_staples_and_distribution 75.8       81.0    75.0    44.5    82.5    +3.7%      69.4   +5.6%   
+BTSG     healthcare_and_bio 75.3       70.0    90.0    40.5    72.5    +3.4%      61.4   +4.1%   
+COP      energy          74.9       81.0    75.0    40.5    75.5    +1.1%      71.3   +7.2%   
+CNC      healthcare_and_bio 74.8       80.0    75.0    44.5    82.5    +2.2%      68.1   +7.4%   
+ZETA     software        74.5       77.0    80.0    48.5    72.5    +1.1%      55.3   +1.1%   
+TEAM     software        74.2       77.0    75.0    40.5    72.5    +4.0%      63.1   +5.2%   
+NOW      software        73.6       72.0    90.0    62.0    71.5    -3.4%      55.8   +1.9%   
+OSCR     healthcare_and_bio 73.4       77.0    75.0    44.5    72.5    +2.0%      64.8   +6.4%   
+SAIC     defense_and_aerospace 73.3       72.0    90.0    48.5    69.5    -4.3%      54.5   +1.5%   
+EOG      energy          72.7       77.0    75.0    40.5    82.5    +0.1%      67.7   +5.4%   
+
+--- EARLY_UPTREND (10 symbols) ---
+Symbol   Cat             CandScore  Trend   EntryQ  Bottom  Revers  RS(20d)   RSI    EMA20% 
+--------------------------------------------------------------------------------------------------------------
+OXY      energy          73.1       68.0    90.0    40.5    69.5    -2.8%      61.8   +3.7%   
+LNG      energy          72.1       65.0    90.0    44.5    69.5    -1.8%      54.4   +1.2%   
+UNH      healthcare_and_bio 71.9       62.0    90.0    53.5    74.5    +1.3%      62.3   +4.3%   
+TRGP     energy          71.2       65.0    90.0    44.5    69.5    -4.1%      56.4   +1.7%   
+MRK      healthcare_and_bio 70.1       61.0    90.0    43.5    56.5    -2.4%      54.7   +1.6%   
+SCCO     rare_metal_and_commodities 69.6       69.5    70.0    55.5    69.5    +2.1%      48.7   -1.0%   
+DAVE     financials      67.4       60.0    80.0    54.5    69.5    -0.3%      51.8   +1.5%   
+SNOW     software        67.0       67.5    70.0    45.5    66.5    -2.3%      48.5   -1.8%   
+RIG      energy          63.9       50.0    90.0    62.0    64.0    -5.5%      52.6   +1.4%   
+CHYM     financials      63.3       61.5    70.0    41.5    66.5    -5.0%      49.1   -0.2%   
+
+--- BOTTOM_FORMING (44 symbols) ---
+Symbol   Cat             CandScore  Trend   EntryQ  Bottom  Revers  RS(20d)   RSI    EMA20% 
+--------------------------------------------------------------------------------------------------------------
+MRVL     semiconductors  68.4       78.5    58.0    63.0    63.0    +3.3%      44.5   -5.9%   
+HPE      hardware        68.0       73.5    58.0    57.5    58.5    +8.1%      48.3   -3.8%   
+NVDA     semiconductors  65.3       67.5    68.0    56.5    52.0    -0.1%      44.0   -2.8%   
+BB       light           61.6       62.5    58.0    61.0    54.0    +4.2%      45.2   -4.4%   
+FCX      rare_metal_and_commodities 61.0       60.5    68.0    56.5    58.0    -3.0%      43.5   -3.1%   
+MSTR     crypto          60.2       54.5    58.0    64.5    58.0    +10.0%     46.0   -5.2%   
+XLU      indexes_and_etfs 59.6       34.0    100.0   58.5    73.5    -0.6%      56.4   +1.6%   
+TER      semiconductors  59.4       59.5    58.0    63.0    53.0    +1.8%      40.4   -8.6%   
+CHAT     indexes_and_etfs 55.4       49.0    68.0    62.0    50.0    -4.1%      35.7   -7.0%   
+BUZZ     indexes_and_etfs 53.3       44.0    68.0    61.0    50.0    -3.8%      36.5   -5.3%   
+SOLT     crypto          53.2       49.5    48.0    60.5    51.0    +5.5%      40.7   -13.3%  
+PLPC     power           51.5       51.0    58.0    57.5    48.0    -9.0%      36.2   -7.0%   
+AVGO     semiconductors  50.8       36.5    68.0    78.5    55.0    -1.3%      42.3   -3.3%   
+CAT      longterm_and_industrial 48.2       36.0    68.0    60.5    46.0    -7.9%      33.7   -7.1%   
+KWEB     foreign         47.0       19.5    82.0    56.0    64.5    -2.4%      45.6   -0.7%   
+ARM      semiconductors  46.5       44.0    48.0    57.5    48.0    -6.0%      35.9   -13.9%  
+FIX      longterm_and_industrial 45.7       36.0    58.0    60.5    50.0    -6.4%      38.4   -7.2%   
+BAC      financials      45.4       31.0    68.0    60.0    46.0    -9.1%      22.7   -6.9%   
+COIN     crypto          45.3       28.5    58.0    62.5    51.0    +1.5%      43.9   -5.2%   
+EWY      foreign         45.1       33.0    68.0    60.5    46.0    -12.5%     33.0   -10.6%  
+EURL     triple_and_leveraged 45.0       33.0    68.0    61.0    55.0    -12.8%     37.2   -4.4%   
+BELFB    electronics_components 44.8       29.0    68.0    57.5    44.0    -8.3%      33.1   -8.7%   
+NBIS     datacenter_and_infrastructure 44.1       46.0    48.0    60.5    50.0    -14.7%     35.3   -16.4%  
+GLW      light           42.5       28.5    58.0    65.0    48.0    -5.8%      40.5   -8.7%   
+HWM      defense_and_aerospace 42.2       23.0    68.0    69.5    51.0    -8.0%      34.5   -4.5%   
+SIMO     semiconductors  41.1       36.0    48.0    60.5    46.0    -10.8%     33.2   -14.9%  
+NOK      light           39.5       26.0    58.0    67.0    48.0    -10.8%     39.5   -8.1%   
+COHR     light           39.4       34.0    48.0    62.0    48.0    -12.7%     39.3   -12.7%  
+AMKR     lightrelated    38.8       21.0    58.0    58.0    44.0    -6.7%      34.7   -11.5%  
+SE       technology      38.7       18.0    68.0    74.0    55.0    -11.5%     36.5   -3.4%   
+NTLA     healthcare_and_bio 38.0       17.5    58.0    71.5    58.0    -4.6%      42.7   -6.2%   
+HIMS     healthcare_and_bio 37.9       17.5    58.0    70.0    58.0    -5.1%      43.8   -5.2%   
+RIOT     crypto          35.4       31.0    48.0    60.0    46.0    -29.3%     27.3   -20.7%  
+SBSW     rare_metal_and_commodities 35.2       23.0    58.0    65.0    44.0    -18.8%     34.4   -8.1%   
+PL       space           31.7       19.0    48.0    67.0    44.0    -15.3%     30.9   -16.1%  
+CIFR     datacenter_and_infrastructure 30.9       21.0    48.0    64.0    46.0    -44.1%     23.5   -32.4%  
+IREN     datacenter_and_infrastructure 30.9       21.0    48.0    64.0    46.0    -31.8%     26.6   -21.6%  
+RDW      space           30.9       21.0    48.0    63.0    44.0    -23.7%     30.0   -15.7%  
+LUNR     space           29.9       19.0    48.0    62.0    44.0    -24.1%     29.5   -20.9%  
+MARA     crypto          29.9       19.0    48.0    64.0    44.0    -29.0%     25.1   -22.7%  
+KTOS     defense_and_aerospace 29.3       11.0    58.0    66.0    44.0    -20.9%     27.4   -9.9%   
+BTBT     crypto          28.6       16.0    48.0    62.0    44.0    -28.4%     25.1   -26.1%  
+ASTS     space           27.2       13.0    48.0    64.0    46.0    -32.4%     27.7   -24.8%  
+RCAT     defense_and_aerospace 26.3       11.0    48.0    66.0    44.0    -36.9%     17.4   -24.8%  
+
+--- BOTTOM_BREAKOUT (23 symbols) ---
+Symbol   Cat             CandScore  Trend   EntryQ  Bottom  Revers  RS(20d)   RSI    EMA20% 
+--------------------------------------------------------------------------------------------------------------
+GEV      power           66.6       68.5    68.0    70.5    67.0    -1.7%      43.6   -3.4%   
+GFS      rare_metal_and_commodities 65.0       47.0    80.0    70.5    74.5    +10.2%     53.1   +2.0%   
+XPO      freight_and_logistics 63.8       44.0    90.0    67.5    74.5    +2.6%      53.5   +1.8%   
+AFRM     financials      60.4       59.5    58.0    74.5    70.0    +0.7%      44.3   -4.5%   
+CRDO     semiconductors  51.9       41.5    48.0    67.5    57.0    +7.5%      40.5   -10.6%  
+GS       financials      48.3       30.0    68.0    74.0    53.0    -4.1%      30.9   -4.1%   
+MYRG     power           48.2       36.5    50.0    68.5    59.5    +2.2%      43.2   -3.5%   
+PRIM     industrial_engineering 46.5       29.5    60.0    65.5    68.5    -2.1%      48.4   -1.3%   
+MKSI     semiconductors  45.9       31.0    58.0    71.0    46.0    -3.8%      34.4   -9.9%   
+VRT      datacenter_and_infrastructure 43.4       31.0    58.0    65.0    46.0    -10.5%     33.4   -9.1%   
+POWL     power           42.0       26.0    58.0    65.0    50.0    -8.1%      35.5   -9.7%   
+STRL     industrial_engineering 41.5       26.0    58.0    65.0    50.0    -9.7%      37.2   -10.6%  
+ICHR     semiconductors  40.4       31.0    48.0    65.0    46.0    -10.4%     30.6   -16.6%  
+AEHR     semiconductors  39.6       36.0    48.0    65.0    46.0    -18.7%     32.8   -20.3%  
+TTMI     semiconductors  39.5       31.0    48.0    65.0    50.0    -12.9%     35.8   -14.5%  
+HUT      datacenter_and_infrastructure 39.1       36.0    48.0    65.0    50.0    -20.2%     36.6   -14.8%  
+AMSC     power           35.0       13.0    58.0    74.0    46.0    -11.3%     30.9   -13.3%  
+LWLG     lightrelated    32.5       21.0    48.0    70.0    46.0    -19.5%     30.9   -19.8%  
+RAM      triple_and_leveraged 32.4       21.0    48.0    69.0    46.0    -24.0%     31.3   -26.0%  
+PDYN     defense_and_aerospace 31.8       13.0    58.0    69.0    46.0    -29.3%     22.0   -19.1%  
+POET     light           31.0       18.0    48.0    65.0    46.0    -24.6%     28.0   -19.1%  
+CBRS     semiconductors  28.8       13.0    48.0    69.0    46.0    -29.2%     30.6   -18.7%  
+FIGR     crypto          28.8       13.0    48.0    69.0    46.0    -28.3%     29.7   -15.4%  
+
+--- REVERSAL (31 symbols) ---
+Symbol   Cat             CandScore  Trend   EntryQ  Bottom  Revers  RS(20d)   RSI    EMA20% 
+--------------------------------------------------------------------------------------------------------------
+ASX      lightrelated    81.8       81.0    78.0    62.5    67.5    +13.3%     51.8   -0.7%   
+USFD     consumer_staples_and_distribution 80.3       73.0    98.0    69.5    85.5    +2.9%      55.5   +1.9%   
+XLP      indexes_and_etfs 78.5       72.0    95.0    55.5    84.5    +1.6%      67.4   +3.6%   
+PWR      power           77.8       80.5    78.0    70.5    72.5    +3.1%      49.0   -1.3%   
+TWLO     software        76.7       79.0    68.0    50.5    65.5    +10.0%     50.4   -1.6%   
+HUBB     datacenter_and_infrastructure 76.5       64.0    98.0    75.5    75.5    +3.3%      57.2   +1.8%   
+UNP      freight_and_logistics 76.0       67.0    98.0    69.5    82.5    -1.6%      59.7   +2.3%   
+DLTR     consumer_discretionary_and_retail 75.4       64.0    90.0    54.5    82.5    +6.9%      57.9   +3.9%   
+TGT      consumer_discretionary_and_retail 75.2       63.5    100.0   60.5    59.5    -1.0%      49.8   +0.0%   
+CSX      freight_and_logistics 75.2       65.0    100.0   65.5    76.5    -2.8%      55.2   +1.4%   
+WMT      consumer_discretionary_and_retail 74.4       62.0    90.0    46.5    82.5    +6.6%      69.1   +6.3%   
+CRM      technology      72.2       65.0    98.0    48.5    65.5    -9.2%      53.6   +1.2%   
+XLK      indexes_and_etfs 71.9       75.5    68.0    63.5    63.0    +1.3%      43.2   -2.4%   
+NVS      healthcare_and_bio 71.1       52.0    100.0   75.5    79.5    +1.8%      55.6   +2.1%   
+AMZN     technology      71.0       65.5    82.0    73.0    81.0    -0.2%      49.3   -0.3%   
+NSC      freight_and_logistics 70.0       59.0    90.0    52.5    79.5    -1.4%      56.6   +1.6%   
+BLK      financials      69.6       57.5    82.0    75.5    80.0    +5.7%      48.5   -0.1%   
+CI       healthcare_and_bio 69.3       57.0    90.0    38.5    79.5    -0.8%      64.6   +4.1%   
+CORT     healthcare_and_bio 67.6       60.5    78.0    57.5    62.5    -0.1%      49.8   -0.8%   
+COM      semiconductors  65.1       59.0    77.0    64.0    66.5    -4.2%      51.2   -0.0%   
+ORLY     motor oil       64.6       39.0    100.0   84.0    87.0    +0.1%      52.8   +0.9%   
+QCRH     financials      62.4       47.5    82.0    69.0    63.0    -1.4%      40.3   -1.9%   
+DUST     triple_and_leveraged 60.9       55.0    43.0    74.5    93.0    +16.8%     61.7   +12.0%  
+DE       industrial_engineering 60.7       50.5    78.0    44.5    60.0    -6.4%      45.4   -1.9%   
+TDY      defense_and_aerospace 60.3       43.5    82.0    73.0    75.0    -2.2%      45.9   -0.5%   
+RGC      healthcare_and_bio 59.1       55.0    33.0    77.5    85.0    +38.7%     69.0   +17.2%  
+SPCX     technology      58.4       55.5    58.0    57.0    61.0    -2.7%      48.2   -2.5%   
+DUK      power           56.5       36.0    80.0    50.5    79.5    -1.9%      62.6   +2.5%   
+TDG      defense_and_aerospace 51.4       22.5    82.0    77.0    75.0    -0.8%      47.1   -0.0%   
+VG       energy          51.1       43.5    68.0    62.5    71.0    -15.7%     47.2   -1.2%   
+ADBE     technology      47.3       21.5    78.0    69.0    67.0    -7.5%      46.6   -0.7%   
+
+--- REVERSAL_CONFIRMED (5 symbols) ---
+Symbol   Cat             CandScore  Trend   EntryQ  Bottom  Revers  RS(20d)   RSI    EMA20% 
+--------------------------------------------------------------------------------------------------------------
+RELY     fintech         71.2       65.0    90.0    48.5    72.5    +2.5%      53.9   +2.4%   
+QTWO     financials      68.3       59.0    90.0    60.5    72.5    +2.0%      54.9   +1.8%   
+KEX      freight_and_logistics 67.8       62.0    90.0    57.5    71.5    -2.9%      53.8   +1.1%   
+CEG      power           64.8       56.0    80.0    61.0    72.5    +4.2%      51.1   +0.2%   
+VST      power           64.5       55.0    80.0    67.0    72.5    +4.8%      52.6   +1.0%   
+
+--- NEUTRAL (74 symbols) ---
+Symbol   Cat             CandScore  Trend   EntryQ  Bottom  Revers  RS(20d)   RSI    EMA20% 
+--------------------------------------------------------------------------------------------------------------
+ARKK     small_caps      67.8       72.5    68.0    45.5    51.0    +6.0%      42.5   -4.0%   
+TJX      consumer_discretionary_and_retail 63.1       40.0    90.0    48.5    72.5    +14.9%     68.3   +4.8%   
+AMD      semiconductors  62.9       65.5    60.0    34.5    53.5    +7.9%      46.5   -4.1%   
+TSM      semiconductors  62.6       66.5    68.0    54.5    50.0    -0.6%      40.9   -4.4%   
+ROST     consumer_discretionary_and_retail 62.4       50.0    90.0    43.5    55.5    +1.1%      51.5   +0.7%   
+PEN      healthcare_and_bio 62.3       49.0    97.0    44.5    73.5    -3.5%      53.9   +0.3%   
+ANET     semiconductors  62.0       68.5    68.0    51.5    58.0    -4.6%      42.7   -4.7%   
+CRWD     cybersecurity   62.0       71.5    58.0    50.5    53.5    -0.3%      49.0   -2.8%   
+MGNI     technology      60.3       63.5    68.0    50.5    50.5    -3.2%      44.7   -3.5%   
+NET      software        60.3       70.5    58.0    48.5    52.5    -3.6%      44.8   -5.0%   
+MTSI     semiconductors  60.2       62.5    50.0    48.0    55.5    +12.2%     47.7   -3.5%   
+VICR     power           59.7       61.5    40.0    41.0    43.5    +29.9%     45.8   -6.6%   
+PSNL     healthcare_and_bio 59.6       54.5    82.0    43.5    55.5    -5.4%      45.9   -1.3%   
+VVV      motor oil       59.3       37.0    90.0    61.0    72.5    +8.5%      50.2   +0.8%   
+PANW     cybersecurity   58.9       67.5    58.0    48.5    55.5    -3.7%      46.1   -4.0%   
+ETN      datacenter_and_infrastructure 58.5       57.5    68.0    54.5    50.0    -0.8%      41.4   -4.2%   
+R        freight_and_logistics 58.2       44.5    90.0    60.5    69.5    -3.6%      48.5   +0.2%   
+EXPE     consumer_discretionary_and_retail 57.8       45.5    90.0    50.5    69.5    -5.7%      49.6   +0.9%   
+PH       industrial_engineering 57.8       45.5    82.0    47.5    62.5    +0.5%      46.9   -0.6%   
+WING     consumer_discretionary_and_retail 57.5       40.0    65.0    57.5    72.5    +20.2%     62.5   +7.9%   
+UMC      semiconductors  57.4       61.5    68.0    50.5    48.0    -8.5%      40.6   -7.5%   
+DECK     consumer_discretionary_and_retail 56.6       34.0    90.0    69.0    72.5    +4.8%      51.9   +1.4%   
+DELL     hardware        56.6       70.5    58.0    42.5    60.0    -13.4%     41.9   -7.9%   
+MELI     consumer_discretionary_and_retail 56.1       38.0    90.0    52.5    69.5    -1.5%      50.5   +0.3%   
+U        software        55.4       66.5    50.0    43.5    56.5    -5.3%      43.0   -5.7%   
+ZTS      healthcare_and_bio 54.9       35.0    90.0    73.5    69.5    -0.9%      59.2   +3.3%   
+CVS      healthcare_and_bio 54.5       38.0    90.0    54.5    63.5    -5.5%      53.3   +2.1%   
+BABA     china           54.4       33.0    90.0    71.0    66.5    +0.1%      50.7   +0.9%   
+PDD      china           53.9       32.0    90.0    73.5    69.5    -0.1%      55.4   +2.3%   
+LMT      defense_and_aerospace 53.3       36.0    90.0    59.5    61.5    -6.3%      50.9   +1.1%   
+HPQ      hardware        53.1       53.5    68.0    51.5    43.5    -10.4%     45.2   -2.9%   
+UTSL     triple_and_leveraged 52.5       29.0    90.0    57.0    69.5    -0.0%      54.6   +4.1%   
+ALAB     semiconductors  51.1       52.5    40.0    45.0    40.5    +8.0%      40.6   -10.8%  
+SWKS     semiconductors  51.1       58.5    58.0    41.5    48.0    -13.7%     43.3   -5.2%   
+QCOM     semiconductors  50.5       47.5    68.0    46.0    48.0    -10.1%     42.4   -4.0%   
+LITE     light           50.5       57.5    48.0    45.5    58.0    -6.1%      42.5   -9.9%   
+QDEL     healthcare_and_bio 49.9       43.0    35.0    59.5    72.5    +24.7%     62.9   +12.1%  
+MPWR     semiconductors  49.8       45.5    50.0    54.0    42.5    +4.8%      40.3   -7.2%   
+ET       energy          49.8       45.5    70.0    39.5    57.5    -11.2%     42.2   -1.5%   
+MOG-A    industrial_engineering 49.7       36.5    70.0    52.5    49.5    -0.6%      46.1   -1.1%   
+MU       semiconductors  49.2       47.0    58.0    53.0    48.0    -4.9%      36.3   -10.0%  
+SQQQ     small_caps      49.1       27.0    90.0    64.5    61.5    -6.9%      54.1   +4.1%   
+IBM      quantum         49.0       27.5    90.0    51.0    69.5    -7.6%      49.2   +0.2%   
+JPM      financials      48.8       35.5    70.0    47.5    53.5    -1.7%      44.4   -0.5%   
+KLAC     lightrelated    48.8       38.0    60.0    55.5    42.5    +3.3%      39.3   -6.0%   
+ASML     semiconductors  48.7       41.0    60.0    36.5    39.5    -0.5%      38.1   -5.9%   
+INTC     semiconductors  48.6       47.0    58.0    47.0    48.0    -6.4%      37.9   -9.8%   
+XLF      indexes_and_etfs 48.4       35.5    72.0    49.5    61.5    -4.5%      44.1   -0.5%   
+LRCX     lightrelated    48.4       44.0    50.0    48.0    40.5    +3.0%      37.3   -8.5%   
+UPS      freight_and_logistics 48.1       24.5    90.0    46.5    63.5    -6.6%      47.9   +0.3%   
+AMAT     semiconductors  47.5       41.0    50.0    51.0    42.5    +4.0%      36.4   -9.0%   
+HOOD     crypto          47.2       44.0    58.0    47.0    48.0    -6.7%      37.3   -9.0%   
+HD       consumer_discretionary_and_retail 46.9       19.5    90.0    60.5    63.5    -3.7%      47.4   +0.3%   
+AXTI     light           46.7       50.5    48.0    54.5    48.0    -7.8%      40.4   -14.3%  
+BE       energy_clean    46.7       56.5    48.0    50.0    48.0    -14.9%     41.1   -11.1%  
+ESLT     defense_and_aerospace 46.4       22.5    90.0    52.0    54.5    -8.5%      49.2   +0.8%   
+NEE      power           46.0       19.5    90.0    54.5    63.5    -6.0%      47.3   +0.2%   
+TSLA     technology      45.5       27.5    70.0    49.0    59.5    -1.0%      49.3   -0.8%   
+SNDK     storage         45.5       44.0    58.0    47.5    44.0    -11.2%     34.3   -13.4%  
+NEM      rare_metal_and_commodities 45.4       43.0    60.0    33.5    37.5    -11.9%     37.8   -5.1%   
+RVMD     healthcare_and_bio 45.1       43.5    50.0    35.5    37.5    -5.3%      44.7   -2.2%   
+MDB      software        44.2       44.5    50.0    36.5    48.5    -8.9%      43.3   -4.7%   
+SBET     crypto          43.8       40.0    50.0    50.5    39.5    -4.5%      37.9   -10.9%  
+MUFG     foreign_financials 43.3       36.0    60.0    26.5    37.5    -9.2%      37.3   -3.8%   
+TSEM     semiconductors  43.1       41.5    40.0    47.0    37.5    -0.1%      42.1   -8.2%   
+JNJ      healthcare_and_bio 43.1       35.5    60.0    32.5    39.5    -9.1%      41.5   -2.7%   
+AEM      rare_metal_and_commodities 42.3       37.0    60.0    35.0    39.5    -13.0%     38.8   -5.6%   
+PATH     software        41.0       36.5    50.0    46.0    44.5    -7.7%      43.2   -2.5%   
+NMAX     penny           40.0       40.0    50.0    28.5    37.5    -14.8%     35.9   -9.6%   
+BLSH     crypto          38.4       33.0    48.0    47.5    48.0    -8.8%      38.5   -9.4%   
+SKHY     storage         36.7       31.0    58.0    49.0    44.0    -19.2%     31.6   -15.5%  
+BMNR     crypto          36.5       25.0    50.0    36.5    37.5    -6.0%      37.1   -10.6%  
+CRCL     crypto          34.5       19.5    50.0    45.5    37.5    -4.7%      42.6   -6.0%   
+XXRP     crypto          29.8       16.5    40.0    35.5    37.5    -5.8%      40.3   -15.0%  
+
+--- DOWNTREND (68 symbols) ---
+Symbol   Cat             CandScore  Trend   EntryQ  Bottom  Revers  RS(20d)   RSI    EMA20% 
+--------------------------------------------------------------------------------------------------------------
+XLI      indexes_and_etfs 45.4       32.0    72.0    49.5    63.5    -3.0%      38.6   -1.6%   
+BHP      rare_metal_and_commodities 45.2       33.0    72.0    32.5    41.5    -4.6%      39.1   -3.1%   
+XLY      indexes_and_etfs 44.6       28.5    72.0    52.5    72.5    -0.9%      47.9   -0.1%   
+LFUS     electronics_components 43.0       34.0    60.0    33.5    37.5    -2.2%      38.9   -5.4%   
+XBI      healthcare_and_bio 42.9       34.0    68.0    47.0    48.0    -8.9%      36.6   -4.3%   
+FUTU     china           42.9       28.5    70.0    66.5    66.5    -3.9%      47.2   -1.7%   
+XLB      indexes_and_etfs 42.8       26.5    72.0    43.5    64.5    -3.2%      46.3   -0.2%   
+XLRE     indexes_and_etfs 42.8       27.5    72.0    49.5    61.5    -4.6%      43.7   -0.5%   
+JBHT     freight_and_logistics 42.7       29.5    70.0    48.5    55.5    -5.5%      43.9   -0.9%   
+CFR      financials      42.2       26.0    70.0    37.5    46.5    -2.8%      38.5   -1.8%   
+RTX      defense_and_aerospace 40.6       27.5    70.0    47.5    53.5    -8.8%      42.2   -0.9%   
+SBUX     consumer_discretionary_and_retail 40.4       24.5    70.0    49.5    53.5    -5.6%      40.5   -1.7%   
+WFC      financials      39.9       29.5    60.0    58.5    50.5    -4.9%      41.2   -2.1%   
+FDX      freight_and_logistics 39.9       24.5    70.0    41.5    53.5    -7.0%      41.9   -0.9%   
+QNST     financials      39.1       27.5    70.0    46.0    53.5    -12.8%     44.7   -1.2%   
+SCHW     financials      38.5       27.0    60.0    47.5    46.5    -5.8%      37.9   -2.3%   
+XLC      indexes_and_etfs 37.6       15.5    72.0    44.5    57.5    -3.9%      46.9   -0.7%   
+C        financials      37.6       25.0    60.0    30.5    35.5    -5.9%      33.1   -5.6%   
+RIO      rare_metal_and_commodities 37.5       27.0    60.0    32.5    33.5    -8.3%      34.9   -3.9%   
+ZYME     healthcare_and_bio 37.1       28.5    58.0    52.5    48.0    -9.7%      41.2   -5.0%   
+LOW      consumer_discretionary_and_retail 36.4       14.5    70.0    62.0    60.5    -4.4%      46.1   -0.2%   
+GE       defense_and_aerospace 36.4       22.0    60.0    42.5    44.5    -5.4%      37.7   -2.0%   
+HSBC     foreign_financials 36.3       26.0    60.0    26.5    37.5    -10.4%     35.3   -3.5%   
+GLD      rare_metal_and_commodities 36.0       15.0    72.0    49.0    43.5    -7.6%      39.2   -2.4%   
+LUV      airlines        35.5       18.0    60.0    45.0    37.5    -3.1%      37.9   -4.4%   
+NFLX     technology      35.2       17.5    70.0    64.5    53.5    -11.2%     44.9   -0.9%   
+IWM      small_caps      34.5       20.0    50.0    32.5    35.5    +0.0%      28.2   -3.3%   
+MS       financials      34.4       20.0    60.0    32.5    35.5    -8.2%      25.3   -6.0%   
+NREF     rare_metal_and_commodities 34.1       20.0    60.0    28.5    37.5    -9.0%      35.6   -3.8%   
+BKNG     consumer_discretionary_and_retail 34.0       12.0    70.0    47.0    53.5    -7.7%      39.8   -1.9%   
+TNA      small_caps      34.0       20.0    60.0    35.0    35.5    -9.4%      27.4   -10.3%  
+PLAB     semiconductors  32.8       11.0    60.0    53.5    37.5    -1.7%      38.3   -4.7%   
+AEIS     semiconductors  32.7       16.0    50.0    44.0    37.5    -0.1%      39.2   -7.4%   
+MT       longterm_and_industrial 32.0       23.0    60.0    28.5    33.5    -18.2%     33.7   -6.0%   
+RDDT     technology      30.4       18.5    50.0    58.5    57.5    -9.3%      45.3   -2.8%   
+SLB      energy          30.2       15.0    60.0    28.5    37.5    -13.5%     37.5   -3.3%   
+FLR      industrial_engineering 30.1       15.0    60.0    30.5    37.5    -13.7%     35.7   -6.3%   
+AKAM     software        28.6       20.0    50.0    41.5    35.5    -15.8%     32.9   -12.9%  
+CHRW     freight_and_logistics 28.5       10.5    60.0    45.0    37.5    -12.7%     41.6   -3.5%   
+BMRN     healthcare_and_bio 28.2       15.0    60.0    27.5    33.5    -18.9%     29.8   -5.4%   
+STX      storage         28.2       23.0    40.0    28.0    33.5    -12.4%     33.6   -13.2%  
+QUIK     technology      28.0       13.0    50.0    36.5    33.5    -8.8%      29.6   -12.7%  
+WGS      healthcare_and_bio 27.8       23.0    48.0    51.5    48.0    -33.7%     39.2   -8.6%   
+DPST     triple_and_leveraged 27.2       20.0    50.0    40.0    35.5    -19.4%     33.2   -8.1%   
+AG       rare_metal_and_commodities 27.0       20.0    50.0    39.5    35.5    -20.3%     29.3   -13.6%  
+WDC      storage         26.2       15.0    50.0    32.5    33.5    -16.2%     32.1   -13.1%  
+UMAC     defense_and_aerospace 26.2       25.0    40.0    44.5    35.5    -23.0%     31.3   -18.8%  
+HL       rare_metal_and_commodities 26.1       18.0    50.0    43.5    33.5    -20.7%     30.1   -13.5%  
+AAOI     light           26.1       20.0    40.0    39.5    39.5    -14.4%     37.4   -18.5%  
+SIVEF    penny           25.5       13.0    48.0    52.5    48.0    -14.0%     36.3   -16.4%  
+RKLB     space           25.1       8.0     50.0    36.5    33.5    -10.6%     33.2   -13.3%  
+LABU     triple_and_leveraged 24.1       20.0    40.0    28.0    37.5    -19.7%     35.6   -14.1%  
+NVTS     semiconductors  23.9       15.0    40.0    44.5    35.5    -14.3%     32.6   -16.6%  
+AMPX     lightrelated    23.2       8.0     50.0    40.5    33.5    -15.6%     26.0   -14.0%  
+LAES     technology      22.7       10.0    50.0    43.5    35.5    -19.5%     24.3   -17.3%  
+CRML     rare_metal_and_commodities 22.1       5.0     40.0    39.5    37.5    -6.9%      39.4   -11.3%  
+INOD     software        21.9       5.0     40.0    32.5    33.5    -7.6%      34.4   -14.6%  
+QURE     healthcare_and_bio 21.8       15.0    40.0    32.5    33.5    -54.7%     16.0   -27.0%  
+VOYG     space           21.8       15.0    40.0    37.5    33.5    -30.2%     31.2   -14.2%  
+VUZI     technology      21.6       13.0    40.0    59.0    35.5    -17.9%     31.5   -16.7%  
+QUBT     quantum         21.6       8.0     50.0    40.5    33.5    -24.7%     21.1   -18.8%  
+LEU      nuclear         20.5       10.0    40.0    43.5    35.5    -17.3%     31.0   -16.5%  
+FLNC     energy_clean    20.4       12.0    40.0    41.5    40.5    -34.9%     25.5   -20.1%  
+APP      technology      20.2       5.0     50.0    36.5    33.5    -23.3%     30.6   -9.5%   
+IONQ     quantum         20.2       10.0    40.0    36.5    35.5    -18.3%     26.6   -20.8%  
+CRWV     datacenter_and_infrastructure 19.5       10.0    40.0    38.5    35.5    -24.6%     29.2   -21.1%  
+QBTS     quantum         19.5       10.0    40.0    43.5    35.5    -29.6%     22.3   -21.9%  
+RGTI     quantum         19.5       10.0    40.0    43.5    35.5    -24.6%     22.1   -20.0%  
+
+--- STRONG_DOWNTREND (73 symbols) ---
+Symbol   Cat             CandScore  Trend   EntryQ  Bottom  Revers  RS(20d)   RSI    EMA20% 
+--------------------------------------------------------------------------------------------------------------
+HEI      defense_and_aerospace 39.0       14.0    82.0    46.5    57.5    -3.8%      38.5   -1.7%   
+VMC      construction_materials 38.7       14.0    82.0    53.0    57.5    -4.6%      38.9   -2.0%   
+NKE      consumer_discretionary_and_retail 36.0       14.5    70.0    60.5    53.5    -2.8%      43.8   -0.6%   
+NOC      defense_and_aerospace 35.5       19.5    70.0    63.0    58.5    -10.2%     46.5   -0.0%   
+HII      defense_and_aerospace 35.2       17.5    70.0    58.5    53.5    -8.4%      43.1   -1.4%   
+AMX      foreign_telecom 35.2       17.5    70.0    55.5    53.5    -8.5%      45.0   -0.7%   
+MCD      consumer_discretionary_and_retail 34.9       14.5    70.0    50.0    53.5    -5.5%      43.7   -0.2%   
+LHX      defense_and_aerospace 34.8       17.0    70.0    54.0    55.5    -8.8%      38.9   -1.2%   
+GD       defense_and_aerospace 34.2       17.0    70.0    42.5    53.5    -10.6%     39.5   -1.0%   
+LI       china           33.3       14.5    70.0    60.5    60.5    -9.9%      45.9   -1.5%   
+LMND     financials      32.3       17.0    60.0    53.5    42.5    -7.5%      34.1   -5.7%   
+NIO      china           31.1       15.0    60.0    50.5    44.5    -8.3%      39.2   -4.3%   
+MLM      construction_materials 31.0       15.0    60.0    51.0    40.5    -8.7%      34.7   -3.0%   
+FN       semiconductors  30.9       17.0    50.0    55.5    49.5    -3.4%      39.0   -10.7%  
+LTM      airlines        30.9       15.0    60.0    44.0    39.5    -9.0%      37.2   -5.9%   
+XME      indexes_and_etfs 30.3       15.0    60.0    42.0    35.5    -10.4%     33.3   -6.3%   
+FSLR     energy_clean    30.3       14.5    60.0    60.5    44.5    -9.8%      42.7   -2.7%   
+BIDU     china           30.1       15.0    60.0    50.5    40.5    -11.1%     31.4   -5.7%   
+VALE     rare_metal_and_commodities 29.6       13.0    60.0    32.5    37.5    -10.1%     36.9   -4.1%   
+NRG      rare_metal_and_commodities 29.2       18.5    50.0    55.5    54.5    -9.6%      43.5   -3.1%   
+UPST     financials      28.9       15.0    50.0    50.5    44.5    -6.3%      35.0   -6.3%   
+ACM      industrial_engineering 28.9       12.0    60.0    46.5    44.5    -10.6%     38.3   -3.1%   
+BWXT     nuclear         28.7       12.0    60.0    46.5    44.5    -11.2%     36.9   -5.2%   
+KKR      financials      28.5       10.0    60.0    43.5    35.5    -9.4%      27.2   -7.8%   
+FIG      software        28.5       17.5    50.0    62.5    48.5    -10.4%     43.0   -3.0%   
+TXT      defense_and_aerospace 28.4       12.0    60.0    42.0    44.5    -12.1%     35.5   -3.3%   
+BA       defense_and_aerospace 28.4       12.0    60.0    42.0    40.5    -12.1%     34.5   -4.3%   
+AMTM     industrial_engineering 28.3       12.0    60.0    46.5    44.5    -12.3%     38.5   -4.3%   
+XPEV     china           28.2       12.0    60.0    46.5    44.5    -12.4%     36.3   -4.7%   
+AGX      industrial_engineering 27.3       15.0    50.0    46.5    44.5    -10.6%     37.4   -6.8%   
+SOFI     financials      27.0       10.0    60.0    43.5    35.5    -13.4%     25.7   -10.8%  
+CCJ      rare_metal_and_commodities 26.8       10.0    60.0    44.0    35.5    -13.9%     33.8   -8.1%   
+ALB      rare_metal_and_commodities 26.7       10.0    60.0    43.5    35.5    -14.1%     28.6   -8.0%   
+NLR      indexes_and_etfs 26.6       10.0    60.0    43.5    35.5    -14.3%     30.5   -9.7%   
+CSIQ     energy_clean    26.6       15.0    50.0    50.5    44.5    -12.5%     35.6   -9.7%   
+ETOR     technology      26.5       12.0    60.0    46.5    40.5    -17.1%     30.6   -7.4%   
+SLV      rare_metal_and_commodities 26.2       10.0    60.0    46.5    35.5    -15.5%     31.1   -9.1%   
+URA      indexes_and_etfs 25.8       10.0    60.0    43.5    35.5    -16.4%     29.2   -11.0%  
+FTAI     defense_and_aerospace 25.6       17.0    50.0    53.5    46.5    -17.5%     37.5   -6.2%   
+ORCL     technology      25.5       12.5    50.0    51.5    39.5    -12.4%     40.3   -7.3%   
+RUN      energy_clean    25.5       15.0    50.0    50.5    44.5    -15.3%     35.0   -7.7%   
+CW       defense_and_aerospace 25.2       8.0     60.0    36.0    33.5    -15.7%     27.4   -6.3%   
+SAR      financials      24.9       5.0     60.0    38.0    33.5    -13.0%     24.2   -7.3%   
+MOD      industrial_engineering 21.9       8.0     50.0    36.5    33.5    -16.5%     33.1   -13.2%  
+DJT      technology      21.8       10.0    50.0    54.0    35.5    -19.1%     24.3   -14.6%  
+NUGT     triple_and_leveraged 21.6       17.0    40.0    39.5    39.5    -24.1%     36.0   -13.7%  
+MP       rare_metal_and_commodities 21.5       10.0    50.0    38.5    35.5    -22.0%     28.7   -14.2%  
+PPTA     rare_metal_and_commodities 21.5       10.0    50.0    43.5    35.5    -26.3%     25.3   -17.4%  
+ENPH     energy_clean    21.5       10.0    50.0    43.5    35.5    -21.0%     29.8   -11.4%  
+SEDG     energy_clean    21.3       12.5    40.0    51.5    39.5    -15.5%     40.4   -7.0%   
+ONDS     defense_and_aerospace 21.2       8.0     50.0    38.5    33.5    -18.3%     27.7   -13.7%  
+OSS      datacenter_and_infrastructure 20.8       15.0    40.0    39.5    35.5    -28.0%     20.4   -22.4%  
+PGY      technology      20.6       8.0     50.0    41.5    37.5    -25.9%     35.6   -8.8%   
+SOUN     financials      20.6       8.0     50.0    51.0    33.5    -21.4%     19.3   -19.7%  
+AVAV     defense_and_aerospace 20.6       8.0     50.0    35.5    33.5    -26.5%     25.6   -14.3%  
+PONY     china           20.6       8.0     50.0    40.5    33.5    -24.6%     25.6   -17.1%  
+QS       energy_clean    20.6       8.0     50.0    40.5    33.5    -24.9%     22.0   -15.2%  
+JOBY     advanced_mobility 20.6       8.0     50.0    40.5    33.5    -27.7%     15.5   -20.0%  
+APLD     technology      18.5       10.0    40.0    48.5    35.5    -20.2%     31.0   -16.8%  
+MPG      financials      18.5       10.0    40.0    43.5    35.5    -34.1%     28.5   -29.0%  
+UUUU     rare_metal_and_commodities 18.5       10.0    40.0    43.5    35.5    -32.4%     20.7   -22.4%  
+USAR     rare_metal_and_commodities 18.5       10.0    40.0    43.5    35.5    -35.2%     19.5   -24.3%  
+IDR      rare_metal_and_commodities 18.5       10.0    40.0    38.5    35.5    -30.0%     20.2   -22.3%  
+OPEN     penny           18.5       10.0    40.0    43.5    35.5    -26.7%     22.0   -16.9%  
+EOSE     energy_clean    18.5       10.0    40.0    43.5    35.5    -54.0%     22.0   -35.0%  
+NAIL     triple_and_leveraged 18.5       10.0    40.0    54.5    35.5    -20.4%     34.3   -12.6%  
+ALOY     rare_metal_and_commodities 17.6       8.0     40.0    40.5    33.5    -27.8%     24.8   -22.3%  
+ASPI     rare_metal_and_commodities 17.6       8.0     40.0    40.5    33.5    -37.8%     22.8   -26.3%  
+SMR      datacenter_and_infrastructure 17.6       8.0     40.0    40.5    33.5    -33.3%     25.9   -23.9%  
+BW       energy_clean    17.6       8.0     40.0    36.5    33.5    -32.1%     27.0   -18.0%  
+TE       energy_clean    17.6       8.0     40.0    38.5    33.5    -32.6%     28.9   -21.6%  
+NNE      nuclear         17.6       8.0     40.0    40.5    33.5    -20.4%     29.8   -16.8%  
+IMSR     nuclear         17.6       8.0     40.0    46.5    33.5    -34.4%     27.2   -22.5%  
+
+--- AVOID (2 symbols) ---
+Symbol   Cat             CandScore  Trend   EntryQ  Bottom  Revers  RS(20d)   RSI    EMA20% 
+--------------------------------------------------------------------------------------------------------------
+KXIAY    storage         26.1       26.0    48.0    53.0    44.0    -76.3%     22.0   -56.9%  
+KORU     triple_and_leveraged 22.5       18.0    48.0    65.0    46.0    -32.8%     32.6   -31.7%  
+
+==============================================================================================================

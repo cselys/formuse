@@ -1,0 +1,11 @@
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,ZETA,software,31.56999969482422,+9.01%,REVERSAL,68.3,73.0,-4.51%,lagging
+2,MPG,financials,3.6700000762939453,+7.62%,STRONG_DOWNTREND,19.2,40.0,-18.04%,recovering
+3,DNA,healthcare_and_bio,12.829999923706055,+7.27%,UPTREND,72.7,50.0,+87.03%,improving_strong
+4,AI,software,10.989999771118164,+6.29%,REVERSAL,71.5,88.0,+1.75%,positive
+5,SNPS,semiconductors,434.94000244140625,+4.78%,NEUTRAL,52.7,75.0,-6.85%,lagging
+6,PATH,software,12.84000015258789,+4.22%,NEUTRAL,39.3,58.0,-33.76%,lagging
+7,MP,rare_metal_and_commodities,47.290000915527344,+4.09%,STRONG_DOWNTREND,23.0,50.0,-16.54%,lagging
+8,QNST,financials,15.010000228881836,+3.95%,BOTTOM_FORMING,39.2,58.0,-14.11%,lagging
+9,HPE,hardware,63.88999938964844,+3.90%,STRONG_UPTREND,83.1,73.0,+21.05%,positive
+10,HIMS,healthcare_and_bio,29.790000915527344,+3.80%,BOTTOM_BREAKOUT,63.6,80.0,+6.64%,improving_strong

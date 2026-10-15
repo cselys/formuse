@@ -1,0 +1,74 @@
+==============================================================================================================
+                                  STOCK SCANNER DAILY REPORT
+==============================================================================================================
+Date: 2026-09-16
+Data source: yfinance
+Universe: 288 stocks
+Market Regime: MARKET_NEUTRAL
+==============================================================================================================
+
+TOP 10 STOCKS UP
+--------------------------------------------------------------------------------------------------------------
+Rank  Symbol   Category        Close     Change %   State              Score    EntryQ   RS(20d)    RS Trend    
+--------------------------------------------------------------------------------------------------------------
+1     AXTI     light           64.30     +11.44%    REVERSAL           50.20    78.00    -20.10%    recovering  
+2     CIFR     datacenter_and_infrastructure 16.72     +10.80%    BOTTOM_BREAKOUT    59.60    70.00    +5.67%     improving_strong
+3     LITE     light           919.40    +9.59%     UPTREND            78.40    78.00    +7.06%     positive    
+4     COHR     light           289.93    +6.92%     NEUTRAL            51.30    70.00    -3.60%     recovering  
+5     ALAB     semiconductors  269.18    +6.59%     DOWNTREND          32.70    40.00    -7.04%     recovering  
+6     SPCX     technology      150.88    +5.15%     UPTREND            78.30    88.00    +7.04%     improving_strong
+7     SIVEF    penny           2.87      +5.13%     DOWNTREND          26.00    40.00    -22.59%    recovering  
+8     GEV      power           925.09    +4.79%     DOWNTREND          39.90    60.00    -6.13%     recovering  
+9     UMC      semiconductors  22.53     +4.26%     UPTREND            85.20    83.00    +26.16%    improving_strong
+10    APLD     technology      24.39     +4.14%     BOTTOM_BREAKOUT    32.60    48.00    -12.67%    recovering  
+
+TOP 10 STOCKS DOWN
+--------------------------------------------------------------------------------------------------------------
+Rank  Symbol   Category        Close     Change %   State              Score    EntryQ   RS(20d)    RS Trend    
+--------------------------------------------------------------------------------------------------------------
+1     JBHT     freight_and_logistics 236.73    -13.30%    DOWNTREND          35.30    60.00    -11.88%    lagging     
+2     RCAT     defense_and_aerospace 7.09      -10.92%    BOTTOM_BREAKOUT    28.80    48.00    -28.69%    recovering  
+3     CSIQ     energy_clean    11.34     -7.35%     STRONG_DOWNTREND   18.50    40.00    -21.28%    recovering  
+4     CHYM     financials      31.25     -7.02%     NEUTRAL            63.40    58.00    +1.23%     positive    
+5     CRCL     crypto          80.45     -6.78%     BOTTOM_BREAKOUT    62.90    48.00    +13.94%    improving_strong
+6     OXY      energy          59.36     -6.55%     REVERSAL           68.70    78.00    -0.83%     recovering  
+7     COP      energy          132.54    -6.15%     REVERSAL           76.10    78.00    +1.62%     positive    
+8     EOG      energy          144.93    -5.73%     REVERSAL           66.30    82.00    -3.08%     recovering  
+9     FSLR     energy_clean    191.07    -5.57%     STRONG_DOWNTREND   24.70    50.00    -11.37%    recovering  
+10    HOOD     crypto          104.42    -5.46%     BOTTOM_FORMING     73.20    58.00    +15.87%    improving_strong
+
+TOP 3 SECTORS UP - STOCK BREADTH
+--------------------------------------------------------------------------------------------------------------
+Rank  Sector               Up     Down   Flat   Total    Up %     Down %   Avg Change
+--------------------------------------------------------------------------------------------------------------
+1     datacenter_and_infrastructure 8      1      0      9        88.9%    11.1%    +2.75%    
+2     light                7      1      0      8        87.5%    12.5%    +4.19%    
+3     storage              3      1      0      4        75.0%    25.0%    +0.50%    
+
+TOP 3 SECTORS DOWN - STOCK BREADTH
+--------------------------------------------------------------------------------------------------------------
+Rank  Sector               Up     Down   Flat   Total    Up %     Down %   Avg Change
+--------------------------------------------------------------------------------------------------------------
+1     energy               0      8      0      8        0.0%     100.0%   -3.58%    
+2     foreign              0      3      0      3        0.0%     100.0%   -0.77%    
+3     financials           1      18     0      19       5.3%     94.7%    -2.30%    
+
+TOP 3 SECTOR INDEXES UP
+--------------------------------------------------------------------------------------------------------------
+Rank  Index    Sector                     Close      Change %  
+--------------------------------------------------------------------------------------------------------------
+1     XLK      Technology                 183.93     +0.10%    
+2     XLV      Healthcare                 167.77     +0.07%    
+3     XLU      Utilities                  41.32      +0.00%    
+
+TOP 3 SECTOR INDEXES DOWN
+--------------------------------------------------------------------------------------------------------------
+Rank  Index    Sector                     Close      Change %  
+--------------------------------------------------------------------------------------------------------------
+1     XLE      Energy                     64.03      -2.88%    
+2     XLF      Financials                 55.93      -1.62%    
+3     XLC      Communication Services     113.00     -0.90%    
+
+TOP SCANNER SIGNALS
+--------------------------------------------------------------------------------------------------------------
+[Existing scanner candidate/state tables appear below.]

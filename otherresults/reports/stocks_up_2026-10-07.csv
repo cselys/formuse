@@ -1,0 +1,11 @@
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,DUST,triple_and_leveraged,42.040000915527344,+6.32%,REVERSAL,64.2,50.0,+25.14%,improving_strong
+2,NRG,rare_metal_and_commodities,108.61000061035156,+4.84%,NEUTRAL,42.8,75.0,-11.64%,recovering
+3,MRNA,healthcare_and_bio,196.47999572753906,+4.81%,UPTREND,68.5,33.0,+43.55%,positive
+4,MU,semiconductors,1088.0,+4.06%,UPTREND,78.0,98.0,-2.98%,lagging
+5,WING,consumer_discretionary_and_retail,116.68000030517578,+3.99%,NEUTRAL,46.6,50.0,+6.49%,improving_strong
+6,VST,power,166.72000122070312,+3.88%,REVERSAL,61.5,60.0,+4.56%,improving_strong
+7,ZYME,healthcare_and_bio,26.530000686645508,+3.43%,BOTTOM_FORMING,57.2,68.0,-3.62%,lagging
+8,CURE,triple_and_leveraged,129.7899932861328,+3.13%,REVERSAL,75.5,98.0,-1.53%,lagging
+9,LLY,healthcare_and_bio,1188.719970703125,+2.70%,NEUTRAL,70.8,90.0,+4.40%,improving_strong
+10,QNST,financials,15.399999618530273,+2.53%,DOWNTREND,32.6,50.0,-7.58%,recovering

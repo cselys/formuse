@@ -1,0 +1,11 @@
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,AXTI,light,64.30000305175781,+11.44%,REVERSAL,50.2,78.0,-20.10%,recovering
+2,CIFR,datacenter_and_infrastructure,16.719999313354492,+10.80%,BOTTOM_BREAKOUT,59.6,70.0,+5.67%,improving_strong
+3,LITE,light,919.4000244140625,+9.59%,UPTREND,78.4,78.0,+7.06%,positive
+4,COHR,light,289.92999267578125,+6.92%,NEUTRAL,51.3,70.0,-3.60%,recovering
+5,ALAB,semiconductors,269.17999267578125,+6.59%,DOWNTREND,32.7,40.0,-7.04%,recovering
+6,SPCX,technology,150.8800048828125,+5.15%,UPTREND,78.3,88.0,+7.04%,improving_strong
+7,SIVEF,penny,2.869999885559082,+5.13%,DOWNTREND,26.0,40.0,-22.59%,recovering
+8,GEV,power,925.0900268554688,+4.79%,DOWNTREND,39.9,60.0,-6.13%,recovering
+9,UMC,semiconductors,22.530000686645508,+4.26%,UPTREND,85.2,83.0,+26.16%,improving_strong
+10,APLD,technology,24.389999389648438,+4.14%,BOTTOM_BREAKOUT,32.6,48.0,-12.67%,recovering

@@ -1,0 +1,11 @@
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,AAOI,light,105.9000015258789,-13.58%,NEUTRAL,43.4,40.0,-2.96%,recovering
+2,KORU,triple_and_leveraged,17.649999618530273,-11.97%,BOTTOM_FORMING,30.6,48.0,-22.11%,recovering
+3,SOLT,crypto,63.63999938964844,-11.65%,BOTTOM_BREAKOUT,62.8,48.0,+10.28%,positive
+4,HUT,datacenter_and_infrastructure,79.58999633789062,-10.87%,BOTTOM_FORMING,38.5,48.0,-17.64%,recovering
+5,EOSE,energy_clean,2.765000104904175,-10.81%,STRONG_DOWNTREND,18.5,40.0,-36.19%,recovering
+6,AXTI,light,71.66000366210938,-10.19%,BOTTOM_BREAKOUT,69.1,48.0,+5.27%,positive
+7,RAM,triple_and_leveraged,12.130000114440918,-10.08%,BOTTOM_FORMING,34.4,48.0,-13.45%,recovering
+8,COHR,light,302.3500061035156,-9.63%,REVERSAL,61.3,48.0,-2.36%,recovering
+9,ALAB,semiconductors,347.04998779296875,-9.21%,UPTREND,76.7,70.0,+13.59%,improving_strong
+10,RIOT,crypto,16.84000015258789,-9.17%,BOTTOM_BREAKOUT,36.9,48.0,-25.11%,lagging

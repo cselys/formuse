@@ -1,0 +1,11 @@
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,FRO,freight_and_logistics,59.189998626708984,+5.51%,STRONG_UPTREND,84.5,60.0,+19.75%,positive
+2,META,technology,742.9600219726562,+3.38%,UPTREND,85.1,98.0,+6.40%,positive
+3,WING,consumer_discretionary_and_retail,126.0199966430664,+3.08%,REVERSAL,52.5,35.0,+10.15%,improving_strong
+4,COP,energy,137.55999755859375,+2.58%,EARLY_UPTREND,69.2,75.0,-2.25%,lagging
+5,CNC,healthcare_and_bio,67.0199966430664,+2.54%,EARLY_UPTREND,69.0,90.0,-6.36%,lagging
+6,MOG-A,industrial_engineering,371.760009765625,+2.39%,NEUTRAL,48.9,70.0,-2.73%,recovering
+7,ASX,lightrelated,47.529998779296875,+2.37%,STRONG_UPTREND,89.7,83.0,+22.88%,improving_strong
+8,TJX,consumer_discretionary_and_retail,141.9199981689453,+2.28%,REVERSAL,65.5,75.0,+12.94%,improving_strong
+9,RVMD,healthcare_and_bio,193.9499969482422,+2.21%,NEUTRAL,42.6,50.0,-8.36%,lagging
+10,EBAY,consumer_discretionary_and_retail,114.6500015258789,+2.19%,STRONG_UPTREND,86.8,90.0,+5.49%,improving_strong

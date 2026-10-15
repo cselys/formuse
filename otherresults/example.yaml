@@ -1,0 +1,24 @@
+jobs:
+  - name: call
+    stocks:
+      - DINO
+      - CVX
+      - XOM
+      - VVV
+      - ORLY
+      - MPC
+      - PSX
+      - VLO
+      - BOAT
+	  
+  - name: put
+    stocks:
+      - DINO
+      - CVX
+      - XOM
+      - VVV
+      - ORLY
+      - MPC
+      - PSX
+      - VLO
+      - BOAT

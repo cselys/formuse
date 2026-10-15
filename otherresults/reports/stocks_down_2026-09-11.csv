@@ -1,0 +1,11 @@
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,SMR,datacenter_and_infrastructure,8.609999656677246,-15.67%,BOTTOM_BREAKOUT,45.7,48.0,-10.24%,recovering
+2,LEU,energy_clean,152.30999755859375,-8.18%,DOWNTREND,20.2,40.0,-18.25%,lagging
+3,SEDG,energy_clean,34.68000030517578,-5.63%,BOTTOM_BREAKOUT,60.8,70.0,+10.12%,improving_strong
+4,UUUU,rare_metal_and_commodities,12.949999809265137,-4.99%,BOTTOM_FORMING,33.5,58.0,-8.83%,recovering
+5,FIGR,crypto,34.869998931884766,-4.65%,REVERSAL,71.2,58.0,+11.73%,positive
+6,ALOY,rare_metal_and_commodities,8.40999984741211,-4.32%,BOTTOM_FORMING,30.9,48.0,-32.71%,recovering
+7,CRML,rare_metal_and_commodities,6.429999828338623,-4.32%,BOTTOM_FORMING,39.5,48.0,+0.07%,improving_strong
+8,STX,storage,830.1699829101562,-3.73%,EARLY_UPTREND,54.5,50.0,-7.55%,recovering
+9,SNDK,storage,1633.3499755859375,-3.50%,UPTREND,80.2,78.0,+9.24%,improving_strong
+10,ALB,rare_metal_and_commodities,117.5199966430664,-3.43%,BOTTOM_FORMING,34.0,58.0,-7.58%,recovering

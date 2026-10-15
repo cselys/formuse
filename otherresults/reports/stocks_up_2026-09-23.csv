@@ -1,0 +1,11 @@
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,TWLO,software,290.70001220703125,+9.26%,STRONG_UPTREND,81.0,60.0,+25.66%,positive
+2,VVV,motor oil,28.75,+8.00%,STRONG_DOWNTREND,25.0,60.0,-18.78%,recovering
+3,DNA,healthcare_and_bio,8.579999923706055,+7.52%,REVERSAL,65.2,50.0,+29.93%,improving_strong
+4,OKTA,software,205.36000061035156,+7.33%,STRONG_UPTREND,78.0,50.0,+51.86%,positive
+5,PANW,software,393.29998779296875,+5.79%,STRONG_UPTREND,74.2,58.0,+7.14%,positive
+6,PONY,china,7.260000228881836,+5.52%,NEUTRAL,47.1,80.0,-8.84%,lagging
+7,STX,storage,923.1199951171875,+5.30%,UPTREND,67.6,50.0,+11.23%,improving_strong
+8,CRWD,software,262.489990234375,+5.27%,STRONG_UPTREND,79.5,43.0,+32.72%,positive
+9,MDB,software,428.3599853515625,+5.17%,UPTREND,69.4,58.0,+1.43%,positive
+10,QUIK,technology,11.229999542236328,+4.56%,NEUTRAL,49.1,80.0,-5.29%,recovering

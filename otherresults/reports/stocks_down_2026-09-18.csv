@@ -1,0 +1,11 @@
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,SMR,datacenter_and_infrastructure,8.270000457763672,-8.52%,BOTTOM_BREAKOUT,37.1,48.0,-10.30%,recovering
+2,RDW,space,10.739999771118164,-7.01%,REVERSAL,42.2,48.0,-10.23%,lagging
+3,ASTS,space,58.52000045776367,-6.68%,BOTTOM_BREAKOUT,36.2,48.0,-11.53%,recovering
+4,LUNR,space,13.920000076293945,-5.88%,STRONG_DOWNTREND,19.6,40.0,-23.84%,recovering
+5,QCOM,semiconductors,177.72000122070312,-5.82%,UPTREND,81.8,88.0,+9.33%,improving_strong
+6,BE,energy_clean,265.6300048828125,-5.39%,STRONG_UPTREND,81.5,63.0,+29.71%,improving_strong
+7,DAVE,financials,337.82000732421875,-5.24%,BOTTOM_FORMING,61.5,58.0,+2.75%,improving_strong
+8,RCAT,defense_and_aerospace,6.75,-4.86%,BOTTOM_BREAKOUT,28.8,48.0,-30.65%,lagging
+9,RKLB,space,64.56999969482422,-4.79%,REVERSAL,41.9,58.0,-12.97%,recovering
+10,NFLX,technology,71.79000091552734,-4.67%,BOTTOM_FORMING,39.9,68.0,-11.90%,lagging

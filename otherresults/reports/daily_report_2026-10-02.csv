@@ -1,0 +1,19 @@
+STOCK_SCANNER_DAILY_REPORT,2026-10-02
+
+market_regime,MARKET_UPTREND
+
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,NVDA,semiconductors,233.9499969482422,+1.34%,STRONG_UPTREND,79.7,98.0,-11.59%,lagging
+
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+
+Sector,Up,Down,Flat,Total,Up %,Down %,Avg Change %
+semiconductors,1,0,0,1,100.0%,0.0%,+1.34%
+
+Symbol,Sector,Close,Change %
+XLY,Consumer Discretionary,110.04000091552734,+1.13%
+XLK,Technology,199.80999755859375,+1.01%
+XLI,Industrials,169.9499969482422,+0.78%
+XLV,Healthcare,166.17999267578125,-0.01%
+XLF,Financials,53.4900016784668,+0.06%
+XLE,Energy,62.81999969482422,+0.19%

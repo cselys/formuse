@@ -1,0 +1,11 @@
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,DINO,motor oil,109.29000091552734,-5.70%,STRONG_UPTREND,90.7,98.0,+8.37%,positive
+2,MPC,motor oil,402.3800048828125,-5.30%,STRONG_UPTREND,87.3,98.0,+7.62%,positive
+3,LI,china,11.520000457763672,-5.11%,BOTTOM_BREAKOUT,37.5,68.0,-15.65%,lagging
+4,VLO,motor oil,393.2699890136719,-4.84%,STRONG_UPTREND,87.3,98.0,+8.80%,positive
+5,UPS,freight_and_logistics,94.75,-4.35%,DOWNTREND,33.4,60.0,-11.05%,recovering
+6,HPQ,hardware,32.95000076293945,-4.22%,STRONG_UPTREND,85.4,88.0,+8.05%,positive
+7,PSX,motor oil,261.75,-4.17%,UPTREND,84.1,98.0,+3.84%,positive
+8,COP,energy,127.52999877929688,-3.26%,NEUTRAL,59.7,68.0,-3.59%,lagging
+9,XOM,motor oil,158.3000030517578,-3.20%,EARLY_UPTREND,64.7,68.0,-8.05%,lagging
+10,EBAY,consumer_discretionary_and_retail,108.30000305175781,-3.17%,UPTREND,82.0,90.0,+9.23%,improving_strong

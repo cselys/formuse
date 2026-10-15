@@ -1,0 +1,11 @@
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,MDB,software,334.67999267578125,-18.46%,NEUTRAL,39.6,48.0,-27.87%,lagging
+2,MOD,industrial_engineering,175.0399932861328,-11.63%,BOTTOM_BREAKOUT,44.9,58.0,-4.26%,recovering
+3,XXRP,crypto,34.72999954223633,-11.49%,REVERSAL_CONFIRMED,64.1,70.0,+3.24%,positive
+4,ASPI,rare_metal_and_commodities,2.5999999046325684,-11.11%,STRONG_DOWNTREND,18.5,40.0,-35.80%,recovering
+5,NUGT,triple_and_leveraged,147.9499969482422,-10.73%,NEUTRAL,29.1,40.0,-26.73%,lagging
+6,MPG,financials,3.569999933242798,-9.39%,DOWNTREND,19.5,40.0,-26.43%,recovering
+7,BE,energy_clean,262.8699951171875,-8.95%,UPTREND,82.4,78.0,+21.91%,improving_strong
+8,ARM,semiconductors,283.3299865722656,-8.70%,STRONG_UPTREND,82.2,78.0,+10.04%,improving_strong
+9,CRDO,semiconductors,192.6699981689453,-8.67%,NEUTRAL,46.0,70.0,-25.70%,lagging
+10,BW,energy_clean,5.75,-8.29%,STRONG_DOWNTREND,17.6,40.0,-22.50%,recovering

@@ -1,0 +1,11 @@
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,MPG,financials,3.0380001068115234,-12.37%,STRONG_DOWNTREND,18.5,40.0,-26.20%,lagging
+2,KORU,triple_and_leveraged,15.739999771118164,-11.82%,DOWNTREND,25.5,48.0,-20.55%,recovering
+3,CBRS,semiconductors,146.6199951171875,-10.69%,BOTTOM_BREAKOUT,28.8,48.0,-28.23%,lagging
+4,LWLG,lightrelated,4.480000019073486,-9.86%,BOTTOM_BREAKOUT,31.8,48.0,-11.78%,recovering
+5,LITE,light,995.4099731445312,-9.78%,REVERSAL,77.0,58.0,+13.90%,positive
+6,IMSR,nuclear,2.9600000381469727,-9.76%,STRONG_DOWNTREND,17.6,40.0,-39.16%,recovering
+7,AXTI,light,61.97999954223633,-9.47%,BOTTOM_FORMING,59.4,48.0,+3.32%,positive
+8,DNA,healthcare_and_bio,11.789999961853027,-9.31%,UPTREND,71.0,40.0,+65.27%,improving_strong
+9,ICHR,semiconductors,54.380001068115234,-9.23%,BOTTOM_FORMING,48.2,58.0,-3.30%,recovering
+10,IONQ,quantum,36.27000045776367,-9.07%,DOWNTREND,23.8,40.0,-8.59%,lagging

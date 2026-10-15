@@ -1,0 +1,11 @@
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,CRML,rare_metal_and_commodities,8.539999961853027,-8.47%,EARLY_UPTREND,54.0,25.0,+22.21%,improving_strong
+2,SCHW,financials,100.3499984741211,-6.11%,NEUTRAL,51.0,68.0,-5.83%,lagging
+3,DINO,motor oil,109.29000091552734,-5.70%,STRONG_UPTREND,90.7,98.0,+8.37%,positive
+4,VG,energy,12.90999984741211,-5.49%,BOTTOM_FORMING,52.7,58.0,-8.18%,lagging
+5,MPC,motor oil,402.3800048828125,-5.30%,STRONG_UPTREND,87.3,98.0,+7.62%,positive
+6,LI,china,11.520000457763672,-5.11%,BOTTOM_BREAKOUT,37.5,68.0,-15.65%,lagging
+7,VLO,motor oil,393.2699890136719,-4.84%,STRONG_UPTREND,87.3,98.0,+8.80%,positive
+8,DELL,hardware,548.9199829101562,-4.59%,UPTREND,84.3,80.0,+20.89%,positive
+9,ADBE,technology,238.25,-4.52%,NEUTRAL,33.1,60.0,-19.59%,lagging
+10,HPQ,hardware,32.95000076293945,-4.22%,STRONG_UPTREND,85.4,88.0,+8.05%,positive

@@ -1,0 +1,11 @@
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,VRT,datacenter_and_infrastructure,262.8900146484375,-9.61%,NEUTRAL,43.8,50.0,-6.42%,recovering
+2,CIFR,datacenter_and_infrastructure,16.899999618530273,-8.70%,DOWNTREND,40.0,50.0,-1.50%,recovering
+3,FLNC,energy_clean,10.119999885559082,-8.33%,BOTTOM_FORMING,29.5,48.0,-22.51%,recovering
+4,QS,energy_clean,5.21999979019165,-6.62%,BOTTOM_FORMING,29.0,58.0,-17.37%,recovering
+5,RCAT,defense_and_aerospace,8.130000114440918,-6.50%,STRONG_DOWNTREND,17.4,40.0,-23.44%,recovering
+6,UMAC,defense_and_aerospace,24.31999969482422,-6.39%,BOTTOM_FORMING,53.0,48.0,-6.06%,lagging
+7,JOBY,other,6.420000076293945,-6.14%,DOWNTREND,22.5,50.0,-23.46%,recovering
+8,LWLG,lightrelated,5.269999980926514,-5.89%,DOWNTREND,19.5,40.0,-29.99%,recovering
+9,PONY,china,6.760000228881836,-5.85%,DOWNTREND,21.6,50.0,-19.89%,lagging
+10,IONQ,quantum,38.13999938964844,-5.76%,STRONG_DOWNTREND,22.7,40.0,-11.90%,recovering

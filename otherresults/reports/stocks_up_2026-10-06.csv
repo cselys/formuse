@@ -1,0 +1,11 @@
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,CEG,power,300.3999938964844,+12.25%,REVERSAL,58.2,60.0,-5.30%,lagging
+2,VST,power,160.5,+10.77%,REVERSAL,64.3,60.0,+0.04%,improving_strong
+3,FTAI,defense_and_aerospace,179.44000244140625,+8.95%,NEUTRAL,42.1,80.0,-14.52%,recovering
+4,LEU,nuclear,153.8800048828125,+8.80%,NEUTRAL,41.1,80.0,-22.81%,lagging
+5,UTSL,triple_and_leveraged,32.869998931884766,+8.73%,NEUTRAL,40.0,80.0,-21.42%,recovering
+6,AGX,industrial_engineering,419.6400146484375,+8.23%,NEUTRAL,42.8,65.0,-9.67%,recovering
+7,ASTS,space,63.119998931884766,+8.01%,REVERSAL,53.0,88.0,-10.29%,recovering
+8,FN,semiconductors,489.1600036621094,+7.78%,REVERSAL,59.0,50.0,+7.26%,improving_strong
+9,STRL,industrial_engineering,563.6900024414062,+7.71%,REVERSAL,63.7,65.0,+6.49%,improving_strong
+10,BWXT,nuclear,145.6999969482422,+7.65%,NEUTRAL,44.9,90.0,-14.92%,recovering

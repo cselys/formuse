@@ -1,0 +1,63 @@
+STOCK_SCANNER_DAILY_REPORT,2026-09-09
+
+market_regime,MARKET_NEUTRAL
+
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,SIVEF,penny,3.2699999809265137,+9.36%,DOWNTREND,29.0,50.0,-25.55%,recovering
+2,SKHY,storage,198.6300048828125,+7.05%,UPTREND,77.6,50.0,+40.52%,improving_strong
+3,META,technology,653.6900024414062,+6.55%,REVERSAL,73.2,60.0,+9.41%,positive
+4,AEHR,semiconductors,95.55999755859375,+5.25%,REVERSAL,59.9,78.0,-18.69%,lagging
+5,HPE,hardware,58.900001525878906,+5.12%,STRONG_UPTREND,75.2,58.0,+8.61%,positive
+6,MRVL,semiconductors,235.00999450683594,+4.26%,REVERSAL,72.1,73.0,+10.45%,improving_strong
+7,ALAB,semiconductors,300.5400085449219,+4.05%,REVERSAL,61.7,78.0,-3.91%,recovering
+8,VG,energy,15.289999961853027,+3.80%,STRONG_UPTREND,85.2,90.0,+8.47%,improving_strong
+9,ASX,lightrelated,41.20000076293945,+3.54%,UPTREND,76.3,68.0,+6.90%,positive
+10,IBM,quantum,239.94000244140625,+3.38%,REVERSAL,67.2,100.0,+0.94%,improving_strong
+
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,VRT,datacenter_and_infrastructure,262.8900146484375,-9.61%,NEUTRAL,43.8,50.0,-6.42%,recovering
+2,CIFR,datacenter_and_infrastructure,16.899999618530273,-8.70%,DOWNTREND,40.0,50.0,-1.50%,recovering
+3,FLNC,energy_clean,10.119999885559082,-8.33%,BOTTOM_FORMING,29.5,48.0,-22.51%,recovering
+4,QS,energy_clean,5.21999979019165,-6.62%,BOTTOM_FORMING,29.0,58.0,-17.37%,recovering
+5,RCAT,defense_and_aerospace,8.130000114440918,-6.50%,STRONG_DOWNTREND,17.4,40.0,-23.44%,recovering
+6,UMAC,defense_and_aerospace,24.31999969482422,-6.39%,BOTTOM_FORMING,53.0,48.0,-6.06%,lagging
+7,JOBY,other,6.420000076293945,-6.14%,DOWNTREND,22.5,50.0,-23.46%,recovering
+8,LWLG,lightrelated,5.269999980926514,-5.89%,DOWNTREND,19.5,40.0,-29.99%,recovering
+9,PONY,china,6.760000228881836,-5.85%,DOWNTREND,21.6,50.0,-19.89%,lagging
+10,IONQ,quantum,38.13999938964844,-5.76%,STRONG_DOWNTREND,22.7,40.0,-11.90%,recovering
+
+Sector,Up,Down,Flat,Total,Up %,Down %,Avg Change %
+hardware,3,0,0,3,100.0%,0.0%,+2.17%
+energy,9,3,0,12,75.0%,25.0%,+1.10%
+storage,3,1,0,4,75.0%,25.0%,+1.89%
+semiconductors,10,7,0,17,58.8%,41.2%,+0.87%
+freight_and_logistics,6,6,0,12,50.0%,50.0%,-0.61%
+light,4,4,0,8,50.0%,50.0%,-0.66%
+rare_metal_and_commodities,9,11,0,20,45.0%,55.0%,-0.65%
+healthcare_and_bio,7,13,0,20,35.0%,65.0%,-0.85%
+lightrelated,2,4,0,6,33.3%,66.7%,-1.79%
+triple_and_leveraged,2,4,0,6,33.3%,66.7%,-1.82%
+penny,1,2,0,3,33.3%,66.7%,+2.08%
+software,2,6,0,8,25.0%,75.0%,-0.94%
+financials,4,14,0,18,22.2%,77.8%,-1.41%
+quantum,1,4,0,5,20.0%,80.0%,-2.26%
+defense_and_aerospace,2,17,0,19,10.5%,89.5%,-2.03%
+crypto,1,11,0,12,8.3%,91.7%,-2.04%
+consumer_discretionary_and_retail,1,17,0,18,5.6%,94.4%,-1.69%
+technology,1,20,0,21,4.8%,95.2%,-1.63%
+longterm_and_industrial,0,3,0,3,0.0%,100.0%,-1.35%
+foreign,0,1,0,1,0.0%,100.0%,-1.40%
+power,0,4,0,4,0.0%,100.0%,-1.46%
+china,0,8,0,8,0.0%,100.0%,-2.68%
+other,0,11,0,11,0.0%,100.0%,-2.86%
+energy_clean,0,13,0,13,0.0%,100.0%,-4.07%
+datacenter_and_infrastructure,0,9,0,9,0.0%,100.0%,-4.24%
+space,0,4,0,4,0.0%,100.0%,-4.82%
+
+Symbol,Sector,Close,Change %
+XLE,Energy,65.30999755859375,+0.83%
+XLK,Technology,187.8699951171875,+0.00%
+XLV,Healthcare,166.5800018310547,-0.33%
+XLI,Industrials,171.7899932861328,-1.51%
+XLY,Consumer Discretionary,112.45999908447266,-1.34%
+XLU,Utilities,42.939998626708984,-1.17%

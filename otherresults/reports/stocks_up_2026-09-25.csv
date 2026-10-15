@@ -1,0 +1,11 @@
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,BE,energy_clean,288.70001220703125,+8.27%,STRONG_UPTREND,76.3,43.0,+29.29%,improving_strong
+2,SOLT,crypto,80.62000274658203,+7.97%,UPTREND,73.3,50.0,+15.82%,positive
+3,VUZI,technology,2.940000057220459,+7.30%,UPTREND,68.2,58.0,+8.97%,improving_strong
+4,KORU,triple_and_leveraged,21.59000015258789,+7.20%,NEUTRAL,47.9,70.0,-2.40%,recovering
+5,AEHR,semiconductors,104.38999938964844,+7.15%,STRONG_UPTREND,69.0,33.0,+9.54%,positive
+6,XXRP,crypto,39.2400016784668,+5.77%,EARLY_UPTREND,51.2,25.0,+4.09%,positive
+7,FLNC,energy_clean,7.849999904632568,+5.23%,STRONG_DOWNTREND,17.6,40.0,-34.56%,recovering
+8,DELL,hardware,562.8900146484375,+5.01%,UPTREND,73.8,65.0,+15.95%,positive
+9,CVS,healthcare_and_bio,89.12999725341797,+4.80%,DOWNTREND,39.5,60.0,-3.57%,recovering
+10,PYPL,financials,55.040000915527344,+4.64%,BOTTOM_BREAKOUT,66.8,90.0,-4.99%,lagging

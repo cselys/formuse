@@ -1,0 +1,11 @@
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,SNPS,semiconductors,490.5400085449219,+12.78%,UPTREND,71.2,60.0,+5.70%,positive
+2,COHR,light,319.19000244140625,+10.90%,BOTTOM_BREAKOUT,70.5,65.0,+14.19%,improving_strong
+3,INOD,software,71.8499984741211,+9.26%,UPTREND,66.3,35.0,+27.72%,improving_strong
+4,LWLG,lightrelated,5.440000057220459,+8.80%,BOTTOM_BREAKOUT,55.8,80.0,+3.10%,improving_strong
+5,AAOI,light,107.31999969482422,+8.12%,BOTTOM_BREAKOUT,56.1,70.0,-0.56%,recovering
+6,CRDO,semiconductors,210.1699981689453,+7.90%,EARLY_UPTREND,65.5,50.0,+14.98%,improving_strong
+7,LITE,light,1045.780029296875,+7.67%,STRONG_UPTREND,77.2,50.0,+15.50%,positive
+8,VICR,power,308.5899963378906,+6.80%,STRONG_UPTREND,78.0,50.0,+65.31%,improving_strong
+9,U,software,43.61000061035156,+6.55%,UPTREND,75.2,88.0,+2.37%,positive
+10,FN,semiconductors,451.44000244140625,+6.40%,REVERSAL,56.6,65.0,+1.96%,improving_strong

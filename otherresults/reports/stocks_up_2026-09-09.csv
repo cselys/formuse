@@ -1,0 +1,11 @@
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,SIVEF,penny,3.2699999809265137,+9.36%,DOWNTREND,29.0,50.0,-25.55%,recovering
+2,SKHY,storage,198.6300048828125,+7.05%,UPTREND,77.6,50.0,+40.52%,improving_strong
+3,META,technology,653.6900024414062,+6.55%,REVERSAL,73.2,60.0,+9.41%,positive
+4,AEHR,semiconductors,95.55999755859375,+5.25%,REVERSAL,59.9,78.0,-18.69%,lagging
+5,HPE,hardware,58.900001525878906,+5.12%,STRONG_UPTREND,75.2,58.0,+8.61%,positive
+6,MRVL,semiconductors,235.00999450683594,+4.26%,REVERSAL,72.1,73.0,+10.45%,improving_strong
+7,ALAB,semiconductors,300.5400085449219,+4.05%,REVERSAL,61.7,78.0,-3.91%,recovering
+8,VG,energy,15.289999961853027,+3.80%,STRONG_UPTREND,85.2,90.0,+8.47%,improving_strong
+9,ASX,lightrelated,41.20000076293945,+3.54%,UPTREND,76.3,68.0,+6.90%,positive
+10,IBM,quantum,239.94000244140625,+3.38%,REVERSAL,67.2,100.0,+0.94%,improving_strong

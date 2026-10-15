@@ -1,0 +1,63 @@
+STOCK_SCANNER_DAILY_REPORT,2026-09-11
+
+market_regime,MARKET_NEUTRAL
+
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,HPE,hardware,62.09000015258789,+12.44%,UPTREND,72.9,50.0,+6.14%,positive
+2,DELL,hardware,567.2899780273438,+11.98%,STRONG_UPTREND,77.8,50.0,+17.07%,positive
+3,BW,energy_clean,7.940000057220459,+10.74%,NEUTRAL,42.0,70.0,-12.73%,recovering
+4,KORU,triple_and_leveraged,23.06999969482422,+8.97%,REVERSAL,64.3,48.0,+10.81%,improving_strong
+5,HUT,datacenter_and_infrastructure,98.5999984741211,+8.83%,EARLY_UPTREND,65.7,40.0,+21.21%,improving_strong
+6,HPQ,hardware,35.47999954223633,+8.40%,STRONG_UPTREND,81.3,50.0,+16.80%,positive
+7,BE,energy_clean,275.75,+6.68%,UPTREND,72.9,43.0,+19.08%,improving_strong
+8,FIX,longterm_and_industrial,1690.8199462890625,+6.29%,REVERSAL,70.9,88.0,+0.22%,improving_strong
+9,WING,consumer_discretionary_and_retail,117.0999984741211,+5.95%,BOTTOM_BREAKOUT,60.0,80.0,+7.74%,improving_strong
+10,CIFR,datacenter_and_infrastructure,16.850000381469727,+5.71%,NEUTRAL,46.7,50.0,+3.73%,improving_strong
+
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,SMR,datacenter_and_infrastructure,8.609999656677246,-15.67%,BOTTOM_BREAKOUT,45.7,48.0,-10.24%,recovering
+2,LEU,energy_clean,152.30999755859375,-8.18%,DOWNTREND,20.2,40.0,-18.25%,lagging
+3,SEDG,energy_clean,34.68000030517578,-5.63%,BOTTOM_BREAKOUT,60.8,70.0,+10.12%,improving_strong
+4,UUUU,rare_metal_and_commodities,12.949999809265137,-4.99%,BOTTOM_FORMING,33.5,58.0,-8.83%,recovering
+5,FIGR,crypto,34.869998931884766,-4.65%,REVERSAL,71.2,58.0,+11.73%,positive
+6,ALOY,rare_metal_and_commodities,8.40999984741211,-4.32%,BOTTOM_FORMING,30.9,48.0,-32.71%,recovering
+7,CRML,rare_metal_and_commodities,6.429999828338623,-4.32%,BOTTOM_FORMING,39.5,48.0,+0.07%,improving_strong
+8,STX,storage,830.1699829101562,-3.73%,EARLY_UPTREND,54.5,50.0,-7.55%,recovering
+9,SNDK,storage,1633.3499755859375,-3.50%,UPTREND,80.2,78.0,+9.24%,improving_strong
+10,ALB,rare_metal_and_commodities,117.5199966430664,-3.43%,BOTTOM_FORMING,34.0,58.0,-7.58%,recovering
+
+Sector,Up,Down,Flat,Total,Up %,Down %,Avg Change %
+hardware,3,0,0,3,100.0%,0.0%,+10.94%
+semiconductors,17,2,0,19,89.5%,10.5%,+2.27%
+light,7,1,0,8,87.5%,12.5%,+2.31%
+financials,16,3,0,19,84.2%,15.8%,+0.85%
+crypto,10,2,0,12,83.3%,16.7%,+1.88%
+freight_and_logistics,10,2,0,12,83.3%,16.7%,+0.64%
+quantum,4,1,0,5,80.0%,20.0%,+1.49%
+energy,11,3,0,14,78.6%,21.4%,+0.37%
+technology,16,3,2,21,76.2%,14.3%,+0.97%
+china,6,2,0,8,75.0%,25.0%,+0.91%
+power,3,1,0,4,75.0%,25.0%,+2.01%
+other,8,3,0,11,72.7%,27.3%,+0.75%
+consumer_discretionary_and_retail,13,5,0,18,72.2%,27.8%,+0.84%
+datacenter_and_infrastructure,6,3,0,9,66.7%,33.3%,+0.68%
+lightrelated,4,2,0,6,66.7%,33.3%,+0.95%
+longterm_and_industrial,2,1,0,3,66.7%,33.3%,+3.57%
+penny,2,1,0,3,66.7%,33.3%,+2.49%
+triple_and_leveraged,5,3,0,8,62.5%,37.5%,+1.56%
+defense_and_aerospace,10,9,0,19,52.6%,47.4%,+0.29%
+healthcare_and_bio,13,12,0,25,52.0%,48.0%,+0.05%
+energy_clean,6,7,0,13,46.2%,53.8%,+0.32%
+software,6,7,0,13,46.2%,53.8%,-0.07%
+rare_metal_and_commodities,8,14,0,22,36.4%,63.6%,-0.83%
+space,1,3,0,4,25.0%,75.0%,-0.66%
+storage,1,3,0,4,25.0%,75.0%,-2.32%
+foreign,0,1,0,1,0.0%,100.0%,-0.96%
+
+Symbol,Sector,Close,Change %
+XLK,Technology,187.6699981689453,+1.32%
+XLI,Industrials,172.3699951171875,+1.07%
+XLC,Communication Services,112.5999984741211,+0.99%
+XLU,Utilities,42.38999938964844,-0.31%
+XLV,Healthcare,165.36000061035156,-0.18%
+XLE,Energy,65.13999938964844,+0.32%

@@ -1,0 +1,74 @@
+STOCK_SCANNER_DAILY_REPORT,2026-10-01
+
+market_regime,MARKET_NEUTRAL
+
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,SNPS,semiconductors,490.5400085449219,+12.78%,UPTREND,71.2,60.0,+5.70%,positive
+2,COHR,light,319.19000244140625,+10.90%,BOTTOM_BREAKOUT,70.5,65.0,+14.19%,improving_strong
+3,INOD,software,71.8499984741211,+9.26%,UPTREND,66.3,35.0,+27.72%,improving_strong
+4,LWLG,lightrelated,5.440000057220459,+8.80%,BOTTOM_BREAKOUT,55.8,80.0,+3.10%,improving_strong
+5,AAOI,light,107.31999969482422,+8.12%,BOTTOM_BREAKOUT,56.1,70.0,-0.56%,recovering
+6,CRDO,semiconductors,210.1699981689453,+7.90%,EARLY_UPTREND,65.5,50.0,+14.98%,improving_strong
+7,LITE,light,1045.780029296875,+7.67%,STRONG_UPTREND,77.2,50.0,+15.50%,positive
+8,VICR,power,308.5899963378906,+6.80%,STRONG_UPTREND,78.0,50.0,+65.31%,improving_strong
+9,U,software,43.61000061035156,+6.55%,UPTREND,75.2,88.0,+2.37%,positive
+10,FN,semiconductors,451.44000244140625,+6.40%,REVERSAL,56.6,65.0,+1.96%,improving_strong
+
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,UMAC,defense_and_aerospace,21.780000686645508,-11.03%,NEUTRAL,41.3,40.0,-12.14%,lagging
+2,NMAX,penny,9.869999885559082,-8.70%,NEUTRAL,46.0,50.0,-14.90%,lagging
+3,LABU,triple_and_leveraged,249.64999389648438,-6.07%,NEUTRAL,35.2,40.0,-24.56%,recovering
+4,MPG,financials,3.489000082015991,-4.93%,STRONG_DOWNTREND,18.5,40.0,-23.68%,recovering
+5,PONY,china,6.239999771118164,-4.59%,STRONG_DOWNTREND,23.1,50.0,-15.86%,lagging
+6,CBRS,semiconductors,169.52000427246094,-4.58%,BOTTOM_BREAKOUT,28.8,48.0,-20.36%,lagging
+7,LTM,airlines,47.7400016784668,-4.31%,BOTTOM_BREAKOUT,46.1,68.0,-11.44%,recovering
+8,CURE,triple_and_leveraged,124.04000091552734,-4.21%,NEUTRAL,55.5,68.0,-16.03%,lagging
+9,EURL,triple_and_leveraged,40.279998779296875,-4.19%,BOTTOM_FORMING,41.4,68.0,-21.96%,lagging
+10,QGEN,healthcare_and_bio,42.040000915527344,-3.93%,BOTTOM_BREAKOUT,60.6,68.0,-0.98%,lagging
+
+Sector,Up,Down,Flat,Total,Up %,Down %,Avg Change %
+freight_and_logistics,15,0,0,15,100.0%,0.0%,+1.55%
+software,14,0,0,14,100.0%,0.0%,+3.03%
+light,8,0,0,8,100.0%,0.0%,+5.33%
+storage,4,0,0,4,100.0%,0.0%,+3.02%
+hardware,3,0,0,3,100.0%,0.0%,+1.52%
+electronics_components,2,0,0,2,100.0%,0.0%,+3.03%
+fintech,1,0,0,1,100.0%,0.0%,+0.66%
+power,10,1,0,11,90.9%,9.1%,+2.17%
+industrial_engineering,10,1,0,11,90.9%,9.1%,+1.60%
+energy,13,1,1,15,86.7%,6.7%,+2.54%
+lightrelated,5,1,0,6,83.3%,16.7%,+2.66%
+semiconductors,25,9,0,34,73.5%,26.5%,+1.86%
+financials,16,8,0,24,66.7%,33.3%,+0.48%
+longterm_and_industrial,2,1,0,3,66.7%,33.3%,+0.18%
+defense_and_aerospace,15,8,0,23,65.2%,34.8%,-0.05%
+datacenter_and_infrastructure,6,4,0,10,60.0%,40.0%,+0.56%
+triple_and_leveraged,6,4,0,10,60.0%,40.0%,+0.15%
+crypto,7,6,0,13,53.8%,46.2%,+0.59%
+consumer_discretionary_and_retail,9,9,0,18,50.0%,50.0%,-0.16%
+motor oil,1,1,0,2,50.0%,50.0%,+0.84%
+consumer_staples_and_distribution,1,1,0,2,50.0%,50.0%,+0.24%
+airlines,1,1,0,2,50.0%,50.0%,-1.91%
+technology,11,12,0,23,47.8%,52.2%,-0.01%
+cybersecurity,2,3,0,5,40.0%,60.0%,+0.32%
+quantum,2,3,0,5,40.0%,60.0%,+0.27%
+space,2,4,0,6,33.3%,66.7%,-0.79%
+foreign,1,2,0,3,33.3%,66.7%,+0.26%
+penny,1,2,0,3,33.3%,66.7%,-3.16%
+rare_metal_and_commodities,8,17,0,25,32.0%,68.0%,-0.54%
+energy_clean,2,9,0,11,18.2%,81.8%,-1.22%
+healthcare_and_bio,5,32,0,37,13.5%,86.5%,-1.13%
+construction_materials,0,2,0,2,0.0%,100.0%,-0.20%
+nuclear,0,4,0,4,0.0%,100.0%,-0.68%
+advanced_mobility,0,1,0,1,0.0%,100.0%,-1.49%
+china,0,8,0,8,0.0%,100.0%,-2.02%
+foreign_telecom,0,1,0,1,0.0%,100.0%,-2.17%
+foreign_financials,0,2,0,2,0.0%,100.0%,-2.73%
+
+Symbol,Sector,Close,Change %
+XLE,Energy,62.70000076293945,+1.95%
+XLK,Technology,197.80999755859375,+1.05%
+XLI,Industrials,168.63999938964844,+0.99%
+XLV,Healthcare,166.1999969482422,-1.32%
+XLC,Communication Services,109.94000244140625,-0.93%
+XLRE,Real Estate,40.68000030517578,-0.56%

@@ -1,0 +1,11 @@
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,HPE,hardware,62.09000015258789,+12.44%,UPTREND,72.9,50.0,+6.14%,positive
+2,DELL,hardware,567.2899780273438,+11.98%,STRONG_UPTREND,77.8,50.0,+17.07%,positive
+3,BW,energy_clean,7.940000057220459,+10.74%,NEUTRAL,42.0,70.0,-12.73%,recovering
+4,KORU,triple_and_leveraged,23.06999969482422,+8.97%,REVERSAL,64.3,48.0,+10.81%,improving_strong
+5,HUT,datacenter_and_infrastructure,98.5999984741211,+8.83%,EARLY_UPTREND,65.7,40.0,+21.21%,improving_strong
+6,HPQ,hardware,35.47999954223633,+8.40%,STRONG_UPTREND,81.3,50.0,+16.80%,positive
+7,BE,energy_clean,275.75,+6.68%,UPTREND,72.9,43.0,+19.08%,improving_strong
+8,FIX,longterm_and_industrial,1690.8199462890625,+6.29%,REVERSAL,70.9,88.0,+0.22%,improving_strong
+9,WING,consumer_discretionary_and_retail,117.0999984741211,+5.95%,BOTTOM_BREAKOUT,60.0,80.0,+7.74%,improving_strong
+10,CIFR,datacenter_and_infrastructure,16.850000381469727,+5.71%,NEUTRAL,46.7,50.0,+3.73%,improving_strong

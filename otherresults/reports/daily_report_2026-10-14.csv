@@ -1,0 +1,74 @@
+STOCK_SCANNER_DAILY_REPORT,2026-10-14
+
+market_regime,MARKET_NEUTRAL
+
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,DUST,triple_and_leveraged,43.77000045776367,+8.83%,REVERSAL,60.9,43.0,+16.77%,improving_strong
+2,CURE,triple_and_leveraged,140.94000244140625,+7.43%,STRONG_UPTREND,86.3,90.0,+7.65%,positive
+3,HALO,healthcare_and_bio,116.81999969482422,+6.57%,STRONG_UPTREND,80.0,83.0,+3.64%,positive
+4,WGS,healthcare_and_bio,68.61000061035156,+5.62%,DOWNTREND,27.8,48.0,-33.66%,lagging
+5,ESLT,defense_and_aerospace,701.3800048828125,+5.05%,NEUTRAL,46.4,90.0,-8.53%,recovering
+6,GFS,rare_metal_and_commodities,48.939998626708984,+4.80%,BOTTOM_BREAKOUT,65.0,80.0,+10.19%,improving_strong
+7,UNH,healthcare_and_bio,395.6199951171875,+4.73%,EARLY_UPTREND,71.9,90.0,+1.34%,improving_strong
+8,DLTR,consumer_discretionary_and_retail,121.76000213623047,+4.71%,REVERSAL,75.4,90.0,+6.91%,improving_strong
+9,MRNA,healthcare_and_bio,226.3000030517578,+4.65%,STRONG_UPTREND,74.1,43.0,+51.32%,positive
+10,DG,consumer_discretionary_and_retail,129.94000244140625,+3.95%,UPTREND,80.5,90.0,+4.21%,positive
+
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,EOSE,energy_clean,1.9500000476837158,-15.95%,STRONG_DOWNTREND,18.5,40.0,-53.99%,recovering
+2,CRWV,datacenter_and_infrastructure,65.77999877929688,-15.46%,DOWNTREND,19.5,40.0,-24.63%,lagging
+3,MPG,financials,2.558000087738037,-12.52%,STRONG_DOWNTREND,18.5,40.0,-34.07%,lagging
+4,CIFR,datacenter_and_infrastructure,9.9399995803833,-12.35%,BOTTOM_FORMING,30.9,48.0,-44.10%,recovering
+5,IREN,datacenter_and_infrastructure,30.559999465942383,-12.18%,BOTTOM_FORMING,30.9,48.0,-31.84%,lagging
+6,KORU,triple_and_leveraged,12.930000305175781,-12.16%,AVOID,22.5,48.0,-32.81%,recovering
+7,AAOI,light,86.22000122070312,-11.82%,DOWNTREND,26.1,40.0,-14.42%,recovering
+8,DELL,hardware,507.92999267578125,-11.27%,NEUTRAL,56.6,58.0,-13.37%,lagging
+9,U,software,41.400001525878906,-11.22%,NEUTRAL,55.4,50.0,-5.28%,lagging
+10,BTBT,crypto,1.0750000476837158,-11.16%,BOTTOM_FORMING,28.6,48.0,-28.37%,recovering
+
+Sector,Up,Down,Flat,Total,Up %,Down %,Avg Change %
+consumer_staples_and_distribution,2,0,0,2,100.0%,0.0%,+1.85%
+motor oil,2,0,0,2,100.0%,0.0%,+0.75%
+foreign_telecom,1,0,0,1,100.0%,0.0%,+0.74%
+freight_and_logistics,11,4,0,15,73.3%,26.7%,+0.10%
+consumer_discretionary_and_retail,13,5,0,18,72.2%,27.8%,+1.12%
+healthcare_and_bio,26,11,0,37,70.3%,29.7%,+1.17%
+energy,7,8,0,15,46.7%,53.3%,-0.10%
+defense_and_aerospace,9,14,0,23,39.1%,60.9%,-1.37%
+financials,7,17,0,24,29.2%,70.8%,-2.41%
+triple_and_leveraged,2,8,0,10,20.0%,80.0%,-2.32%
+industrial_engineering,2,9,0,11,18.2%,81.8%,-3.50%
+power,2,9,0,11,18.2%,81.8%,-5.13%
+technology,3,20,0,23,13.0%,87.0%,-3.50%
+china,1,7,0,8,12.5%,87.5%,-3.24%
+datacenter_and_infrastructure,1,9,0,10,10.0%,90.0%,-8.93%
+rare_metal_and_commodities,2,23,0,25,8.0%,92.0%,-4.64%
+software,1,13,0,14,7.1%,92.9%,-4.58%
+semiconductors,1,32,1,34,2.9%,94.1%,-5.19%
+construction_materials,0,2,0,2,0.0%,100.0%,-0.50%
+fintech,0,1,0,1,0.0%,100.0%,-1.14%
+foreign_financials,0,2,0,2,0.0%,100.0%,-1.66%
+foreign,0,3,0,3,0.0%,100.0%,-1.84%
+airlines,0,2,0,2,0.0%,100.0%,-2.95%
+longterm_and_industrial,0,3,0,3,0.0%,100.0%,-3.28%
+electronics_components,0,2,0,2,0.0%,100.0%,-4.19%
+cybersecurity,0,5,0,5,0.0%,100.0%,-4.70%
+penny,0,3,0,3,0.0%,100.0%,-4.87%
+lightrelated,0,6,0,6,0.0%,100.0%,-5.43%
+storage,0,5,0,5,0.0%,100.0%,-6.01%
+hardware,0,3,0,3,0.0%,100.0%,-6.70%
+advanced_mobility,0,1,0,1,0.0%,100.0%,-6.87%
+light,0,8,0,8,0.0%,100.0%,-6.91%
+crypto,0,13,0,13,0.0%,100.0%,-7.09%
+space,0,6,0,6,0.0%,100.0%,-7.10%
+nuclear,0,4,0,4,0.0%,100.0%,-7.16%
+energy_clean,0,11,0,11,0.0%,100.0%,-7.43%
+quantum,0,5,0,5,0.0%,100.0%,-7.53%
+
+Symbol,Sector,Close,Change %
+XLV,Healthcare,173.9600067138672,+2.53%
+XLP,Consumer Staples,86.05999755859375,+2.22%
+XLE,Energy,67.62999725341797,+0.64%
+XLK,Technology,190.42999267578125,-2.98%
+XLC,Communication Services,110.81999969482422,-1.30%
+XLI,Industrials,167.0399932861328,-0.97%

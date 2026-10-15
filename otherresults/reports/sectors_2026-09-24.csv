@@ -1,0 +1,28 @@
+Sector,Up,Down,Flat,Total,Up %,Down %,Avg Change %
+space,4,0,0,4,100.0%,0.0%,+3.11%
+quantum,4,1,0,5,80.0%,20.0%,+2.16%
+financials,15,4,0,19,78.9%,21.1%,+0.76%
+penny,2,1,0,3,66.7%,33.3%,+0.71%
+healthcare_and_bio,16,9,0,25,64.0%,36.0%,+1.44%
+other,7,4,0,11,63.6%,36.4%,+0.30%
+energy,5,3,0,8,62.5%,37.5%,+0.25%
+motor oil,5,3,0,8,62.5%,37.5%,+0.20%
+crypto,7,5,0,12,58.3%,41.7%,-0.05%
+power,4,2,1,7,57.1%,28.6%,+0.24%
+longterm_and_industrial,1,1,0,2,50.0%,50.0%,+0.11%
+technology,9,12,0,21,42.9%,57.1%,-0.36%
+semiconductors,8,10,1,19,42.1%,52.6%,-0.53%
+freight_and_logistics,5,7,0,12,41.7%,58.3%,-0.61%
+consumer_discretionary_and_retail,7,11,0,18,38.9%,61.1%,-0.32%
+triple_and_leveraged,3,5,0,8,37.5%,62.5%,-1.20%
+datacenter_and_infrastructure,3,6,0,9,33.3%,66.7%,+0.41%
+hardware,1,2,0,3,33.3%,66.7%,-1.26%
+light,2,6,0,8,25.0%,75.0%,+0.15%
+software,3,10,0,13,23.1%,76.9%,-0.93%
+defense_and_aerospace,4,14,1,19,21.1%,73.7%,-0.18%
+rare_metal_and_commodities,4,18,0,22,18.2%,81.8%,-0.96%
+lightrelated,1,5,0,6,16.7%,83.3%,-0.47%
+china,1,7,0,8,12.5%,87.5%,-0.89%
+energy_clean,1,12,0,13,7.7%,92.3%,-4.33%
+foreign,0,3,0,3,0.0%,100.0%,-1.19%
+storage,0,3,0,3,0.0%,100.0%,-3.42%

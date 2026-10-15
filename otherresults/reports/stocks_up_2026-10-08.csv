@@ -1,0 +1,11 @@
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,NTLA,healthcare_and_bio,12.600000381469727,+7.60%,REVERSAL,63.8,88.0,+4.11%,improving_strong
+2,RGC,healthcare_and_bio,7.630000114440918,+7.31%,REVERSAL,59.1,33.0,+33.89%,positive
+3,SAIC,defense_and_aerospace,129.7100067138672,+6.25%,NEUTRAL,66.1,90.0,-4.75%,lagging
+4,FRO,freight_and_logistics,56.2599983215332,+6.03%,STRONG_UPTREND,81.1,60.0,+10.75%,positive
+5,HAFN,freight_and_logistics,10.850000381469727,+5.03%,STRONG_UPTREND,81.0,60.0,+10.43%,positive
+6,MPC,energy,463.3399963378906,+4.77%,STRONG_UPTREND,80.7,53.0,+17.60%,positive
+7,FIG,software,22.6299991607666,+4.67%,NEUTRAL,47.9,80.0,-3.27%,recovering
+8,VLO,energy,443.79998779296875,+4.65%,STRONG_UPTREND,78.3,53.0,+14.67%,positive
+9,CHRW,freight_and_logistics,141.33999633789062,+4.56%,BOTTOM_FORMING,40.7,68.0,-12.76%,recovering
+10,DINO,energy,120.72000122070312,+4.40%,STRONG_UPTREND,82.5,68.0,+11.59%,positive

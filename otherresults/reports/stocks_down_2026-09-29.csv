@@ -1,0 +1,11 @@
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,QURE,healthcare_and_bio,24.510000228881836,-37.33%,DOWNTREND,26.2,40.0,-49.76%,lagging
+2,WGS,healthcare_and_bio,75.79000091552734,-11.80%,NEUTRAL,42.2,48.0,-10.75%,lagging
+3,VOYG,space,30.739999771118164,-7.35%,BOTTOM_FORMING,41.0,48.0,-11.55%,lagging
+4,PONY,china,6.539999961853027,-5.76%,DOWNTREND,29.1,50.0,-10.71%,lagging
+5,NIO,china,3.4000000953674316,-5.29%,STRONG_DOWNTREND,27.6,60.0,-22.58%,recovering
+6,ALOY,rare_metal_and_commodities,8.0,-4.99%,STRONG_DOWNTREND,20.8,40.0,-25.66%,recovering
+7,XPEV,china,9.470000267028809,-4.82%,STRONG_DOWNTREND,24.7,60.0,-19.59%,recovering
+8,MPG,financials,3.4100000858306885,-4.48%,STRONG_DOWNTREND,18.5,40.0,-26.54%,recovering
+9,LUNR,space,14.550000190734863,-4.28%,BOTTOM_FORMING,40.4,48.0,-8.23%,recovering
+10,RDW,space,10.729999542236328,-4.20%,BOTTOM_FORMING,50.0,58.0,-2.67%,recovering

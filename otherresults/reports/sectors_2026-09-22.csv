@@ -1,0 +1,28 @@
+Sector,Up,Down,Flat,Total,Up %,Down %,Avg Change %
+datacenter_and_infrastructure,9,0,0,9,100.0%,0.0%,+1.72%
+lightrelated,6,0,0,6,100.0%,0.0%,+2.92%
+space,4,0,0,4,100.0%,0.0%,+2.65%
+storage,3,0,0,3,100.0%,0.0%,+4.21%
+penny,3,0,0,3,100.0%,0.0%,+4.14%
+foreign,3,0,0,3,100.0%,0.0%,+1.57%
+semiconductors,18,1,0,19,94.7%,5.3%,+2.27%
+china,7,1,0,8,87.5%,12.5%,+0.35%
+power,6,1,0,7,85.7%,14.3%,+1.75%
+software,11,2,0,13,84.6%,15.4%,+3.12%
+crypto,9,3,0,12,75.0%,25.0%,+1.90%
+healthcare_and_bio,16,9,0,25,64.0%,36.0%,+0.58%
+other,7,4,0,11,63.6%,36.4%,+1.80%
+triple_and_leveraged,5,3,0,8,62.5%,37.5%,+2.72%
+quantum,3,2,0,5,60.0%,40.0%,+0.42%
+rare_metal_and_commodities,13,9,0,22,59.1%,40.9%,+0.35%
+technology,12,9,0,21,57.1%,42.9%,+1.04%
+defense_and_aerospace,10,9,0,19,52.6%,47.4%,+0.21%
+consumer_discretionary_and_retail,9,8,1,18,50.0%,44.4%,+0.27%
+freight_and_logistics,6,6,0,12,50.0%,50.0%,-0.48%
+longterm_and_industrial,1,1,0,2,50.0%,50.0%,-0.56%
+financials,9,10,0,19,47.4%,52.6%,-0.24%
+energy_clean,5,7,1,13,38.5%,53.8%,+0.67%
+light,2,6,0,8,25.0%,75.0%,-1.38%
+energy,2,6,0,8,25.0%,75.0%,-1.63%
+hardware,0,3,0,3,0.0%,100.0%,-3.32%
+motor oil,0,8,0,8,0.0%,100.0%,-3.59%

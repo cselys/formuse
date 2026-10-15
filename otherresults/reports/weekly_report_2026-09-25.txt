@@ -1,0 +1,1635 @@
+STOCK SCANNER WEEKLY REPORT
+As Of: 2026-09-27T11:14:57.489339-04:00
+Week End: 2026-09-25
+Week Start: 2026-09-21
+Last Session: 2026-09-25
+Previous Session: 2026-09-18
+Latest Session: 2026-09-25
+Auto Weekly: True
+Calendar: NYSE
+Scope: full universe
+Requested Stocks: 368
+Valid Weekly Returns: 367
+Missing Weekly Returns: 1
+Ready Diagnostics: 284
+Scanner Version: 1.2
+Market Regime At Week Close: MARKET_UPTREND
+Return Definition: Previous completed weekly close to latest completed weekly close
+Score Basis: Existing daily/weekly scanner formulas at last_session; not a new weekly score
+Direction Definition: UP: close > EMA20 > slow EMA and rising EMA20; DOWN: inverse; otherwise MIXED
+Direction Slow Ema: Weekly EMA40; daily EMA50
+Structure Note: Swing points require five subsequent completed weeks for confirmation
+
+TOP 10 STOCKS UP
+Symbol | Category                   | Sector                     | Close  | Change Pct | State          | Candidate Score | Entry Quality | Rs 20D | Rs Trend         | Market Regime 
+-------+----------------------------+----------------------------+--------+------------+----------------+-----------------+---------------+--------+------------------+---------------
+DNA    | healthcare_and_bio         | healthcare_and_bio         | 10.66  | 35.28      | REVERSAL       | 69.70           | 50.00         | 47.34  | improving_strong | MARKET_UPTREND
+MRNA   | healthcare_and_bio         | healthcare_and_bio         | 198.88 | 29.11      | STRONG_UPTREND | 73.70           | 43.00         | 39.81  | positive         | MARKET_UPTREND
+VICR   | power                      | power                      | 281.96 | 26.60      | UPTREND        | 66.30           | 35.00         | 35.22  | improving_strong | MARKET_UPTREND
+XXRP   | crypto                     | crypto                     | 39.24  | 21.45      | EARLY_UPTREND  | 51.20           | 25.00         | 4.09   | positive         | MARKET_UPTREND
+INOD   | software                   | software                   | 69.21  | 21.12      | EARLY_UPTREND  | 55.10           | 35.00         | 13.61  | improving_strong | MARKET_UPTREND
+ALAB   | semiconductors             | semiconductors             | 364.62 | 20.24      | UPTREND        | 64.10           | 35.00         | 14.05  | improving_strong | MARKET_UPTREND
+CRDO   | semiconductors             | semiconductors             | 210.97 | 19.94      | NEUTRAL        | 38.30           | 35.00         | -18.04 | lagging          | MARKET_UPTREND
+CRML   | rare_metal_and_commodities | rare_metal_and_commodities | 7.83   | 16.34      | NEUTRAL        | 39.90           | 55.00         | -5.86  | recovering       | MARKET_UPTREND
+IONQ   | quantum                    | quantum                    | 45.48  | 16.23      | NEUTRAL        | 44.70           | 35.00         | 3.87   | improving_strong | MARKET_UPTREND
+RKLB   | space                      | space                      | 73.95  | 14.53      | NEUTRAL        | 54.60           | 65.00         | 6.26   | improving_strong | MARKET_UPTREND
+
+TOP 10 STOCKS DOWN
+Symbol | Category              | Sector                | Close | Change Pct | State            | Candidate Score | Entry Quality | Rs 20D | Rs Trend   | Market Regime 
+-------+-----------------------+-----------------------+-------+------------+------------------+-----------------+---------------+--------+------------+---------------
+EOSE   | energy_clean          | energy_clean          | 3.16  | -20.08     | DOWNTREND        | 22.10           | 40.00         | -10.70 | recovering | MARKET_UPTREND
+QNST   | financials            | financials            | 14.41 | -17.89     | DOWNTREND        | 33.60           | 58.00         | -18.50 | lagging    | MARKET_UPTREND
+BW     | energy_clean          | energy_clean          | 6.27  | -14.81     | STRONG_DOWNTREND | 21.60           | 40.00         | -21.60 | recovering | MARKET_UPTREND
+PGY    | technology            | technology            | 17.62 | -13.71     | NEUTRAL          | 30.50           | 40.00         | -27.49 | lagging    | MARKET_UPTREND
+QURE   | healthcare_and_bio    | healthcare_and_bio    | 38.23 | -13.11     | NEUTRAL          | 34.90           | 50.00         | -22.35 | recovering | MARKET_UPTREND
+VOYG   | space                 | space                 | 31.35 | -12.60     | BOTTOM_FORMING   | 36.90           | 48.00         | -12.98 | lagging    | MARKET_UPTREND
+WGS    | healthcare_and_bio    | healthcare_and_bio    | 88.40 | -12.56     | REVERSAL         | 65.60           | 68.00         | -0.43  | lagging    | MARKET_UPTREND
+HAFN   | freight_and_logistics | freight_and_logistics | 8.92  | -11.86     | REVERSAL         | 82.10           | 78.00         | 10.53  | positive   | MARKET_UPTREND
+CHYM   | financials            | financials            | 26.78 | -11.70     | NEUTRAL          | 49.70           | 58.00         | -14.47 | lagging    | MARKET_UPTREND
+FIGR   | crypto                | crypto                | 31.90 | -10.12     | NEUTRAL          | 31.60           | 48.00         | -19.34 | lagging    | MARKET_UPTREND
+
+TOP 3 SECTORS UP - STOCK BREADTH
+Sector       | Sector Up Count | Sector Down Count | Sector Flat Count | Total Stock Count | Up Ratio | Down Ratio | Avg Change Pct
+-------------+-----------------+-------------------+-------------------+-------------------+----------+------------+---------------
+lightrelated | 6               | 0                 | 0                 | 6                 | 1.00     | 0.00       | 5.91          
+penny        | 3               | 0                 | 0                 | 3                 | 1.00     | 0.00       | 3.37          
+motor oil    | 2               | 0                 | 0                 | 2                 | 1.00     | 0.00       | 4.87          
+
+TOP 3 SECTORS DOWN - STOCK BREADTH
+Sector                | Sector Up Count | Sector Down Count | Sector Flat Count | Total Stock Count | Up Ratio | Down Ratio | Avg Change Pct
+----------------------+-----------------+-------------------+-------------------+-------------------+----------+------------+---------------
+freight_and_logistics | 0               | 15                | 0                 | 15                | 0.00     | 1.00       | -3.94         
+fintech               | 0               | 1                 | 0                 | 1                 | 0.00     | 1.00       | -2.60         
+foreign_telecom       | 0               | 1                 | 0                 | 1                 | 0.00     | 1.00       | -1.78         
+
+TOP 3 SECTOR INDEXES UP
+Symbol | Sector                 | Close  | Change Pct
+-------+------------------------+--------+-----------
+XLK    | technology             | 196.27 | 3.64      
+XLC    | communication_services | 112.96 | 2.28      
+XLV    | healthcare             | 170.70 | 1.76      
+
+TOP 3 SECTOR INDEXES DOWN
+Symbol | Sector     | Close | Change Pct
+-------+------------+-------+-----------
+XLU    | utilities  | 39.51 | -3.16     
+XLE    | energy     | 62.04 | -2.96     
+XLF    | financials | 54.84 | -1.48     
+
+ALL SECTOR BREADTH
+Sector                            | Sector Up Count | Sector Down Count | Sector Flat Count | Total Stock Count | Up Ratio | Down Ratio | Avg Change Pct
+----------------------------------+-----------------+-------------------+-------------------+-------------------+----------+------------+---------------
+lightrelated                      | 6               | 0                 | 0                 | 6                 | 1.00     | 0.00       | 5.91          
+penny                             | 3               | 0                 | 0                 | 3                 | 1.00     | 0.00       | 3.37          
+motor oil                         | 2               | 0                 | 0                 | 2                 | 1.00     | 0.00       | 4.87          
+electronics_components            | 2               | 0                 | 0                 | 2                 | 1.00     | 0.00       | 4.83          
+airlines                          | 2               | 0                 | 0                 | 2                 | 1.00     | 0.00       | 3.34          
+advanced_mobility                 | 1               | 0                 | 0                 | 1                 | 1.00     | 0.00       | 3.27          
+semiconductors                    | 31              | 3                 | 0                 | 34                | 0.91     | 0.09       | 6.74          
+space                             | 5               | 1                 | 0                 | 6                 | 0.83     | 0.17       | 5.67          
+quantum                           | 4               | 1                 | 0                 | 5                 | 0.80     | 0.20       | 4.98          
+cybersecurity                     | 4               | 1                 | 0                 | 5                 | 0.80     | 0.20       | 3.23          
+nuclear                           | 3               | 1                 | 0                 | 4                 | 0.75     | 0.25       | 1.66          
+software                          | 10              | 4                 | 0                 | 14                | 0.71     | 0.29       | 3.44          
+datacenter_and_infrastructure     | 7               | 3                 | 0                 | 10                | 0.70     | 0.30       | 1.70          
+longterm_and_industrial           | 2               | 1                 | 0                 | 3                 | 0.67     | 0.33       | -0.17         
+power                             | 7               | 4                 | 0                 | 11                | 0.64     | 0.36       | 3.02          
+triple_and_leveraged              | 6               | 4                 | 0                 | 10                | 0.60     | 0.40       | 0.92          
+storage                           | 3               | 2                 | 0                 | 5                 | 0.60     | 0.40       | 1.85          
+healthcare_and_bio                | 22              | 15                | 0                 | 37                | 0.59     | 0.41       | 1.71          
+crypto                            | 7               | 6                 | 0                 | 13                | 0.54     | 0.46       | 1.94          
+light                             | 4               | 4                 | 0                 | 8                 | 0.50     | 0.50       | 0.95          
+consumer_staples_and_distribution | 1               | 1                 | 0                 | 2                 | 0.50     | 0.50       | 0.44          
+foreign_financials                | 1               | 1                 | 0                 | 2                 | 0.50     | 0.50       | 0.32          
+construction_materials            | 1               | 1                 | 0                 | 2                 | 0.50     | 0.50       | 0.22          
+industrial_engineering            | 5               | 6                 | 0                 | 11                | 0.45     | 0.55       | -0.38         
+consumer_discretionary_and_retail | 8               | 10                | 0                 | 18                | 0.44     | 0.56       | -0.71         
+technology                        | 9               | 13                | 0                 | 22                | 0.41     | 0.59       | -0.53         
+foreign                           | 1               | 2                 | 0                 | 3                 | 0.33     | 0.67       | 0.12          
+hardware                          | 1               | 2                 | 0                 | 3                 | 0.33     | 0.67       | -2.11         
+rare_metal_and_commodities        | 8               | 17                | 0                 | 25                | 0.32     | 0.68       | -0.46         
+defense_and_aerospace             | 7               | 16                | 0                 | 23                | 0.30     | 0.70       | -1.46         
+financials                        | 7               | 17                | 0                 | 24                | 0.29     | 0.71       | -2.35         
+energy_clean                      | 2               | 9                 | 0                 | 11                | 0.18     | 0.82       | -5.67         
+energy                            | 2               | 13                | 0                 | 15                | 0.13     | 0.87       | -4.31         
+china                             | 1               | 7                 | 0                 | 8                 | 0.12     | 0.88       | -2.34         
+foreign_telecom                   | 0               | 1                 | 0                 | 1                 | 0.00     | 1.00       | -1.78         
+fintech                           | 0               | 1                 | 0                 | 1                 | 0.00     | 1.00       | -2.60         
+freight_and_logistics             | 0               | 15                | 0                 | 15                | 0.00     | 1.00       | -3.94         
+
+SECTOR INDEX COVERAGE
+Symbol | Sector                 | Close  | Change Pct | Status
+-------+------------------------+--------+------------+-------
+XLK    | technology             | 196.27 | 3.64       | OK    
+XLF    | financials             | 54.84  | -1.48      | OK    
+XLE    | energy                 | 62.04  | -2.96      | OK    
+XLV    | healthcare             | 170.70 | 1.76       | OK    
+XLI    | industrials            | 170.43 | 0.67       | OK    
+XLY    | consumer_discretionary | 110.56 | -0.20      | OK    
+XLP    | consumer_staples       | 82.06  | -0.24      | OK    
+XLU    | utilities              | 39.51  | -3.16      | OK    
+XLC    | communication_services | 112.96 | 2.28       | OK    
+XLRE   | real_estate            | 41.56  | -1.46      | OK    
+XLB    | materials              | 49.80  | 0.08       | OK    
+
+TOP SCANNER CANDIDATES
+Symbol | Category              | State          | Candidate Score | Entry Quality | Weekly Direction  | Alignment        
+-------+-----------------------+----------------+-----------------+---------------+-------------------+------------------
+DINO   | energy                | UPTREND        | 86.60           | 98.00         | UP                | ALIGNED_UP       
+PSX    | energy                | STRONG_UPTREND | 86.20           | 98.00         | UP                | ALIGNED_UP       
+MPC    | energy                | UPTREND        | 85.90           | 98.00         | UP                | ALIGNED_UP       
+TEVA   | healthcare_and_bio    | STRONG_UPTREND | 85.80           | 98.00         | INSUFFICIENT_DATA | INSUFFICIENT_DATA
+QCOM   | semiconductors        | STRONG_UPTREND | 85.40           | 75.00         | UP                | ALIGNED_UP       
+SWKS   | semiconductors        | STRONG_UPTREND | 85.30           | 73.00         | UP                | ALIGNED_UP       
+TMO    | healthcare_and_bio    | STRONG_UPTREND | 85.00           | 83.00         | UP                | ALIGNED_UP       
+VLO    | energy                | UPTREND        | 85.00           | 98.00         | UP                | ALIGNED_UP       
+FRO    | freight_and_logistics | UPTREND        | 84.90           | 98.00         | UP                | ALIGNED_UP       
+QRVO   | semiconductors        | STRONG_UPTREND | 84.90           | 83.00         | UP                | ALIGNED_UP       
+
+WEEKLY TECHNICAL DIAGNOSTICS
+Symbol | Status               | Weekly Direction  | Daily Direction   | Alignment                  | Data Date  | Data Week End
+-------+----------------------+-------------------+-------------------+----------------------------+------------+--------------
+NVDA   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+AMD    | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+AVGO   | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+MU     | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+INTC   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+TSM    | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+QCOM   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+MRVL   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+ARM    | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+NVTS   | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+ASML   | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+SNPS   | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+QRVO   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+AMAT   | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+ALAB   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+AEHR   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+ANET   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+SWKS   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+UMC    | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+TSEM   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+CBRS   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+CRDO   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+FN     | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+ADI    | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+TER    | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | UP                | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+ICHR   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+MPWR   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+PLAB   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+TTMI   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+MKSI   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+AEIS   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+SIMO   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | UP                | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+MTSI   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+COM    | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+AAPL   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+MSFT   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+GOOG   | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+GOOGL  | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+AMZN   | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+META   | OK                   | MIXED             | UP                | MIXED                      | 2026-09-25 | 2026-09-25   
+TSLA   | OK                   | MIXED             | UP                | MIXED                      | 2026-09-25 | 2026-09-25   
+NFLX   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+CRM    | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+ADBE   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+SPCX   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | UP                | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+ORCL   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+RDDT   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+DJT    | OK                   | DOWN              | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+SE     | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+VUZI   | OK                   | MIXED             | UP                | MIXED                      | 2026-09-25 | 2026-09-25   
+LAES   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+ETOR   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+QUIK   | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+APLD   | OK                   | DOWN              | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+APP    | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+PGY    | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+XOM    | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+SLB    | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+EOG    | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+OXY    | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+PSX    | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+VLO    | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+VG     | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+LNG    | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+TRGP   | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+ET     | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+MPC    | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+DINO   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+CVX    | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+RIG    | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | DOWN              | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+COP    | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+JPM    | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+BAC    | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+WFC    | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+C      | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+GS     | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+MS     | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+BLK    | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+SCHW   | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+QNST   | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+SOFI   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+UPST   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+AFRM   | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+PYPL   | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+QTWO   | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+QCRH   | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+SOUN   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+DAVE   | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+KKR    | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+CFR    | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+CHYM   | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+LMND   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+BRK-B  | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+SAR    | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | DOWN              | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+MPG    | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | DOWN              | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+UNH    | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+JNJ    | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+LLY    | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+PFE    | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+ABBV   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+MRK    | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+TMO    | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+MRNA   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+CVS    | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+CI     | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+CNC    | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+HUM    | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+MCK    | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+BAX    | OK                   | UP                | DOWN              | PULLBACK_IN_WEEKLY_UPTREND | 2026-09-25 | 2026-09-25   
+ZTS    | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+QDEL   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+QGEN   | OK                   | MIXED             | UP                | MIXED                      | 2026-09-25 | 2026-09-25   
+QURE   | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+XBI    | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+DNA    | OK                   | MIXED             | UP                | MIXED                      | 2026-09-25 | 2026-09-25   
+RVMD   | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+CORT   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+AVTR   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+OSCR   | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+THC    | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+BTSG   | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+HIMS   | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+ZYME   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+NVS    | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+RGC    | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+WGS    | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+PEN    | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | DOWN              | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+PSNL   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | UP                | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+HALO   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+BMRN   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+TEVA   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | UP                | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+NTLA   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | DOWN              | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+HD     | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+NKE    | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+MCD    | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+SBUX   | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+LOW    | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+BKNG   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+TGT    | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+WMT    | OK                   | DOWN              | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+COST   | OK                   | DOWN              | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+DLTR   | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+ROST   | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+TJX    | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+DG     | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+EBAY   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+MELI   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+EXPE   | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+WING   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+DECK   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+MP     | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+CRML   | OK                   | DOWN              | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+ALOY   | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+UUUU   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+USAR   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+GLD    | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+SLV    | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+NRG    | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+AEM    | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+GFS    | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+HL     | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+NREF   | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+AG     | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+ALB    | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+FCX    | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+NEM    | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+RIO    | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+VALE   | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+BHP    | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+SCCO   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+CCJ    | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+IDR    | OK                   | DOWN              | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+SBSW   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+PPTA   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+ASPI   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | DOWN              | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+FIG    | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+SNOW   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+MDB    | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+U      | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+NOW    | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+TEAM   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+AI     | OK                   | MIXED             | UP                | MIXED                      | 2026-09-25 | 2026-09-25   
+PLTR   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+TWLO   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+PATH   | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+ZETA   | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+INOD   | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+AKAM   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+NET    | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | UP                | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+DELL   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+HPE    | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+HPQ    | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+NBIS   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+HUT    | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+CIFR   | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+IREN   | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+CRWV   | OK                   | DOWN              | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+ETN    | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+VRT    | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+HUBB   | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+SMR    | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+OSS    | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+CEG    | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+GEV    | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+VST    | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+PWR    | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+PLPC   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+VICR   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | UP                | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+NEE    | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+DUK    | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | DOWN              | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+MYRG   | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+POWL   | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+AMSC   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+AAOI   | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+LITE   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+AXTI   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+GLW    | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+NOK    | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+COHR   | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+POET   | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+BB     | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+AMPX   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+LWLG   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+KLAC   | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+LRCX   | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+AMKR   | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+ASX    | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+SNDK   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+WDC    | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+STX    | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+SKHY   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | UP                | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+KXIAY  | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+LMT    | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+NOC    | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+RTX    | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+GD     | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+TXT    | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+HII    | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+BA     | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+SAIC   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+LHX    | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+TDY    | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+AVAV   | OK                   | DOWN              | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+RCAT   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+UMAC   | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+PDYN   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+GE     | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+HWM    | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+HEI    | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+TDG    | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+CW     | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+ONDS   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+FTAI   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | DOWN              | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+ESLT   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+KTOS   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | DOWN              | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+RKLB   | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+ASTS   | OK                   | DOWN              | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+RDW    | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+PL     | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+VOYG   | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+LUNR   | OK                   | DOWN              | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+COIN   | OK                   | MIXED             | UP                | MIXED                      | 2026-09-25 | 2026-09-25   
+HOOD   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+CRCL   | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+MSTR   | OK                   | MIXED             | UP                | MIXED                      | 2026-09-25 | 2026-09-25   
+BMNR   | OK                   | MIXED             | UP                | MIXED                      | 2026-09-25 | 2026-09-25   
+SBET   | OK                   | MIXED             | UP                | MIXED                      | 2026-09-25 | 2026-09-25   
+XXRP   | OK                   | MIXED             | UP                | MIXED                      | 2026-09-25 | 2026-09-25   
+SOLT   | OK                   | MIXED             | UP                | MIXED                      | 2026-09-25 | 2026-09-25   
+MARA   | OK                   | MIXED             | UP                | MIXED                      | 2026-09-25 | 2026-09-25   
+RIOT   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+BTBT   | OK                   | MIXED             | UP                | MIXED                      | 2026-09-25 | 2026-09-25   
+FIGR   | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+BLSH   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | UP                | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+EWZ    | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+EWY    | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+KWEB   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+BABA   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+BIDU   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+PDD    | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+FUTU   | OK                   | DOWN              | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+PONY   | OK                   | DOWN              | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+NIO    | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+LI     | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+XPEV   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+NMAX   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+OPEN   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+SIVEF  | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+ENPH   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+RUN    | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+SEDG   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+FSLR   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+CSIQ   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+BE     | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+BW     | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+QS     | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+EOSE   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+FLNC   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+TE     | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+LABU   | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+NAIL   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+KORU   | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+RAM    | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+UTSL   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+DPST   | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+NUGT   | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+DUST   | OK                   | DOWN              | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+EURL   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | DOWN              | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+CURE   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | UP                | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+FIX    | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+MT     | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+CAT    | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+QUBT   | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+QBTS   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+IONQ   | OK                   | MIXED             | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+RGTI   | OK                   | DOWN              | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+IBM    | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+FDX    | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+UPS    | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+JBHT   | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+EXPD   | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+KEX    | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+R      | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+XPO    | OK                   | MIXED             | DOWN              | MIXED                      | 2026-09-25 | 2026-09-25   
+BOAT   | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+FRO    | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+MATX   | OK                   | UP                | MIXED             | MIXED                      | 2026-09-25 | 2026-09-25   
+CHRW   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+HAFN   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+NSC    | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | DOWN              | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+UNP    | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | DOWN              | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+CSX    | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | DOWN              | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+VVV    | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+ORLY   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+JOBY   | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+ACM    | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | DOWN              | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+EMR    | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | UP                | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+MOG-A  | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+AGX    | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | DOWN              | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+MOD    | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+PRIM   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | DOWN              | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+PH     | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+STRL   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+FLR    | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+DE     | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | UP                | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+AMTM   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | DOWN              | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+MUFG   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+HSBC   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+LUV    | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+LTM    | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+PANW   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+CRWD   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+FTNT   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+OKTA   | OK                   | UP                | UP                | ALIGNED_UP                 | 2026-09-25 | 2026-09-25   
+ZS     | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | UP                | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+LFUS   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+BELFB  | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | MIXED             | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+ACQ    | STALE_OR_MISSING     | INSUFFICIENT_DATA | INSUFFICIENT_DATA | INSUFFICIENT_DATA          | N/A        | N/A          
+VMC    | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | DOWN              | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+MLM    | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | DOWN              | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+RELY   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | DOWN              | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+AMX    | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | DOWN              | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+BWXT   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | DOWN              | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+LEU    | OK                   | DOWN              | DOWN              | ALIGNED_DOWN               | 2026-09-25 | 2026-09-25   
+NNE    | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | DOWN              | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+IMSR   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | DOWN              | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+USFD   | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | DOWN              | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+PM     | INSUFFICIENT_HISTORY | INSUFFICIENT_DATA | UP                | INSUFFICIENT_DATA          | 2026-09-25 | 2026-09-25   
+
+WEEKLY TREND AND MOMENTUM
+Symbol | Ema20   | Ema40   | Ema20 Slope | Rsi   | Rsi Change | Macd Hist | Macd Hist Change | Volume Ratio | Atr   
+-------+---------+---------+-------------+-------+------------+-----------+------------------+--------------+-------
+NVDA   | 212.32  | 203.58  | 1.64        | 58.18 | 1.12       | 0.77      | -0.02            | 0.69         | 15.93 
+AMD    | 483.20  | 408.71  | 6.94        | 71.16 | 5.40       | -0.07     | 6.84             | 1.01         | 60.79 
+AVGO   | 374.56  | 370.51  | -1.62       | 45.13 | -0.82      | -6.11     | -0.19            | 0.88         | 34.30 
+MU     | 895.40  | 733.83  | 5.47        | 65.29 | 2.85       | -8.99     | 4.64             | 0.59         | 122.32
+INTC   | 99.42   | 85.73   | 4.71        | 63.67 | 5.35       | -1.22     | 1.57             | 1.07         | 15.17 
+TSM    | 416.21  | 388.50  | 2.02        | 66.99 | 4.22       | -1.25     | 1.28             | 0.78         | 29.47 
+QCOM   | 176.74  | 172.97  | 2.26        | 58.33 | 6.83       | 0.45      | 2.13             | 0.81         | 20.55 
+MRVL   | 216.00  | 182.63  | 5.53        | 65.04 | 3.21       | -1.82     | 1.71             | 0.49         | 32.87 
+ARM    | 266.66  | 237.09  | 2.48        | 58.92 | 4.85       | -6.18     | 3.72             | 1.17         | 46.36 
+NVTS   | 13.66   | 13.21   | -4.62       | 45.97 | 2.20       | -0.70     | 0.14             | 0.49         | 3.11  
+ASML   | 1679.07 | 1547.74 | 0.63        | 57.01 | 3.51       | -24.68    | 2.78             | 0.71         | 137.53
+SNPS   | 422.39  | 436.50  | -1.53       | 49.59 | 7.40       | -1.06     | 2.57             | 0.97         | 43.13 
+QRVO   | 99.38   | 94.63   | 6.75        | 72.30 | 0.44       | 2.64      | 0.29             | 0.91         | 7.95  
+AMAT   | 478.69  | 431.48  | -1.13       | 53.65 | 6.73       | -17.48    | 2.73             | 0.70         | 56.27 
+ALAB   | 302.85  | 271.40  | 2.28        | 61.02 | 7.86       | -5.85     | 4.41             | 0.87         | 59.37 
+AEHR   | 88.99   | 75.21   | 3.61        | 57.43 | 3.36       | -1.55     | 0.69             | 0.91         | 22.14 
+ANET   | 180.75  | 167.49  | 4.31        | 65.69 | 2.42       | 2.06      | 0.06             | 0.58         | 19.23 
+SWKS   | 72.38   | 69.51   | 8.66        | 70.08 | 0.35       | 2.62      | 0.32             | 0.78         | 8.14  
+UMC    | 19.96   | 16.85   | 7.43        | 68.38 | -1.28      | -0.03     | 0.11             | 0.59         | 2.35  
+TSEM   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+CBRS   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+CRDO   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+FN     | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+ADI    | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+TER    | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+ICHR   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+MPWR   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+PLAB   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+TTMI   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+MKSI   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+AEIS   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+SIMO   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+MTSI   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+COM    | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+AAPL   | 312.29  | 296.16  | 2.82        | 67.00 | 1.52       | 1.45      | 0.49             | 0.66         | 17.07 
+MSFT   | 459.04  | 450.58  | 3.43        | 64.63 | 3.74       | 10.76     | -0.39            | 0.75         | 29.02 
+GOOG   | 342.96  | 332.54  | -0.25       | 50.36 | -1.20      | -3.30     | 0.38             | 0.94         | 22.23 
+GOOGL  | 345.40  | 334.29  | -0.13       | 50.60 | -2.00      | -3.16     | 0.30             | 0.98         | 22.80 
+AMZN   | 252.38  | 245.93  | 0.11        | 49.94 | -1.82      | -1.17     | -0.66            | 0.92         | 15.95 
+META   | 624.29  | 633.36  | 3.94        | 64.26 | 7.87       | 16.62     | 7.23             | 1.86         | 57.52 
+TSLA   | 369.76  | 384.96  | -0.21       | 49.06 | 1.94       | 2.28      | 1.35             | 0.84         | 32.61 
+NFLX   | 78.59   | 85.40   | -2.33       | 36.75 | -0.60      | 0.46      | -0.27            | 0.83         | 5.68  
+CRM    | 208.34  | 206.43  | 5.49        | 60.21 | -1.61      | 8.91      | -1.60            | 0.79         | 20.25 
+ADBE   | 251.62  | 264.83  | -0.92       | 43.98 | -3.65      | 3.19      | -2.18            | 0.81         | 24.33 
+SPCX   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+ORCL   | 153.91  | 172.12  | -2.08       | 41.31 | -3.35      | 1.32      | -0.68            | 1.07         | 20.19 
+RDDT   | 161.89  | 173.02  | -1.98       | 44.68 | -0.29      | -0.80     | -0.22            | 0.77         | 24.30 
+DJT    | 9.18    | 10.17   | -1.05       | 48.22 | 1.55       | 0.18      | -0.00            | 0.69         | 1.18  
+SE     | 105.12  | 111.58  | -0.93       | 44.91 | -1.47      | 1.02      | -0.94            | 0.68         | 10.50 
+VUZI   | 2.79    | 2.82    | -0.40       | 51.80 | 2.46       | -0.00     | 0.03             | 0.68         | 0.53  
+LAES   | 2.71    | 3.11    | -4.81       | 39.86 | 2.52       | 0.00      | 0.00             | 0.38         | 0.47  
+ETOR   | 33.17   | 34.85   | -5.04       | 33.44 | -2.50      | -1.08     | -0.11            | 1.04         | 3.57  
+QUIK   | 12.97   | 12.28   | -5.45       | 41.57 | 1.16       | -0.86     | 0.11             | 0.61         | 2.11  
+APLD   | 30.15   | 30.49   | -3.62       | 43.42 | -2.41      | -0.90     | 0.11             | 0.79         | 5.90  
+APP    | 387.86  | 444.84  | -6.27       | 35.82 | 0.46       | -8.94     | 2.06             | 0.86         | 58.73 
+PGY    | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+XOM    | 153.79  | 146.13  | 2.19        | 57.68 | -2.65      | 0.76      | -0.33            | 0.88         | 8.85  
+SLB    | 51.92   | 49.22   | 0.57        | 50.89 | 0.68       | -0.17     | -0.20            | 0.79         | 3.95  
+EOG    | 139.57  | 132.96  | 1.06        | 52.45 | -2.98      | -0.52     | -0.46            | 0.87         | 8.79  
+OXY    | 56.66   | 54.08   | 1.40        | 52.11 | -3.74      | -0.00     | -0.24            | 1.02         | 3.89  
+PSX    | 217.73  | 192.27  | 7.79        | 70.91 | -11.36     | 5.51      | -1.35            | 1.35         | 15.20 
+VLO    | 319.37  | 275.63  | 9.28        | 72.60 | -10.56     | 8.59      | -1.64            | 1.75         | 25.52 
+VG     | 13.32   | 12.66   | 1.88        | 48.25 | -5.93      | -0.03     | -0.15            | 1.17         | 1.68  
+LNG    | 262.68  | 251.75  | 1.18        | 54.55 | 0.07       | 0.52      | -0.95            | 1.12         | 16.94 
+TRGP   | 271.81  | 250.11  | 1.91        | 55.62 | -6.68      | -1.47     | -1.08            | 0.92         | 16.71 
+ET     | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+MPC    | 326.01  | 282.02  | 9.23        | 71.35 | -11.98     | 9.19      | -2.15            | 1.43         | 25.53 
+DINO   | 88.78   | 76.75   | 9.20        | 68.80 | -10.85     | 2.36      | -0.59            | 1.42         | 8.02  
+CVX    | 194.28  | 184.77  | 2.73        | 59.01 | -3.82      | 1.70      | -0.62            | 0.98         | 10.16 
+RIG    | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+COP    | 122.67  | 115.71  | 2.68        | 56.31 | -4.40      | 0.97      | -0.63            | 0.92         | 7.75  
+JPM    | 339.51  | 327.65  | 1.01        | 55.54 | -4.65      | -0.24     | -1.30            | 1.08         | 14.09 
+BAC    | 58.52   | 56.22   | 0.19        | 47.70 | -2.61      | -0.44     | -0.36            | 1.10         | 2.70  
+WFC    | 85.08   | 84.20   | 0.47        | 47.33 | -4.92      | 0.08      | -0.42            | 0.86         | 4.59  
+C      | 132.11  | 125.84  | 0.72        | 54.58 | 2.29       | -1.01     | -0.06            | 0.89         | 7.67  
+GS     | 994.40  | 956.24  | -1.00       | 42.05 | -0.90      | -16.66    | -4.02            | 1.02         | 60.97 
+MS     | 205.95  | 195.78  | -0.36       | 45.31 | -4.59      | -3.11     | -1.00            | 0.99         | 11.58 
+BLK    | 1077.97 | 1067.92 | 0.03        | 51.98 | 2.08       | 1.56      | -2.20            | 0.74         | 56.71 
+SCHW   | 101.90  | 98.90   | 0.58        | 47.66 | -10.43     | 0.04      | -0.79            | 1.07         | 5.22  
+QNST   | 16.43   | 15.51   | 0.47        | 44.26 | -12.17     | -0.11     | -0.34            | 1.81         | 1.89  
+SOFI   | 17.80   | 19.38   | -1.68       | 41.97 | -1.45      | 0.19      | -0.09            | 0.94         | 2.00  
+UPST   | 29.30   | 33.81   | -5.17       | 34.97 | -1.76      | -0.17     | -0.16            | 1.19         | 3.89  
+AFRM   | 71.96   | 71.20   | -0.28       | 50.33 | 0.34       | -0.60     | -0.16            | 1.10         | 8.34  
+PYPL   | 52.74   | 52.96   | 0.69        | 54.71 | 4.38       | 0.46      | -0.12            | 1.04         | 4.09  
+QTWO   | 57.16   | 57.96   | 0.78        | 48.62 | -4.18      | 0.75      | -0.56            | 0.77         | 5.30  
+QCRH   | 98.38   | 93.79   | 0.96        | 58.35 | 1.46       | -0.37     | -0.14            | 0.82         | 4.88  
+SOUN   | 7.06    | 8.34    | -4.65       | 39.14 | 1.05       | 0.07      | -0.02            | 0.51         | 1.07  
+DAVE   | 331.11  | 297.99  | 0.62        | 51.27 | -2.18      | -7.17     | -2.51            | 0.77         | 48.75 
+KKR    | 101.69  | 105.73  | -1.02       | 43.49 | -1.98      | 0.53      | -0.59            | 0.82         | 8.19  
+CFR    | 155.31  | 147.40  | 1.04        | 56.80 | -3.44      | -0.71     | -0.51            | 0.84         | 6.75  
+CHYM   | 26.39   | 24.43   | 4.77        | 53.07 | -9.20      | 0.66      | -0.53            | 1.06         | 3.32  
+LMND   | 55.03   | 58.37   | -4.87       | 38.44 | -1.60      | -1.12     | -0.18            | 1.11         | 7.94  
+BRK-B  | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+SAR    | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+MPG    | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+UNH    | 386.00  | 369.58  | -0.83       | 48.59 | -0.13      | -7.25     | -0.38            | 0.83         | 21.14 
+JNJ    | 255.49  | 240.31  | 1.90        | 63.61 | 0.53       | 0.53      | -0.23            | 0.75         | 12.30 
+LLY    | 1135.73 | 1073.61 | 0.53        | 57.44 | 2.72       | -8.20     | 1.14             | 0.84         | 75.59 
+PFE    | 26.56   | 25.79   | 2.00        | 66.93 | 4.99       | 0.31      | 0.02             | 0.81         | 1.19  
+ABBV   | 246.55  | 235.96  | 2.25        | 63.27 | 0.15       | 1.26      | -0.16            | 0.55         | 13.46 
+MRK    | 134.13  | 123.25  | 3.32        | 66.71 | 1.08       | 1.25      | -0.19            | 0.95         | 7.94  
+TMO    | 576.55  | 549.44  | 4.50        | 73.76 | 2.70       | 13.71     | 0.98             | 1.03         | 35.60 
+MRNA   | 101.72  | 76.97   | 29.26       | 85.43 | 5.45       | 11.94     | 2.37             | 1.40         | 20.20 
+CVS    | 93.71   | 89.41   | -1.11       | 46.13 | 0.37       | -2.09     | -0.19            | 1.28         | 5.56  
+CI     | 279.00  | 278.70  | -0.41       | 45.14 | -2.03      | -1.25     | -0.33            | 1.03         | 15.46 
+CNC    | 61.58   | 55.19   | 1.57        | 54.66 | -6.55      | -1.03     | -0.33            | 0.94         | 4.83  
+HUM    | 361.60  | 322.97  | 3.61        | 64.29 | 2.23       | -2.31     | -0.70            | 0.84         | 29.31 
+MCK    | 849.05  | 831.93  | 1.03        | 54.81 | -1.69      | 6.39      | -2.33            | 0.70         | 50.67 
+BAX    | 23.12   | 22.00   | 0.28        | 53.29 | 2.13       | -0.10     | -0.14            | 1.33         | 1.92  
+ZTS    | 80.51   | 93.14   | -3.67       | 29.55 | -0.28      | 1.27      | -0.07            | 0.61         | 5.80  
+QDEL   | 14.38   | 17.05   | -7.43       | 37.34 | 1.09       | -0.08     | -0.08            | 0.79         | 2.61  
+QGEN   | 41.77   | 42.04   | 1.38        | 59.24 | 2.57       | 0.63      | -0.03            | 0.75         | 2.54  
+QURE   | 39.50   | 34.21   | 2.30        | 51.24 | -8.51      | -0.60     | -0.65            | 1.02         | 6.04  
+XBI    | 150.65  | 140.15  | 1.25        | 57.78 | -1.74      | -0.70     | -0.49            | 1.20         | 8.75  
+DNA    | 8.15    | 8.53    | 1.82        | 60.77 | 11.82      | 0.15      | 0.23             | 2.21         | 1.53  
+RVMD   | 181.97  | 152.76  | 3.58        | 68.72 | 5.20       | -1.88     | -0.30            | 1.09         | 15.57 
+CORT   | 96.76   | 84.05   | 6.32        | 70.64 | 2.82       | 0.99      | -0.41            | 0.80         | 9.32  
+AVTR   | 12.66   | 11.71   | 7.57        | 76.04 | -3.34      | 0.45      | -0.07            | 0.99         | 1.05  
+OSCR   | 28.27   | 24.72   | 4.02        | 56.53 | -6.83      | -0.25     | -0.26            | 1.08         | 3.54  
+THC    | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+BTSG   | 59.01   | 53.52   | -1.01       | 48.98 | -0.30      | -1.99     | -0.06            | 0.68         | 4.89  
+HIMS   | 29.29   | 31.26   | -1.08       | 49.62 | 2.19       | -0.03     | 0.05             | 0.81         | 4.91  
+ZYME   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+NVS    | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+RGC    | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+WGS    | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+PEN    | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+PSNL   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+HALO   | 92.50   | 83.78   | 7.71        | 74.15 | 0.67       | 3.10      | -0.26            | 1.49         | 6.44  
+BMRN   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+TEVA   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+NTLA   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+HD     | 324.80  | 336.13  | -2.59       | 35.39 | -1.93      | -3.16     | -1.16            | 1.31         | 18.35 
+NKE    | 41.42   | 46.69   | -4.39       | 28.85 | 0.89       | -0.03     | -0.03            | 1.53         | 2.87  
+MCD    | 267.17  | 278.38  | -2.80       | 25.33 | -4.50      | -2.26     | -0.83            | 1.82         | 11.24 
+SBUX   | 101.05  | 98.04   | -1.60       | 42.30 | -1.15      | -1.57     | -0.35            | 1.09         | 5.46  
+LOW    | 212.14  | 223.48  | -3.12       | 31.51 | -1.32      | -1.55     | -0.45            | 1.15         | 12.23 
+BKNG   | 183.62  | 185.96  | -2.85       | 40.10 | -1.51      | -1.95     | -1.47            | 1.53         | 15.54 
+TGT    | 144.71  | 131.02  | 3.12        | 65.46 | -0.77      | 0.63      | -0.54            | 0.62         | 9.01  
+WMT    | 111.92  | 113.48  | -1.42       | 43.04 | 1.89       | -0.77     | 0.30             | 0.96         | 6.19  
+COST   | 942.61  | 950.17  | -1.26       | 44.54 | 7.17       | -5.42     | 1.53             | 1.27         | 41.53 
+DLTR   | 119.60  | 116.04  | -1.44       | 46.75 | 1.65       | -1.24     | -0.58            | 0.77         | 10.03 
+ROST   | 229.63  | 216.66  | 0.26        | 56.51 | 5.18       | -2.39     | 0.36             | 0.66         | 12.01 
+TJX    | 144.62  | 147.79  | -3.89       | 34.72 | 3.33       | -3.33     | 0.33             | 1.42         | 7.52  
+DG     | 122.46  | 120.74  | 0.43        | 52.34 | 1.80       | 0.72      | -0.15            | 0.74         | 9.41  
+EBAY   | 106.69  | 102.58  | 0.82        | 53.06 | -4.78      | -0.92     | 0.04             | 0.92         | 7.14  
+MELI   | 1825.88 | 1875.84 | -0.35       | 44.83 | -1.89      | 12.10     | -11.44           | 1.63         | 143.22
+EXPE   | 276.55  | 262.90  | -0.29       | 48.08 | -4.31      | -1.61     | -2.69            | 2.07         | 26.36 
+WING   | 135.21  | 163.60  | -7.00       | 33.17 | -1.13      | -0.79     | -0.18            | 1.05         | 20.94 
+DECK   | 93.82   | 98.70   | -5.12       | 31.30 | 0.33       | -2.55     | 0.05             | 1.25         | 7.47  
+MP     | 53.49   | 56.63   | -2.97       | 43.54 | 1.89       | -0.13     | -0.10            | 0.83         | 7.76  
+CRML   | 7.96    | 8.68    | -3.87       | 47.84 | 5.22       | -0.00     | 0.11             | 3.12         | 1.99  
+ALOY   | 10.63   | 10.54   | -6.45       | 45.79 | 1.55       | -0.44     | 0.01             | 0.78         | 2.75  
+UUUU   | 14.40   | 15.56   | -5.62       | 35.92 | -0.93      | -0.16     | -0.07            | 0.89         | 2.40  
+USAR   | 18.22   | 18.72   | -5.22       | 42.00 | -0.35      | -0.52     | -0.01            | 1.02         | 3.56  
+GLD    | 400.39  | 400.33  | -0.24       | 46.62 | -3.01      | 1.41      | -0.66            | 0.86         | 18.69 
+SLV    | 59.71   | 59.68   | -0.57       | 47.23 | -2.31      | 0.24      | -0.03            | 0.79         | 5.65  
+NRG    | 125.07  | 136.14  | -5.22       | 35.48 | -1.10      | -2.28     | -0.31            | 1.03         | 13.24 
+AEM    | 184.83  | 182.12  | 2.54        | 54.35 | -2.12      | 4.53      | -0.89            | 0.58         | 17.72 
+GFS    | 54.77   | 53.31   | -4.16       | 43.71 | 1.36       | -2.69     | 0.52             | 1.01         | 7.09  
+HL     | 18.11   | 17.65   | 1.58        | 50.71 | -2.49      | 0.34      | -0.13            | 1.41         | 2.34  
+NREF   | 16.14   | 15.28   | 0.23        | 49.83 | -3.97      | -0.15     | -0.10            | 0.92         | 0.95  
+AG     | 19.12   | 18.54   | 0.61        | 50.02 | -2.41      | 0.17      | -0.08            | 0.86         | 2.65  
+ALB    | 134.92  | 138.28  | -5.51       | 37.10 | -0.37      | -3.42     | -0.11            | 1.13         | 15.53 
+FCX    | 67.38   | 62.72   | 2.29        | 58.75 | 0.79       | 0.34      | -0.11            | 0.66         | 6.41  
+NEM    | 113.80  | 108.45  | 3.14        | 57.38 | -1.65      | 2.18      | -0.57            | 0.66         | 9.82  
+RIO    | 96.48   | 91.35   | 0.23        | 49.64 | -3.44      | -0.65     | -0.37            | 0.75         | 5.72  
+VALE   | 14.62   | 14.28   | -0.78       | 42.53 | -4.03      | -0.12     | -0.06            | 1.04         | 0.98  
+BHP    | 84.07   | 77.80   | 0.83        | 53.97 | -1.69      | -0.68     | -0.30            | 1.14         | 5.69  
+SCCO   | 188.14  | 175.44  | 1.88        | 58.33 | 2.79       | 0.82      | 0.11             | 0.78         | 18.23 
+CCJ    | 98.31   | 99.77   | -2.26       | 39.75 | -2.53      | -0.73     | -0.38            | 0.93         | 9.89  
+IDR    | 32.73   | 34.21   | -2.88       | 45.10 | 3.00       | -0.16     | 0.07             | 0.68         | 5.09  
+SBSW   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+PPTA   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+ASPI   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+FIG    | 23.64   | 27.06   | -2.14       | 42.81 | -3.06      | 0.49      | -0.30            | 0.61         | 4.14  
+SNOW   | 285.03  | 254.73  | 6.22        | 73.92 | 0.64       | 5.25      | -1.53            | 0.58         | 28.80 
+MDB    | 366.33  | 350.11  | 2.02        | 57.44 | 3.27       | 4.38      | 0.18             | 0.77         | 49.59 
+U      | 36.68   | 35.04   | 5.58        | 60.36 | 0.19       | 1.12      | -0.34            | 1.56         | 4.43  
+NOW    | 122.11  | 125.51  | 3.73        | 57.92 | 0.07       | 4.48      | -0.60            | 0.47         | 13.90 
+TEAM   | 140.53  | 129.10  | 13.01       | 70.61 | -2.19      | 10.33     | -1.41            | 0.54         | 17.98 
+AI     | 10.08   | 10.87   | 1.69        | 53.06 | 1.21       | 0.29      | -0.01            | 0.66         | 1.22  
+PLTR   | 158.93  | 156.69  | 4.61        | 62.72 | 3.52       | 5.91      | 0.23             | 0.65         | 17.79 
+TWLO   | 215.10  | 187.37  | 6.14        | 70.65 | 6.02       | 2.55      | 1.96             | 1.68         | 25.94 
+PATH   | 13.30   | 12.90   | -0.38       | 47.67 | -3.27      | 0.07      | -0.20            | 0.80         | 1.85  
+ZETA   | 25.19   | 22.77   | 7.05        | 65.10 | -2.73      | 0.76      | -0.21            | 0.65         | 3.03  
+INOD   | 64.16   | 64.40   | -2.02       | 53.51 | 8.99       | -1.42     | 1.11             | 1.96         | 11.86 
+AKAM   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+NET    | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+DELL   | 432.88  | 343.94  | 12.06       | 73.92 | -1.03      | 8.04      | -0.80            | 1.01         | 61.33 
+HPE    | 49.30   | 41.32   | 9.84        | 72.99 | 1.56       | 0.80      | 0.07             | 0.74         | 6.32  
+HPQ    | 27.98   | 25.79   | 7.55        | 62.08 | -11.57     | 0.73      | -0.28            | 0.84         | 2.88  
+NBIS   | 208.87  | 181.86  | 3.48        | 57.88 | 2.31       | -2.38     | 0.75             | 0.83         | 42.43 
+HUT    | 92.82   | 82.66   | 1.99        | 54.23 | -1.12      | -2.44     | 0.39             | 0.89         | 17.91 
+CIFR   | 18.77   | 18.27   | -2.01       | 48.19 | -1.04      | -0.57     | 0.10             | 1.11         | 4.47  
+IREN   | 44.16   | 44.77   | 0.58        | 49.64 | -2.10      | 0.15      | 0.11             | 0.82         | 9.10  
+CRWV   | 90.05   | 94.29   | -1.57       | 48.15 | 2.97       | -0.20     | 0.25             | 1.12         | 17.34 
+ETN    | 412.62  | 397.98  | 1.54        | 60.51 | 3.85       | 0.24      | 0.92             | 0.78         | 32.19 
+VRT    | 274.15  | 260.28  | -2.62       | 46.05 | 0.87       | -8.61     | 0.53             | 0.71         | 37.12 
+HUBB   | 477.52  | 476.61  | -1.40       | 46.67 | 6.11       | -4.82     | 1.08             | 0.76         | 32.14 
+SMR    | 10.06   | 14.20   | -5.37       | 36.99 | 0.80       | 0.45      | -0.03            | 1.03         | 2.15  
+OSS    | 11.69   | 11.19   | -7.00       | 39.64 | 1.16       | -0.83     | 0.05             | 0.50         | 2.17  
+CEG    | 275.01  | 286.75  | -1.02       | 45.82 | 2.38       | 2.05      | -0.86            | 0.78         | 25.77 
+GEV    | 971.25  | 916.26  | -0.70       | 50.27 | 1.56       | -21.42    | 2.27             | 0.76         | 98.86 
+VST    | 149.00  | 157.34  | -1.60       | 42.52 | -0.89      | -0.38     | -0.19            | 1.00         | 14.18 
+PWR    | 643.36  | 606.36  | 0.11        | 53.14 | 2.10       | -10.58    | 1.75             | 0.72         | 50.42 
+PLPC   | 383.56  | 342.20  | 3.42        | 60.60 | 1.58       | -0.80     | -0.30            | 0.76         | 46.38 
+VICR   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+NEE    | 84.34   | 84.27   | -2.00       | 31.71 | -6.64      | -1.18     | -0.26            | 1.12         | 3.56  
+DUK    | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+MYRG   | 337.07  | 325.67  | -4.87       | 39.24 | 3.91       | -18.18    | 2.38             | 0.93         | 34.45 
+POWL   | 211.71  | 201.83  | -4.14       | 41.20 | 2.65       | -10.41    | 1.65             | 0.70         | 25.81 
+AMSC   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+AAOI   | 117.74  | 106.68  | -3.97       | 45.48 | -1.07      | -6.49     | 0.25             | 0.64         | 28.45 
+LITE   | 845.51  | 735.12  | 3.79        | 61.00 | 0.65       | -3.62     | 1.73             | 0.81         | 147.83
+AXTI   | 69.34   | 60.16   | 1.22        | 54.91 | 3.20       | -1.81     | 1.11             | 0.86         | 19.79 
+GLW    | 159.89  | 148.75  | -0.53       | 49.97 | 2.17       | -4.37     | 0.61             | 0.53         | 24.25 
+NOK    | 10.71   | 9.95    | -0.01       | 49.26 | -1.69      | -0.28     | 0.03             | 0.82         | 1.39  
+COHR   | 307.51  | 282.27  | -0.19       | 49.21 | -3.51      | -8.53     | 0.43             | 1.03         | 55.67 
+POET   | 8.51    | 8.24    | -2.72       | 47.23 | -0.10      | -0.28     | 0.03             | 0.39         | 2.09  
+BB     | 7.99    | 7.02    | -0.05       | 54.70 | 1.54       | -0.32     | 0.03             | 1.24         | 1.08  
+AMPX   | 11.83   | 12.64   | -6.27       | 40.61 | 1.04       | -0.38     | 0.09             | 0.71         | 2.36  
+LWLG   | 6.95    | 7.01    | -8.04       | 40.28 | 1.29       | -0.45     | 0.07             | 0.63         | 1.62  
+KLAC   | 190.98  | 178.04  | -1.60       | 50.27 | 3.89       | -6.35     | 1.00             | 0.76         | 23.40 
+LRCX   | 303.68  | 275.11  | -0.31       | 54.96 | 6.20       | -7.95     | 1.55             | 0.91         | 37.79 
+AMKR   | 57.22   | 54.94   | -3.13       | 47.37 | 2.62       | -2.43     | 0.57             | 0.62         | 9.52  
+ASX    | 36.99   | 31.75   | 4.94        | 68.87 | 3.51       | -0.22     | 0.28             | 0.59         | 3.98  
+SNDK   | 1520.65 | 1234.65 | 5.30        | 58.88 | -0.38      | -24.60    | 6.82             | 0.75         | 285.60
+WDC    | 465.80  | 406.72  | -1.26       | 50.98 | 1.43       | -21.04    | 1.64             | 0.91         | 80.67 
+STX    | 813.76  | 690.20  | 2.54        | 59.87 | 3.14       | -18.37    | 4.38             | 0.88         | 124.19
+SKHY   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+KXIAY  | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+LMT    | 544.47  | 539.80  | -1.20       | 44.65 | -2.64      | -3.54     | -1.24            | 0.95         | 31.40 
+NOC    | 548.34  | 567.69  | -1.86       | 39.85 | -2.90      | -0.48     | -0.82            | 0.94         | 31.12 
+RTX    | 198.21  | 192.06  | -0.84       | 45.30 | -2.90      | -1.83     | -0.93            | 0.80         | 10.05 
+GD     | 361.57  | 354.65  | -1.31       | 40.31 | -6.07      | -4.45     | -1.79            | 1.15         | 15.99 
+TXT    | 85.84   | 87.34   | -2.74       | 35.60 | -3.17      | -1.49     | -0.12            | 1.14         | 4.85  
+HII    | 301.46  | 313.99  | -3.35       | 35.37 | -2.03      | -2.07     | -0.83            | 0.90         | 21.61 
+BA     | 214.85  | 217.01  | -2.08       | 40.50 | -0.05      | -2.58     | -0.42            | 1.31         | 13.64 
+SAIC   | 119.08  | 111.62  | 3.95        | 70.70 | -0.94      | 1.37      | -0.18            | 0.85         | 8.44  
+LHX    | 278.41  | 291.11  | -4.24       | 30.14 | -2.44      | -5.03     | -0.20            | 1.07         | 16.99 
+TDY    | 627.78  | 618.16  | -1.12       | 46.93 | 3.10       | -6.77     | 0.34             | 1.10         | 31.91 
+AVAV   | 168.40  | 194.21  | -3.09       | 43.80 | -1.60      | 2.77      | -0.05            | 0.70         | 27.94 
+RCAT   | 9.15    | 9.95    | -7.33       | 39.22 | -0.25      | -0.26     | -0.04            | 0.87         | 1.98  
+UMAC   | 22.40   | 19.83   | 1.64        | 53.85 | 1.10       | -0.26     | -0.05            | 0.43         | 4.90  
+PDYN   | 5.93    | 6.24    | -1.91       | 44.01 | -2.27      | -0.01     | -0.02            | 0.61         | 0.93  
+GE     | 335.82  | 327.37  | -1.44       | 47.96 | 4.90       | -5.24     | -0.09            | 0.93         | 21.32 
+HWM    | 256.27  | 247.56  | -3.38       | 40.09 | 1.48       | -7.36     | -0.45            | 0.87         | 18.50 
+HEI    | 329.29  | 325.39  | -2.28       | 43.83 | 3.67       | -5.98     | -0.68            | 1.01         | 21.57 
+TDG    | 1204.43 | 1233.72 | -2.58       | 39.37 | 3.79       | -15.22    | 0.01             | 0.95         | 68.89 
+CW     | 651.34  | 653.22  | -4.93       | 30.42 | -2.94      | -25.28    | -0.05            | 1.52         | 50.71 
+ONDS   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+FTAI   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+ESLT   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+KTOS   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+RKLB   | 76.95   | 76.59   | -4.11       | 48.20 | 4.69       | -2.68     | 1.08             | 1.00         | 13.94 
+ASTS   | 69.48   | 72.37   | -4.50       | 44.49 | 2.01       | -1.31     | 0.42             | 0.55         | 13.71 
+RDW    | 11.45   | 10.99   | -1.28       | 50.80 | 2.41       | -0.23     | 0.08             | 0.49         | 2.38  
+PL     | 23.57   | 24.23   | -9.14       | 39.23 | 1.83       | -1.46     | 0.22             | 1.05         | 4.37  
+VOYG   | 33.78   | 32.51   | -0.21       | 47.87 | -4.82      | -0.35     | -0.26            | 2.28         | 6.55  
+LUNR   | 18.04   | 18.37   | -6.14       | 44.78 | 3.32       | -0.72     | 0.22             | 0.75         | 4.11  
+COIN   | 177.81  | 196.69  | 2.22        | 54.19 | 0.25       | 7.20      | 0.41             | 0.98         | 25.21 
+HOOD   | 103.30  | 101.70  | 5.05        | 58.88 | -0.23      | 3.02      | -0.07            | 0.78         | 14.57 
+CRCL   | 84.76   | 90.15   | 2.39        | 51.62 | -1.56      | 2.96      | -0.24            | 0.90         | 15.57 
+MSTR   | 129.87  | 151.28  | 5.36        | 57.74 | 1.27       | 9.31      | 1.02             | 1.14         | 21.79 
+BMNR   | 21.71   | 24.90   | 7.95        | 64.84 | 3.17       | 1.84      | 0.04             | 1.03         | 3.59  
+SBET   | 7.53    | 8.24    | 9.05        | 67.05 | 1.53       | 0.60      | 0.01             | 1.16         | 1.13  
+XXRP   | 34.57   | 65.88   | -0.12       | 46.35 | 7.17       | 6.26      | 0.20             | 2.13         | 9.57  
+SOLT   | 55.93   | 103.44  | 10.08       | 56.49 | 4.17       | 12.24     | 0.49             | 1.59         | 15.52 
+MARA   | 11.78   | 12.14   | 2.52        | 52.80 | -2.78      | 0.12      | 0.04             | 0.95         | 2.21  
+RIOT   | 21.34   | 20.25   | 2.44        | 54.77 | -1.81      | -0.11     | 0.10             | 1.14         | 3.93  
+BTBT   | 1.65    | 1.84    | 1.05        | 51.64 | 0.82       | 0.04      | 0.01             | 1.06         | 0.32  
+FIGR   | 33.40   | 35.21   | 0.62        | 47.48 | -4.22      | 0.79      | -0.29            | 1.03         | 6.36  
+BLSH   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+EWZ    | 36.17   | 35.38   | 1.27        | 53.51 | -2.89      | 0.15      | -0.03            | 1.15         | 1.78  
+EWY    | 175.13  | 158.00  | 2.16        | 57.71 | 2.07       | -1.76     | 0.30             | 0.73         | 17.67 
+KWEB   | 26.74   | 28.87   | -2.64       | 35.22 | -0.85      | 0.07      | -0.05            | 0.80         | 1.49  
+BABA   | 118.33  | 127.18  | -2.19       | 41.46 | -2.05      | 0.78      | -0.28            | 0.86         | 10.33 
+BIDU   | 105.56  | 114.17  | -5.08       | 35.14 | -1.19      | -1.89     | -0.05            | 1.00         | 10.42 
+PDD    | 86.08   | 93.99   | -3.15       | 36.50 | -1.10      | 0.21      | -0.17            | 0.70         | 6.31  
+FUTU   | 115.27  | 126.55  | -0.93       | 45.16 | -0.08      | 3.14      | -0.39            | 0.36         | 12.73 
+PONY   | 8.10    | 10.11   | -5.38       | 36.32 | 0.73       | 0.19      | -0.01            | 1.08         | 1.25  
+NIO    | 4.56    | 5.07    | -6.62       | 30.37 | -0.76      | -0.12     | 0.00             | 0.90         | 0.48  
+LI     | 13.38   | 15.36   | -3.95       | 33.85 | -2.70      | 0.08      | -0.02            | 0.78         | 1.15  
+XPEV   | 12.82   | 14.92   | -6.17       | 29.19 | -1.69      | -0.08     | -0.00            | 0.92         | 1.27  
+NMAX   | 9.33    | 9.00    | 6.01        | 60.95 | 2.60       | 0.28      | -0.04            | 0.66         | 1.38  
+OPEN   | 3.80    | 4.72    | -9.70       | 27.71 | 0.19       | -0.09     | -0.00            | 0.60         | 0.65  
+SIVEF  | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+ENPH   | 39.95   | 40.47   | -4.69       | 39.48 | -2.28      | -1.50     | -0.06            | 0.86         | 6.07  
+RUN    | 10.82   | 12.68   | -7.31       | 30.04 | -1.40      | -0.19     | 0.02             | 0.93         | 1.73  
+SEDG   | 40.53   | 41.58   | -5.38       | 40.30 | -1.73      | -2.02     | 0.27             | 0.80         | 8.55  
+FSLR   | 216.34  | 221.81  | -3.61       | 38.20 | -4.07      | -5.18     | -1.24            | 1.34         | 25.54 
+CSIQ   | 14.40   | 15.43   | -6.40       | 35.40 | -1.45      | -0.38     | -0.07            | 0.77         | 2.42  
+BE     | 237.99  | 210.25  | 6.11        | 60.06 | 3.06       | 0.74      | 2.51             | 0.99         | 49.50 
+BW     | 10.10   | 10.28   | -9.32       | 36.28 | -2.59      | -0.79     | 0.04             | 1.26         | 2.20  
+QS     | 6.23    | 7.53    | -6.16       | 33.70 | -0.67      | -0.00     | -0.01            | 0.55         | 1.02  
+EOSE   | 4.93    | 6.59    | -8.23       | 36.00 | -3.35      | 0.08      | -0.01            | 1.30         | 1.34  
+FLNC   | 13.42   | 14.92   | -11.79      | 33.97 | 1.66       | -0.93     | 0.04             | 0.98         | 3.41  
+TE     | 5.50    | 5.59    | -7.88       | 40.22 | -1.59      | -0.34     | 0.00             | 0.63         | 1.47  
+LABU   | 249.61  | 216.01  | 1.29        | 53.03 | -2.11      | -3.50     | -2.43            | 0.99         | 42.12 
+NAIL   | 39.25   | 45.42   | -7.67       | 38.63 | 2.20       | -0.72     | -0.04            | 1.42         | 7.04  
+KORU   | 23.99   | 22.47   | -3.48       | 48.10 | 1.29       | -1.18     | 0.24             | 0.74         | 8.03  
+RAM    | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+UTSL   | 40.11   | 42.10   | -6.32       | 31.04 | -3.07      | -1.45     | -0.24            | 2.22         | 4.41  
+DPST   | 130.77  | 123.77  | -1.61       | 45.40 | -2.15      | -3.16     | -0.89            | 0.62         | 15.71 
+NUGT   | 165.87  | 167.71  | 1.81        | 49.77 | -2.28      | 5.65      | -1.65            | 1.06         | 31.19 
+DUST   | 45.79   | 55.91   | -7.81       | 40.05 | 1.49       | -1.40     | 0.41             | 0.97         | 9.72  
+EURL   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+CURE   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+FIX    | 1667.31 | 1543.03 | -0.03       | 51.67 | 0.40       | -38.35    | 4.31             | 0.61         | 169.18
+MT     | 68.63   | 62.29   | 1.99        | 56.17 | -2.80      | -0.28     | -0.36            | 0.67         | 4.92  
+CAT    | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+QUBT   | 8.92    | 10.30   | -1.32       | 47.80 | 1.65       | 0.14      | 0.04             | 0.67         | 1.55  
+QBTS   | 19.40   | 20.96   | -3.94       | 43.93 | 0.74       | -0.28     | 0.07             | 0.76         | 3.73  
+IONQ   | 43.34   | 46.17   | -2.06       | 51.15 | 5.99       | -0.20     | 0.53             | 1.49         | 8.23  
+RGTI   | 17.31   | 19.29   | -2.69       | 46.51 | 2.46       | 0.07      | 0.09             | 0.63         | 3.34  
+IBM    | 241.40  | 249.61  | -1.32       | 43.66 | -1.10      | -0.81     | -0.33            | 0.58         | 22.08 
+FDX    | 310.44  | 293.70  | -1.25       | 41.42 | -6.99      | -5.92     | -1.65            | 1.13         | 17.85 
+UPS    | 102.42  | 100.38  | -1.64       | 39.25 | -5.68      | -1.64     | -0.37            | 1.29         | 5.66  
+JBHT   | 258.94  | 241.62  | -2.25       | 39.43 | -2.56      | -8.50     | -1.79            | 1.09         | 19.06 
+EXPD   | 176.22  | 164.27  | 2.85        | 63.81 | -3.77      | 0.88      | -0.60            | 1.02         | 9.02  
+KEX    | 137.06  | 131.08  | -0.48       | 43.88 | -8.61      | -1.77     | -0.56            | 1.02         | 7.71  
+R      | 246.12  | 233.65  | -1.02       | 46.31 | -1.52      | -5.32     | -0.35            | 0.63         | 13.26 
+XPO    | 194.62  | 188.41  | -3.20       | 39.33 | -0.42      | -5.82     | -0.25            | 0.93         | 15.56 
+BOAT   | 45.54   | 41.65   | 5.23        | 70.38 | -9.97      | 0.74      | -0.18            | 2.72         | 2.27  
+FRO    | 41.11   | 36.39   | 6.69        | 66.15 | -9.87      | 0.70      | -0.12            | 1.63         | 3.76  
+MATX   | 207.54  | 185.35  | 3.77        | 66.93 | -7.55      | 0.02      | -0.71            | 1.09         | 13.87 
+CHRW   | 161.87  | 163.30  | -2.35       | 41.76 | -2.43      | -3.28     | 0.31             | 0.96         | 13.09 
+HAFN   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+NSC    | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+UNP    | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+CSX    | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+VVV    | 33.66   | 34.47   | -4.92       | 36.27 | 7.65       | -1.12     | 0.02             | 1.57         | 2.71  
+ORLY   | 88.86   | 91.26   | -1.28       | 43.17 | 2.97       | -0.14     | -0.00            | 0.90         | 4.79  
+JOBY   | 7.93    | 9.51    | -6.80       | 35.94 | 1.56       | -0.05     | 0.01             | 0.65         | 1.18  
+ACM    | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+EMR    | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+MOG-A  | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+AGX    | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+MOD    | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+PRIM   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+PH     | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+STRL   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+FLR    | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+DE     | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+AMTM   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+MUFG   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+HSBC   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+LUV    | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+LTM    | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+PANW   | 319.53  | 278.79  | 4.37        | 64.84 | 1.55       | -0.66     | 0.28             | 0.81         | 35.81 
+CRWD   | 194.24  | 169.28  | 7.66        | 70.67 | 2.57       | 3.55      | 1.25             | 0.94         | 23.90 
+FTNT   | 148.59  | 129.55  | 4.54        | 71.82 | 1.32       | -0.54     | 0.34             | 0.64         | 13.16 
+OKTA   | 143.81  | 123.67  | 10.35       | 76.41 | 2.74       | 4.58      | 0.79             | 1.29         | 17.65 
+ZS     | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+LFUS   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+BELFB  | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+ACQ    | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+VMC    | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+MLM    | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+RELY   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+AMX    | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+BWXT   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+LEU    | 175.10  | 198.14  | -5.14       | 36.60 | 0.81       | 0.12      | -0.78            | 0.78         | 29.01 
+NNE    | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+IMSR   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+USFD   | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+PM     | N/A     | N/A     | N/A         | N/A   | N/A        | N/A       | N/A              | N/A          | N/A   
+
+WEEKLY STRUCTURE
+Symbol | Higher High | Higher Low | Lower High | Lower Low | Breakout | Breakdown
+-------+-------------+------------+------------+-----------+----------+----------
+NVDA   | True        | True       | False      | False     | False    | False    
+AMD    | True        | True       | False      | False     | True     | False    
+AVGO   | False       | True       | True       | False     | False    | False    
+MU     | True        | True       | False      | False     | False    | False    
+INTC   | True        | True       | False      | False     | False    | False    
+TSM    | True        | True       | False      | False     | False    | False    
+QCOM   | True        | True       | False      | False     | False    | False    
+MRVL   | True        | True       | False      | False     | False    | False    
+ARM    | True        | True       | False      | False     | False    | False    
+NVTS   | False       | True       | True       | False     | False    | False    
+ASML   | False       | True       | True       | False     | False    | False    
+SNPS   | True        | False      | False      | True      | False    | False    
+QRVO   | True        | True       | False      | False     | False    | False    
+AMAT   | True        | False      | False      | False     | False    | False    
+ALAB   | True        | True       | False      | False     | False    | False    
+AEHR   | True        | True       | False      | False     | False    | False    
+ANET   | True        | False      | False      | True      | False    | False    
+SWKS   | False       | True       | True       | False     | False    | False    
+UMC    | True        | True       | False      | False     | False    | False    
+TSEM   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+CBRS   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+CRDO   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+FN     | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+ADI    | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+TER    | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+ICHR   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+MPWR   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+PLAB   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+TTMI   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+MKSI   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+AEIS   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+SIMO   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+MTSI   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+COM    | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+AAPL   | True        | True       | False      | False     | False    | False    
+MSFT   | False       | False      | True       | True      | False    | False    
+GOOG   | False       | True       | True       | False     | False    | False    
+GOOGL  | False       | True       | True       | False     | False    | False    
+AMZN   | True        | True       | False      | False     | False    | False    
+META   | False       | True       | True       | False     | True     | False    
+TSLA   | False       | False      | True       | True      | False    | False    
+NFLX   | False       | False      | True       | True      | False    | False    
+CRM    | False       | False      | True       | True      | False    | False    
+ADBE   | False       | False      | True       | True      | False    | False    
+SPCX   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+ORCL   | False       | False      | False      | True      | False    | False    
+RDDT   | False       | False      | True       | True      | False    | False    
+DJT    | False       | True       | False      | False     | False    | False    
+SE     | True        | True       | False      | False     | False    | False    
+VUZI   | False       | True       | True       | False     | False    | False    
+LAES   | False       | True       | True       | False     | False    | False    
+ETOR   | True        | True       | False      | False     | False    | True     
+QUIK   | True        | False      | False      | False     | False    | False    
+APLD   | True        | True       | False      | False     | False    | False    
+APP    | True        | True       | False      | False     | False    | False    
+PGY    | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+XOM    | False       | False      | True       | True      | False    | False    
+SLB    | False       | True       | False      | False     | False    | False    
+EOG    | False       | True       | True       | False     | False    | False    
+OXY    | False       | False      | True       | True      | False    | False    
+PSX    | False       | True       | False      | False     | False    | False    
+VLO    | True        | True       | False      | False     | False    | False    
+VG     | True        | True       | False      | False     | False    | False    
+LNG    | False       | True       | False      | False     | False    | False    
+TRGP   | True        | False      | False      | False     | False    | False    
+ET     | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+MPC    | False       | True       | False      | False     | False    | False    
+DINO   | False       | True       | False      | False     | False    | False    
+CVX    | False       | False      | True       | True      | False    | False    
+RIG    | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+COP    | False       | False      | False      | True      | False    | False    
+JPM    | True        | True       | False      | False     | False    | False    
+BAC    | True        | False      | False      | False     | False    | False    
+WFC    | False       | False      | True       | True      | False    | False    
+C      | True        | True       | False      | False     | False    | False    
+GS     | True        | True       | False      | False     | False    | False    
+MS     | True        | True       | False      | False     | False    | False    
+BLK    | False       | True       | True       | False     | False    | False    
+SCHW   | False       | False      | True       | True      | False    | False    
+QNST   | True        | True       | False      | False     | False    | False    
+SOFI   | False       | False      | True       | True      | False    | False    
+UPST   | True        | True       | False      | False     | False    | True     
+AFRM   | True        | False      | False      | True      | False    | False    
+PYPL   | True        | True       | False      | False     | False    | False    
+QTWO   | False       | False      | True       | True      | False    | False    
+QCRH   | True        | False      | False      | False     | False    | False    
+SOUN   | False       | False      | True       | True      | False    | False    
+DAVE   | True        | True       | False      | False     | False    | False    
+KKR    | True        | True       | False      | False     | False    | False    
+CFR    | True        | True       | False      | False     | False    | False    
+CHYM   | False       | False      | True       | True      | False    | False    
+LMND   | True        | False      | False      | True      | False    | True     
+BRK-B  | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+SAR    | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+MPG    | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+UNH    | True        | False      | False      | True      | False    | False    
+JNJ    | False       | False      | False      | False     | False    | False    
+LLY    | True        | True       | False      | False     | False    | False    
+PFE    | True        | False      | False      | False     | False    | False    
+ABBV   | True        | True       | False      | False     | False    | False    
+MRK    | False       | False      | True       | False     | False    | False    
+TMO    | False       | False      | True       | True      | True     | False    
+MRNA   | True        | True       | False      | False     | True     | False    
+CVS    | True        | False      | False      | True      | False    | False    
+CI     | True        | False      | False      | True      | False    | False    
+CNC    | True        | True       | False      | False     | False    | False    
+HUM    | True        | True       | False      | False     | False    | False    
+MCK    | True        | False      | False      | True      | False    | False    
+BAX    | True        | False      | False      | True      | False    | False    
+ZTS    | False       | False      | True       | True      | False    | False    
+QDEL   | False       | True       | True       | False     | False    | False    
+QGEN   | False       | False      | True       | True      | False    | False    
+QURE   | True        | True       | False      | False     | False    | False    
+XBI    | True        | True       | False      | False     | False    | False    
+DNA    | True        | True       | False      | False     | False    | False    
+RVMD   | False       | False      | False      | False     | False    | False    
+CORT   | False       | False      | False      | True      | False    | False    
+AVTR   | False       | True       | True       | False     | False    | False    
+OSCR   | True        | True       | False      | False     | False    | False    
+THC    | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+BTSG   | False       | False      | False      | False     | False    | False    
+HIMS   | True        | True       | False      | False     | False    | False    
+ZYME   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+NVS    | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+RGC    | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+WGS    | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+PEN    | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+PSNL   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+HALO   | False       | True       | True       | False     | True     | False    
+BMRN   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+TEVA   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+NTLA   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+HD     | True        | False      | False      | True      | False    | False    
+NKE    | False       | False      | True       | True      | False    | False    
+MCD    | False       | False      | True       | True      | False    | True     
+SBUX   | True        | True       | False      | False     | False    | False    
+LOW    | False       | False      | True       | True      | False    | True     
+BKNG   | False       | False      | True       | True      | False    | False    
+TGT    | True        | False      | False      | False     | False    | False    
+WMT    | True        | False      | False      | True      | False    | False    
+COST   | False       | True       | True       | False     | False    | False    
+DLTR   | False       | False      | False      | False     | False    | False    
+ROST   | True        | False      | False      | True      | False    | False    
+TJX    | True        | True       | False      | False     | False    | False    
+DG     | False       | True       | False      | False     | False    | False    
+EBAY   | False       | True       | True       | False     | False    | False    
+MELI   | False       | False      | True       | True      | False    | False    
+EXPE   | False       | True       | True       | False     | False    | False    
+WING   | False       | False      | True       | True      | False    | True     
+DECK   | True        | False      | False      | True      | False    | False    
+MP     | True        | False      | False      | True      | False    | False    
+CRML   | False       | False      | True       | True      | False    | False    
+ALOY   | False       | False      | True       | True      | False    | False    
+UUUU   | False       | False      | True       | True      | False    | False    
+USAR   | True        | False      | False      | True      | False    | False    
+GLD    | True        | False      | False      | True      | False    | False    
+SLV    | False       | False      | True       | True      | False    | False    
+NRG    | False       | False      | True       | True      | False    | True     
+AEM    | False       | False      | False      | True      | False    | False    
+GFS    | True        | True       | False      | False     | False    | False    
+HL     | False       | False      | True       | True      | False    | False    
+NREF   | True        | True       | False      | False     | False    | False    
+AG     | False       | False      | True       | True      | False    | False    
+ALB    | True        | False      | False      | True      | False    | False    
+FCX    | True        | True       | False      | False     | False    | False    
+NEM    | False       | False      | False      | True      | False    | False    
+RIO    | True        | True       | False      | False     | False    | False    
+VALE   | True        | False      | False      | True      | False    | False    
+BHP    | True        | True       | False      | False     | False    | False    
+SCCO   | False       | True       | True       | False     | False    | False    
+CCJ    | False       | False      | True       | True      | False    | False    
+IDR    | False       | True       | True       | False     | False    | False    
+SBSW   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+PPTA   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+ASPI   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+FIG    | False       | True       | True       | False     | False    | False    
+SNOW   | True        | False      | False      | False     | False    | False    
+MDB    | True        | True       | False      | False     | False    | False    
+U      | False       | False      | True       | False     | False    | False    
+NOW    | True        | True       | False      | False     | False    | False    
+TEAM   | False       | True       | True       | False     | False    | False    
+AI     | True        | True       | False      | False     | False    | False    
+PLTR   | True        | False      | False      | True      | True     | False    
+TWLO   | True        | True       | False      | False     | True     | False    
+PATH   | False       | True       | True       | False     | False    | False    
+ZETA   | True        | False      | False      | True      | False    | False    
+INOD   | False       | False      | True       | True      | False    | False    
+AKAM   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+NET    | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+DELL   | True        | True       | False      | False     | False    | False    
+HPE    | False       | True       | True       | False     | False    | False    
+HPQ    | False       | True       | False      | False     | False    | False    
+NBIS   | False       | True       | True       | False     | False    | False    
+HUT    | True        | False      | False      | True      | False    | False    
+CIFR   | True        | False      | False      | True      | False    | False    
+IREN   | True        | False      | False      | True      | False    | False    
+CRWV   | False       | False      | True       | True      | False    | False    
+ETN    | True        | False      | False      | True      | False    | False    
+VRT    | True        | False      | False      | True      | False    | False    
+HUBB   | False       | False      | True       | True      | False    | False    
+SMR    | True        | False      | False      | True      | False    | False    
+OSS    | True        | True       | False      | False     | False    | False    
+CEG    | False       | False      | True       | True      | False    | False    
+GEV    | True        | True       | False      | False     | False    | False    
+VST    | False       | False      | True       | True      | False    | False    
+PWR    | False       | True       | True       | False     | False    | False    
+PLPC   | True        | True       | False      | False     | False    | False    
+VICR   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+NEE    | False       | True       | True       | False     | False    | True     
+DUK    | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+MYRG   | True        | False      | False      | False     | False    | False    
+POWL   | False       | False      | True       | False     | False    | False    
+AMSC   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+AAOI   | False       | True       | True       | False     | False    | False    
+LITE   | False       | False      | False      | False     | False    | False    
+AXTI   | False       | False      | True       | False     | False    | False    
+GLW    | True        | True       | False      | False     | False    | False    
+NOK    | True        | True       | False      | False     | False    | False    
+COHR   | False       | True       | False      | False     | False    | False    
+POET   | False       | True       | True       | False     | False    | False    
+BB     | True        | False      | False      | True      | False    | False    
+AMPX   | True        | True       | False      | False     | False    | False    
+LWLG   | False       | True       | True       | False     | False    | False    
+KLAC   | True        | False      | False      | False     | False    | False    
+LRCX   | True        | True       | False      | False     | False    | False    
+AMKR   | True        | True       | False      | False     | False    | False    
+ASX    | True        | False      | False      | False     | False    | False    
+SNDK   | True        | True       | False      | False     | False    | False    
+WDC    | False       | True       | False      | False     | False    | False    
+STX    | False       | True       | True       | False     | False    | False    
+SKHY   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+KXIAY  | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+LMT    | True        | False      | False      | True      | False    | False    
+NOC    | False       | False      | True       | True      | False    | False    
+RTX    | True        | True       | False      | False     | False    | False    
+GD     | True        | False      | False      | True      | False    | False    
+TXT    | False       | True       | True       | False     | False    | True     
+HII    | False       | False      | True       | False     | False    | False    
+BA     | False       | False      | True       | True      | False    | False    
+SAIC   | True        | True       | False      | False     | False    | False    
+LHX    | False       | True       | True       | False     | False    | True     
+TDY    | True        | True       | False      | False     | False    | False    
+AVAV   | False       | False      | True       | True      | False    | False    
+RCAT   | False       | False      | True       | True      | False    | True     
+UMAC   | True        | True       | False      | False     | False    | False    
+PDYN   | False       | False      | True       | True      | False    | False    
+GE     | True        | False      | False      | True      | False    | False    
+HWM    | True        | True       | False      | False     | False    | False    
+HEI    | True        | False      | False      | True      | False    | False    
+TDG    | True        | False      | False      | True      | False    | False    
+CW     | True        | True       | False      | False     | False    | True     
+ONDS   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+FTAI   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+ESLT   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+KTOS   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+RKLB   | True        | True       | False      | False     | False    | False    
+ASTS   | True        | False      | False      | True      | False    | False    
+RDW    | False       | True       | True       | False     | False    | False    
+PL     | True        | False      | False      | False     | False    | False    
+VOYG   | False       | True       | True       | False     | False    | False    
+LUNR   | False       | False      | True       | True      | False    | False    
+COIN   | False       | False      | False      | True      | False    | False    
+HOOD   | True        | True       | False      | False     | False    | False    
+CRCL   | True        | True       | False      | False     | False    | False    
+MSTR   | False       | False      | False      | True      | False    | False    
+BMNR   | False       | False      | False      | True      | True     | False    
+SBET   | False       | False      | False      | True      | True     | False    
+XXRP   | False       | False      | True       | True      | False    | False    
+SOLT   | True        | True       | False      | False     | True     | False    
+MARA   | False       | True       | False      | False     | False    | False    
+RIOT   | True        | True       | False      | False     | False    | False    
+BTBT   | False       | False      | True       | True      | False    | False    
+FIGR   | False       | False      | True       | True      | False    | False    
+BLSH   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+EWZ    | True        | True       | False      | False     | False    | False    
+EWY    | True        | True       | False      | False     | False    | False    
+KWEB   | False       | False      | True       | True      | False    | False    
+BABA   | False       | False      | True       | True      | False    | False    
+BIDU   | False       | False      | True       | True      | False    | True     
+PDD    | False       | False      | True       | True      | False    | False    
+FUTU   | False       | False      | True       | True      | False    | False    
+PONY   | False       | False      | True       | True      | False    | False    
+NIO    | False       | False      | False      | False     | False    | False    
+LI     | False       | False      | True       | True      | False    | True     
+XPEV   | False       | False      | True       | True      | False    | True     
+NMAX   | False       | False      | True       | True      | False    | False    
+OPEN   | False       | False      | True       | True      | False    | False    
+SIVEF  | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+ENPH   | True        | True       | False      | False     | False    | False    
+RUN    | False       | False      | True       | True      | False    | True     
+SEDG   | True        | False      | False      | True      | False    | False    
+FSLR   | False       | True       | True       | False     | False    | True     
+CSIQ   | False       | False      | True       | False     | False    | True     
+BE     | True        | True       | False      | False     | False    | False    
+BW     | True        | True       | False      | False     | False    | True     
+QS     | False       | False      | True       | True      | False    | False    
+EOSE   | False       | False      | True       | True      | False    | False    
+FLNC   | False       | False      | True       | False     | False    | False    
+TE     | True        | False      | False      | True      | False    | False    
+LABU   | True        | True       | False      | False     | False    | False    
+NAIL   | True        | True       | False      | False     | False    | False    
+KORU   | True        | False      | False      | True      | False    | False    
+RAM    | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+UTSL   | False       | True       | True       | False     | False    | True     
+DPST   | True        | False      | False      | False     | False    | False    
+NUGT   | False       | False      | False      | True      | False    | False    
+DUST   | True        | True       | False      | False     | False    | False    
+EURL   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+CURE   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+FIX    | False       | False      | True       | False     | False    | False    
+MT     | True        | True       | False      | False     | False    | False    
+CAT    | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+QUBT   | False       | True       | False      | False     | False    | False    
+QBTS   | False       | True       | True       | False     | False    | False    
+IONQ   | False       | True       | False      | False     | False    | False    
+RGTI   | False       | True       | True       | False     | False    | False    
+IBM    | True        | False      | False      | True      | False    | False    
+FDX    | False       | True       | True       | False     | False    | False    
+UPS    | False       | True       | True       | False     | False    | False    
+JBHT   | True        | False      | False      | False     | False    | True     
+EXPD   | False       | True       | False      | False     | False    | False    
+KEX    | False       | False      | True       | False     | False    | False    
+R      | True        | True       | False      | False     | False    | False    
+XPO    | True        | True       | False      | False     | False    | False    
+BOAT   | True        | True       | False      | False     | False    | False    
+FRO    | True        | True       | False      | False     | False    | False    
+MATX   | True        | False      | False      | False     | False    | False    
+CHRW   | True        | False      | False      | True      | False    | False    
+HAFN   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+NSC    | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+UNP    | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+CSX    | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+VVV    | True        | True       | False      | False     | False    | False    
+ORLY   | False       | False      | True       | True      | False    | False    
+JOBY   | False       | False      | True       | True      | False    | False    
+ACM    | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+EMR    | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+MOG-A  | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+AGX    | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+MOD    | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+PRIM   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+PH     | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+STRL   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+FLR    | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+DE     | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+AMTM   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+MUFG   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+HSBC   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+LUV    | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+LTM    | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+PANW   | True        | False      | False      | True      | False    | False    
+CRWD   | False       | False      | True       | False     | True     | False    
+FTNT   | True        | True       | False      | False     | False    | False    
+OKTA   | True        | False      | False      | True      | True     | False    
+ZS     | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+LFUS   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+BELFB  | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+ACQ    | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+VMC    | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+MLM    | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+RELY   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+AMX    | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+BWXT   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+LEU    | False       | False      | True       | True      | False    | False    
+NNE    | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+IMSR   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+USFD   | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+PM     | N/A         | N/A        | N/A        | N/A       | N/A      | N/A      
+
+WEEKLY RELATIVE STRENGTH
+Symbol | Market Benchmark | Market Rs 4W | Market Rs 12W | Category Benchmark | Category Rs 4W | Category Rs 12W
+-------+------------------+--------------+---------------+--------------------+----------------+----------------
+NVDA   | SPY              | 3.31         | 12.08         | SMH                | -6.09          | 13.24          
+AMD    | SPY              | 35.19        | 18.22         | SMH                | 25.79          | 19.38          
+AVGO   | SPY              | -4.59        | -5.69         | SMH                | -14.00         | -4.53          
+MU     | SPY              | 15.76        | 7.39          | SMH                | 6.35           | 8.55           
+INTC   | SPY              | 37.22        | -1.37         | SMH                | 27.81          | -0.21          
+TSM    | SPY              | 7.67         | 0.22          | SMH                | -1.74          | 1.38           
+QCOM   | SPY              | 23.42        | 11.65         | SMH                | 14.02          | 12.81          
+MRVL   | SPY              | 20.66        | 3.25          | SMH                | 11.26          | 4.40           
+ARM    | SPY              | 29.55        | -5.14         | SMH                | 20.15          | -3.98          
+NVTS   | SPY              | 5.92         | -19.20        | SMH                | -3.48          | -18.04         
+ASML   | SPY              | 2.56         | -4.87         | SMH                | -6.85          | -3.72          
+SNPS   | SPY              | -4.07        | -6.18         | SMH                | -13.47         | -5.02          
+QRVO   | SPY              | 24.27        | 31.15         | SMH                | 14.87          | 32.31          
+AMAT   | SPY              | 4.79         | -23.06        | SMH                | -4.61          | -21.90         
+ALAB   | SPY              | 25.70        | -13.85        | SMH                | 16.30          | -12.69         
+AEHR   | SPY              | 28.92        | 45.65         | SMH                | 19.52          | 46.80          
+ANET   | SPY              | 5.46         | 25.53         | SMH                | -3.95          | 26.69          
+SWKS   | SPY              | 35.54        | 39.24         | SMH                | 26.13          | 40.40          
+UMC    | SPY              | 22.58        | -2.76         | SMH                | 13.18          | -1.60          
+TSEM   | SPY              | 10.54        | 1.65          | SMH                | 1.13           | 2.80           
+CBRS   | SPY              | 15.19        | -2.64         | SMH                | 5.79           | -1.49          
+CRDO   | SPY              | -9.62        | -16.36        | SMH                | -19.02         | -15.20         
+FN     | SPY              | 0.47         | -20.02        | SMH                | -8.93          | -18.87         
+ADI    | SPY              | 8.87         | 1.11          | SMH                | -0.54          | 2.27           
+TER    | SPY              | 12.01        | 4.41          | SMH                | 2.61           | 5.57           
+ICHR   | SPY              | 4.24         | -44.58        | SMH                | -5.16          | -43.42         
+MPWR   | SPY              | 8.59         | 2.59          | SMH                | -0.81          | 3.74           
+PLAB   | SPY              | 9.37         | 1.77          | SMH                | -0.03          | 2.93           
+TTMI   | SPY              | 8.61         | -20.76        | SMH                | -0.80          | -19.60         
+MKSI   | SPY              | 1.72         | -32.15        | SMH                | -7.69          | -30.99         
+AEIS   | SPY              | 2.25         | -13.68        | SMH                | -7.15          | -12.53         
+SIMO   | SPY              | 12.12        | -11.52        | SMH                | 2.71           | -10.36         
+MTSI   | SPY              | 7.39         | -14.95        | SMH                | -2.01          | -13.79         
+COM    | SPY              | -0.08        | 4.62          | SMH                | -9.49          | 5.78           
+AAPL   | SPY              | 6.42         | 7.04          | QQQ                | 2.77           | 6.13           
+MSFT   | SPY              | 0.25         | 28.87         | QQQ                | -3.40          | 27.96          
+GOOG   | SPY              | -0.72        | -7.74         | QQQ                | -4.38          | -8.65          
+GOOGL  | SPY              | -0.97        | -7.95         | QQQ                | -4.62          | -8.86          
+AMZN   | SPY              | -6.55        | -0.68         | QQQ                | -10.21         | -1.59          
+META   | SPY              | 29.78        | 25.38         | QQQ                | 26.12          | 24.48          
+TSLA   | SPY              | 6.44         | -8.99         | QQQ                | 2.78           | -9.90          
+NFLX   | SPY              | -13.19       | -11.94        | QQQ                | -16.85         | -12.85         
+CRM    | SPY              | -8.85        | 37.32         | QQQ                | -12.50         | 36.41          
+ADBE   | SPY              | -19.49       | 3.60          | QQQ                | -23.14         | 2.69           
+SPCX   | SPY              | 4.81         | -11.79        | QQQ                | 1.16           | -12.70         
+ORCL   | SPY              | -9.37        | -5.49         | QQQ                | -13.03         | -6.40          
+RDDT   | SPY              | -2.33        | -26.60        | QQQ                | -5.98          | -27.51         
+DJT    | SPY              | -5.40        | 3.46          | QQQ                | -9.06          | 2.55           
+SE     | SPY              | -16.86       | -7.20         | QQQ                | -20.51         | -8.11          
+VUZI   | SPY              | 13.25        | 1.43          | QQQ                | 9.60           | 0.52           
+LAES   | SPY              | -5.50        | -26.01        | QQQ                | -9.16          | -26.92         
+ETOR   | SPY              | -15.21       | -38.36        | QQQ                | -18.87         | -39.27         
+QUIK   | SPY              | 1.13         | -35.15        | QQQ                | -2.53          | -36.06         
+APLD   | SPY              | 3.33         | -24.17        | QQQ                | -0.33          | -25.08         
+APP    | SPY              | -2.47        | -44.61        | QQQ                | -6.12          | -45.52         
+PGY    | SPY              | -20.10       | -4.52         | QQQ                | -23.75         | -5.43          
+XOM    | SPY              | 2.22         | 14.33         | XLE                | 3.50           | 1.33           
+SLB    | SPY              | -9.89        | 11.23         | XLE                | -8.61          | -1.78          
+EOG    | SPY              | -2.35        | 4.55          | XLE                | -1.07          | -8.46          
+OXY    | SPY              | -3.61        | 13.22         | XLE                | -2.33          | 0.22           
+PSX    | SPY              | 4.55         | 42.17         | XLE                | 5.83           | 29.16          
+VLO    | SPY              | 9.62         | 41.59         | XLE                | 10.90          | 28.59          
+VG     | SPY              | -11.26       | 9.82          | XLE                | -9.98          | -3.19          
+LNG    | SPY              | -5.14        | 5.85          | XLE                | -3.86          | -7.16          
+TRGP   | SPY              | -3.73        | 4.26          | XLE                | -2.45          | -8.75          
+ET     | SPY              | -5.52        | 2.63          | XLE                | -4.23          | -10.38         
+MPC    | SPY              | 6.43         | 44.58         | XLE                | 7.72           | 31.58          
+DINO   | SPY              | 6.87         | 44.68         | XLE                | 8.15           | 31.68          
+CVX    | SPY              | 1.02         | 18.32         | XLE                | 2.30           | 5.32           
+RIG    | SPY              | -7.50        | 2.76          | XLE                | -6.22          | -10.25         
+COP    | SPY              | -2.60        | 18.79         | XLE                | -1.32          | 5.79           
+JPM    | SPY              | -4.33        | -0.54         | XLF                | 1.54           | 4.43           
+BAC    | SPY              | -8.81        | -6.53         | XLF                | -2.94          | -1.56          
+WFC    | SPY              | -4.55        | -5.98         | XLF                | 1.32           | -1.01          
+C      | SPY              | 0.78         | -7.14         | XLF                | 6.65           | -2.18          
+GS     | SPY              | -9.35        | -11.50        | XLF                | -3.48          | -6.53          
+MS     | SPY              | -8.86        | -11.30        | XLF                | -2.98          | -6.33          
+BLK    | SPY              | -6.49        | 6.09          | XLF                | -0.62          | 11.06          
+SCHW   | SPY              | -10.36       | -1.18         | XLF                | -4.49          | 3.79           
+QNST   | SPY              | -25.13       | -12.48        | XLF                | -19.26         | -7.51          
+SOFI   | SPY              | -8.45        | -12.67        | XLF                | -2.58          | -7.70          
+UPST   | SPY              | -18.38       | -35.11        | XLF                | -12.51         | -30.14         
+AFRM   | SPY              | -8.28        | -19.01        | XLF                | -2.41          | -14.04         
+PYPL   | SPY              | 2.57         | 17.78         | XLF                | 8.44           | 22.75          
+QTWO   | SPY              | -14.08       | 3.08          | XLF                | -8.21          | 8.05           
+QCRH   | SPY              | 0.03         | 0.85          | XLF                | 5.90           | 5.82           
+SOUN   | SPY              | -15.17       | -11.20        | XLF                | -9.30          | -6.23          
+DAVE   | SPY              | -14.44       | -19.70        | XLF                | -8.57          | -14.73         
+KKR    | SPY              | -11.31       | -0.36         | XLF                | -5.44          | 4.61           
+CFR    | SPY              | -2.28        | -1.26         | XLF                | 3.59           | 3.71           
+CHYM   | SPY              | -19.60       | 24.75         | XLF                | -13.73         | 29.72          
+LMND   | SPY              | -15.42       | -40.75        | XLF                | -9.55          | -35.78         
+BRK-B  | SPY              | -0.16        | -4.02         | XLF                | 5.71           | 0.95           
+SAR    | SPY              | -5.16        | -24.11        | XLF                | 0.71           | -19.14         
+MPG    | SPY              | -26.49       | -29.66        | XLF                | -20.62         | -24.69         
+UNH    | SPY              | -4.42        | -15.03        | XLV                | -3.89          | -15.72         
+JNJ    | SPY              | 0.93         | 0.05          | XLV                | 1.46           | -0.63          
+LLY    | SPY              | 0.49         | -5.94         | XLV                | 1.02           | -6.62          
+PFE    | SPY              | 2.28         | 16.38         | XLV                | 2.81           | 15.70          
+ABBV   | SPY              | 3.21         | -1.59         | XLV                | 3.74           | -2.28          
+MRK    | SPY              | 0.03         | 11.27         | XLV                | 0.56           | 10.58          
+TMO    | SPY              | 8.23         | 25.39         | XLV                | 8.76           | 24.70          
+MRNA   | SPY              | 43.87        | 145.78        | XLV                | 44.40          | 145.10         
+CVS    | SPY              | -4.48        | -17.93        | XLV                | -3.95          | -18.61         
+CI     | SPY              | -2.18        | -8.52         | XLV                | -1.65          | -9.20          
+CNC    | SPY              | -4.79        | -12.47        | XLV                | -4.26          | -13.15         
+HUM    | SPY              | 2.95         | -3.27         | XLV                | 3.48           | -3.95          
+MCK    | SPY              | -3.15        | 6.77          | XLV                | -2.62          | 6.08           
+BAX    | SPY              | -10.82       | -0.35         | XLV                | -10.29         | -1.03          
+ZTS    | SPY              | -8.39        | -7.92         | XLV                | -7.86          | -8.60          
+QDEL   | SPY              | -26.04       | -43.62        | XLV                | -25.51         | -44.31         
+QGEN   | SPY              | 2.22         | 7.60          | XLV                | 2.75           | 6.92           
+QURE   | SPY              | -21.79       | -12.13        | XLV                | -21.26         | -12.81         
+XBI    | SPY              | -4.79        | -6.95         | XLV                | -4.26          | -7.63          
+DNA    | SPY              | 52.90        | -1.07         | XLV                | 53.43          | -1.75          
+RVMD   | SPY              | -1.66        | 4.74          | XLV                | -1.13          | 4.06           
+CORT   | SPY              | 1.69         | 25.13         | XLV                | 2.22           | 24.45          
+AVTR   | SPY              | 4.34         | 44.20         | XLV                | 4.86           | 43.52          
+OSCR   | SPY              | -3.12        | -11.58        | XLV                | -2.59          | -12.27         
+THC    | SPY              | -2.92        | 23.92         | XLV                | -2.39          | 23.23          
+BTSG   | SPY              | -4.56        | -21.59        | XLV                | -4.03          | -22.27         
+HIMS   | SPY              | 1.75         | -23.62        | XLV                | 2.28           | -24.30         
+ZYME   | SPY              | -6.45        | -2.77         | XLV                | -5.92          | -3.45          
+NVS    | SPY              | -5.69        | -12.60        | XLV                | -5.16          | -13.28         
+RGC    | SPY              | 11.92        | -6.71         | XLV                | 12.45          | -7.39          
+WGS    | SPY              | 2.13         | 27.38         | XLV                | 2.66           | 26.69          
+PEN    | SPY              | -1.13        | -3.47         | XLV                | -0.60          | -4.15          
+PSNL   | SPY              | -3.83        | 17.28         | XLV                | -3.30          | 16.60          
+HALO   | SPY              | 7.86         | 39.79         | XLV                | 8.38           | 39.11          
+BMRN   | SPY              | -7.08        | -1.41         | XLV                | -6.55          | -2.10          
+TEVA   | SPY              | 7.29         | 9.57          | XLV                | 7.82           | 8.88           
+NTLA   | SPY              | -8.96        | -36.65        | XLV                | -8.43          | -37.34         
+HD     | SPY              | -10.81       | -21.04        | XLY                | -4.87          | -11.87         
+NKE    | SPY              | -9.02        | -21.62        | XLY                | -3.09          | -12.45         
+MCD    | SPY              | -10.38       | -18.69        | XLY                | -4.45          | -9.53          
+SBUX   | SPY              | -12.30       | -12.07        | XLY                | -6.37          | -2.90          
+LOW    | SPY              | -9.28        | -19.85        | XLY                | -3.35          | -10.68         
+BKNG   | SPY              | -20.53       | -14.73        | XLY                | -14.60         | -5.57          
+TGT    | SPY              | -3.77        | 18.28         | XLY                | 2.16           | 27.45          
+WMT    | SPY              | 4.48         | -6.79         | XLY                | 10.42          | 2.38           
+COST   | SPY              | -2.66        | -6.45         | XLY                | 3.27           | 2.72           
+DLTR   | SPY              | -11.32       | -11.61        | XLY                | -5.39          | -2.44          
+ROST   | SPY              | 3.25         | 7.28          | XLY                | 9.19           | 16.45          
+TJX    | SPY              | -4.00        | -18.99        | XLY                | 1.93           | -9.82          
+DG     | SPY              | 1.33         | 2.62          | XLY                | 7.26           | 11.78          
+EBAY   | SPY              | 1.90         | -9.33         | XLY                | 7.83           | -0.16          
+MELI   | SPY              | -11.13       | -4.18         | XLY                | -5.19          | 4.99           
+EXPE   | SPY              | -20.07       | -5.11         | XLY                | -14.14         | 4.06           
+WING   | SPY              | -13.04       | -47.75        | XLY                | -7.10          | -38.58         
+DECK   | SPY              | -10.62       | -28.42        | XLY                | -4.68          | -19.25         
+MP     | SPY              | -13.27       | -11.97        | QQQ                | -16.92         | -12.88         
+CRML   | SPY              | 9.71         | -21.66        | QQQ                | 6.05           | -22.57         
+ALOY   | SPY              | -14.68       | -36.55        | QQQ                | -18.34         | -37.46         
+UUUU   | SPY              | -22.89       | -21.38        | QQQ                | -26.55         | -22.29         
+USAR   | SPY              | -15.88       | -24.30        | QQQ                | -19.54         | -25.21         
+GLD    | SPY              | -4.05        | 0.47          | QQQ                | -7.70          | -0.44          
+SLV    | SPY              | -3.39        | 2.10          | QQQ                | -7.05          | 1.19           
+NRG    | SPY              | -9.93        | -29.88        | QQQ                | -13.59         | -30.79         
+AEM    | SPY              | -5.76        | 23.11         | QQQ                | -9.42          | 22.20          
+GFS    | SPY              | 9.21         | -33.41        | QQQ                | 5.55           | -34.32         
+HL     | SPY              | -11.01       | 7.84          | QQQ                | -14.66         | 6.93           
+NREF   | SPY              | -8.79        | -3.31         | QQQ                | -12.44         | -4.22          
+AG     | SPY              | -8.69        | 3.20          | QQQ                | -12.35         | 2.29           
+ALB    | SPY              | -20.37       | -22.62        | QQQ                | -24.03         | -23.53         
+FCX    | SPY              | -5.68        | 15.32         | QQQ                | -9.33          | 14.41          
+NEM    | SPY              | -5.18        | 21.83         | QQQ                | -8.84          | 20.92          
+RIO    | SPY              | -8.72        | -1.22         | QQQ                | -12.38         | -2.13          
+VALE   | SPY              | -9.71        | -10.18        | QQQ                | -13.37         | -11.09         
+BHP    | SPY              | -9.01        | 0.63          | QQQ                | -12.67         | -0.28          
+SCCO   | SPY              | -3.06        | 17.07         | QQQ                | -6.72          | 16.16          
+CCJ    | SPY              | -12.20       | -12.34        | QQQ                | -15.86         | -13.25         
+IDR    | SPY              | -6.26        | -12.77        | QQQ                | -9.92          | -13.68         
+SBSW   | SPY              | -8.71        | 19.96         | QQQ                | -12.37         | 19.05          
+PPTA   | SPY              | -6.71        | 6.56          | QQQ                | -10.37         | 5.65           
+ASPI   | SPY              | -24.87       | -51.61        | QQQ                | -28.53         | -52.52         
+FIG    | SPY              | -27.91       | -5.86         | QQQ                | -31.57         | -6.77          
+SNOW   | SPY              | 2.16         | 25.57         | QQQ                | -1.50          | 24.66          
+MDB    | SPY              | -8.36        | 12.09         | QQQ                | -12.02         | 11.18          
+U      | SPY              | -4.32        | 38.14         | QQQ                | -7.98          | 37.24          
+NOW    | SPY              | -6.54        | 23.99         | QQQ                | -10.20         | 23.08          
+TEAM   | SPY              | -1.66        | 120.36        | QQQ                | -5.32          | 119.45         
+AI     | SPY              | 0.88         | 13.98         | QQQ                | -2.78          | 13.07          
+PLTR   | SPY              | 1.55         | 43.12         | QQQ                | -2.10          | 42.21          
+TWLO   | SPY              | 15.73        | 28.20         | QQQ                | 12.07          | 27.29          
+PATH   | SPY              | -31.61       | 2.84          | QQQ                | -35.27         | 1.93           
+ZETA   | SPY              | -3.83        | 38.70         | QQQ                | -7.49          | 37.79          
+INOD   | SPY              | 22.04        | -3.09         | QQQ                | 18.38          | -4.00          
+AKAM   | SPY              | 5.76         | -2.89         | QQQ                | 2.10           | -3.80          
+NET    | SPY              | 16.14        | 40.41         | QQQ                | 12.48          | 39.50          
+DELL   | SPY              | 23.12        | 39.42         | QQQ                | 19.46          | 38.51          
+HPE    | SPY              | 20.06        | 49.09         | QQQ                | 16.40          | 48.18          
+HPQ    | SPY              | 3.29         | 40.55         | QQQ                | -0.37          | 39.64          
+NBIS   | SPY              | 13.20        | 6.50          | QQQ                | 9.54           | 5.59           
+HUT    | SPY              | 21.65        | -3.90         | QQQ                | 17.99          | -4.81          
+CIFR   | SPY              | 16.62        | -15.09        | QQQ                | 12.96          | -16.00         
+IREN   | SPY              | 24.21        | 10.10         | QQQ                | 20.55          | 9.19           
+CRWV   | SPY              | 3.73         | 3.58          | QQQ                | 0.07           | 2.67           
+ETN    | SPY              | 8.98         | 7.11          | QQQ                | 5.32           | 6.20           
+VRT    | SPY              | -1.74        | -19.29        | QQQ                | -5.40          | -20.20         
+HUBB   | SPY              | 1.57         | -7.48         | QQQ                | -2.09          | -8.38          
+SMR    | SPY              | -9.62        | -17.30        | QQQ                | -13.28         | -18.21         
+OSS    | SPY              | -11.11       | -44.42        | QQQ                | -14.77         | -45.33         
+CEG    | SPY              | -5.13        | 6.64          | QQQ                | -8.79          | 5.73           
+GEV    | SPY              | 4.75         | -17.54        | QQQ                | 1.09           | -18.44         
+VST    | SPY              | 0.74         | -11.90        | QQQ                | -2.92          | -12.81         
+PWR    | SPY              | 7.44         | -6.44         | QQQ                | 3.79           | -7.35          
+PLPC   | SPY              | 4.51         | 11.23         | QQQ                | 0.85           | 10.32          
+VICR   | SPY              | 49.92        | -3.92         | QQQ                | 46.26          | -4.83          
+NEE    | SPY              | -7.30        | -16.80        | QQQ                | -10.96         | -17.71         
+DUK    | SPY              | -6.00        | -15.34        | QQQ                | -9.66          | -16.25         
+MYRG   | SPY              | -0.88        | -36.00        | QQQ                | -4.54          | -36.91         
+POWL   | SPY              | 3.47         | -26.59        | QQQ                | -0.19          | -27.50         
+AMSC   | SPY              | 5.08         | -22.70        | QQQ                | 1.42           | -23.61         
+AAOI   | SPY              | -4.81        | -19.73        | QQQ                | -8.46          | -20.64         
+LITE   | SPY              | 4.95         | 25.72         | QQQ                | 1.29           | 24.81          
+AXTI   | SPY              | 34.38        | 35.85         | QQQ                | 30.72          | 34.94          
+GLW    | SPY              | 5.15         | -23.77        | QQQ                | 1.49           | -24.68         
+NOK    | SPY              | 1.50         | -17.49        | QQQ                | -2.16          | -18.40         
+COHR   | SPY              | 5.70         | -14.83        | QQQ                | 2.04           | -15.73         
+POET   | SPY              | 3.34         | -14.87        | QQQ                | -0.32          | -15.78         
+BB     | SPY              | 0.35         | -32.24        | QQQ                | -3.31          | -33.15         
+AMPX   | SPY              | -1.68        | -24.81        | QQQ                | -5.33          | -25.72         
+LWLG   | SPY              | -3.54        | -31.52        | QQQ                | -7.20          | -32.43         
+KLAC   | SPY              | 6.79         | -23.70        | QQQ                | 3.13           | -24.61         
+LRCX   | SPY              | 4.15         | -13.87        | QQQ                | 0.49           | -14.78         
+AMKR   | SPY              | 11.91        | -26.46        | QQQ                | 8.26           | -27.36         
+ASX    | SPY              | 17.02        | 3.32          | QQQ                | 13.37          | 2.42           
+SNDK   | SPY              | 19.46        | -1.69         | QQQ                | 15.80          | -2.60          
+WDC    | SPY              | -0.80        | -18.79        | QQQ                | -4.46          | -19.70         
+STX    | SPY              | 10.23        | 8.22          | QQQ                | 6.58           | 7.31           
+SKHY   | SPY              | 18.69        | N/A           | QQQ                | 15.03          | N/A            
+KXIAY  | SPY              | 19.44        | -24.15        | QQQ                | 15.78          | -25.06         
+LMT    | SPY              | -7.54        | -7.81         | QQQ                | -11.20         | -8.71          
+NOC    | SPY              | -6.26        | -10.16        | QQQ                | -9.92          | -11.06         
+RTX    | SPY              | -10.80       | -8.20         | QQQ                | -14.46         | -9.10          
+GD     | SPY              | -11.49       | -13.42        | QQQ                | -15.15         | -14.33         
+TXT    | SPY              | -8.03        | -20.77        | QQQ                | -11.69         | -21.68         
+HII    | SPY              | -10.52       | -12.57        | QQQ                | -14.18         | -13.48         
+BA     | SPY              | -5.86        | -16.12        | QQQ                | -9.52          | -17.02         
+SAIC   | SPY              | 5.02         | 16.33         | QQQ                | 1.36           | 15.42          
+LHX    | SPY              | -9.39        | -24.50        | QQQ                | -13.05         | -25.41         
+TDY    | SPY              | -1.52        | -9.38         | QQQ                | -5.17          | -10.29         
+AVAV   | SPY              | 2.52         | -23.91        | QQQ                | -1.14          | -24.82         
+RCAT   | SPY              | -21.81       | -39.77        | QQQ                | -25.47         | -40.68         
+UMAC   | SPY              | 0.03         | 5.35          | QQQ                | -3.63          | 4.45           
+PDYN   | SPY              | -6.68        | -11.27        | QQQ                | -10.34         | -12.18         
+GE     | SPY              | -4.78        | -16.82        | QQQ                | -8.44          | -17.73         
+HWM    | SPY              | -12.48       | -17.55        | QQQ                | -16.14         | -18.46         
+HEI    | SPY              | -8.58        | -18.36        | QQQ                | -12.24         | -19.27         
+TDG    | SPY              | -6.14        | -20.79        | QQQ                | -9.80          | -21.70         
+CW     | SPY              | -9.76        | -32.57        | QQQ                | -13.42         | -33.48         
+ONDS   | SPY              | -3.55        | -0.46         | QQQ                | -7.21          | -1.37          
+FTAI   | SPY              | -10.48       | -32.84        | QQQ                | -14.13         | -33.75         
+ESLT   | SPY              | 3.45         | -12.07        | QQQ                | -0.20          | -12.97         
+KTOS   | SPY              | -12.53       | -21.15        | QQQ                | -16.19         | -22.06         
+RKLB   | SPY              | 14.59        | -29.96        | QQQ                | 10.93          | -30.87         
+ASTS   | SPY              | 6.22         | -30.96        | QQQ                | 2.56           | -31.87         
+RDW    | SPY              | 6.64         | -0.83         | QQQ                | 2.98           | -1.74          
+PL     | SPY              | -13.02       | -48.02        | QQQ                | -16.68         | -48.93         
+VOYG   | SPY              | -8.83        | -11.95        | QQQ                | -12.49         | -12.86         
+LUNR   | SPY              | 1.30         | -23.84        | QQQ                | -2.36          | -24.75         
+COIN   | SPY              | 8.96         | 14.34         | QQQ                | 5.30           | 13.43          
+HOOD   | SPY              | 14.26        | 2.35          | QQQ                | 10.60          | 1.44           
+CRCL   | SPY              | 1.87         | 34.16         | QQQ                | -1.78          | 33.25          
+MSTR   | SPY              | 24.33        | 53.83         | QQQ                | 20.67          | 52.92          
+BMNR   | SPY              | 15.54        | 88.35         | QQQ                | 11.88          | 87.45          
+SBET   | SPY              | 17.18        | 77.79         | QQQ                | 13.52          | 76.88          
+XXRP   | SPY              | 19.56        | 72.95         | QQQ                | 15.90          | 72.04          
+SOLT   | SPY              | 34.58        | 105.46        | QQQ                | 30.92          | 104.55         
+MARA   | SPY              | 17.36        | -2.36         | QQQ                | 13.70          | -3.27          
+RIOT   | SPY              | 20.86        | 0.46          | QQQ                | 17.20          | -0.45          
+BTBT   | SPY              | 22.82        | 3.10          | QQQ                | 19.16          | 2.19           
+FIGR   | SPY              | -11.77       | -9.49         | QQQ                | -15.43         | -10.40         
+BLSH   | SPY              | 14.00        | 43.40         | QQQ                | 10.34          | 42.49          
+EWZ    | SPY              | 3.31         | 3.37          | QQQ                | -0.35          | 2.47           
+EWY    | SPY              | 3.61         | 0.34          | QQQ                | -0.04          | -0.57          
+KWEB   | SPY              | -6.87        | -5.21         | QQQ                | -10.53         | -6.12          
+BABA   | SPY              | -7.96        | 10.58         | QQQ                | -11.62         | 9.67           
+BIDU   | SPY              | -10.34       | -26.49        | QQQ                | -14.00         | -27.40         
+PDD    | SPY              | -9.74        | -9.42         | QQQ                | -13.39         | -10.33         
+FUTU   | SPY              | -10.23       | 14.14         | QQQ                | -13.89         | 13.23          
+PONY   | SPY              | -9.36        | -2.69         | QQQ                | -13.02         | -3.60          
+NIO    | SPY              | -18.34       | -28.83        | QQQ                | -22.00         | -29.74         
+LI     | SPY              | -6.23        | -7.89         | QQQ                | -9.89          | -8.80          
+XPEV   | SPY              | -12.49       | -26.20        | QQQ                | -16.15         | -27.11         
+NMAX   | SPY              | 1.23         | 17.34         | QQQ                | -2.42          | 16.44          
+OPEN   | SPY              | -22.14       | -51.12        | QQQ                | -25.80         | -52.03         
+SIVEF  | SPY              | 17.41        | -40.50        | QQQ                | 13.75          | -41.41         
+ENPH   | SPY              | -13.28       | -28.34        | QQQ                | -16.94         | -29.25         
+RUN    | SPY              | -7.89        | -39.91        | QQQ                | -11.55         | -40.82         
+SEDG   | SPY              | 3.78         | -41.18        | QQQ                | 0.13           | -42.09         
+FSLR   | SPY              | -13.34       | -24.43        | QQQ                | -17.00         | -25.34         
+CSIQ   | SPY              | -18.07       | -28.88        | QQQ                | -21.73         | -29.79         
+BE     | SPY              | 36.71        | 3.01          | QQQ                | 33.06          | 2.10           
+BW     | SPY              | -12.69       | -50.16        | QQQ                | -16.35         | -51.07         
+QS     | SPY              | -12.74       | -34.12        | QQQ                | -16.40         | -35.03         
+EOSE   | SPY              | -3.17        | -43.05        | QQQ                | -6.83          | -43.96         
+FLNC   | SPY              | -28.11       | -57.39        | QQQ                | -31.77         | -58.30         
+TE     | SPY              | -21.35       | -59.41        | QQQ                | -25.00         | -60.32         
+LABU   | SPY              | -14.90       | -20.37        | QQQ                | -18.55         | -21.28         
+NAIL   | SPY              | -20.48       | -41.41        | QQQ                | -24.14         | -42.32         
+KORU   | SPY              | 3.69         | -23.82        | QQQ                | 0.03           | -24.72         
+RAM    | SPY              | 18.35        | -18.25        | QQQ                | 14.69          | -19.16         
+UTSL   | SPY              | -21.31       | -40.91        | QQQ                | -24.97         | -41.82         
+DPST   | SPY              | -11.25       | -19.43        | QQQ                | -14.91         | -20.34         
+NUGT   | SPY              | -15.03       | 27.96         | QQQ                | -18.69         | 27.05          
+DUST   | SPY              | 10.99        | -41.76        | QQQ                | 7.33           | -42.67         
+EURL   | SPY              | -11.05       | -8.24         | QQQ                | -14.71         | -9.14          
+CURE   | SPY              | -1.22        | 6.19          | QQQ                | -4.88          | 5.28           
+FIX    | SPY              | 8.97         | -8.25         | QQQ                | 5.31           | -9.16          
+MT     | SPY              | -5.22        | 8.18          | QQQ                | -8.88          | 7.27           
+CAT    | SPY              | 2.41         | -18.14        | QQQ                | -1.25          | -19.05         
+QUBT   | SPY              | 9.68         | -4.56         | QQQ                | 6.02           | -5.47          
+QBTS   | SPY              | 2.21         | -26.29        | QQQ                | -1.45          | -27.20         
+IONQ   | SPY              | 15.76        | -10.98        | QQQ                | 12.10          | -11.89         
+RGTI   | SPY              | 6.60         | -10.70        | QQQ                | 2.95           | -11.61         
+IBM    | SPY              | -4.54        | -25.12        | QQQ                | -8.20          | -26.03         
+FDX    | SPY              | -13.87       | -12.24        | QQQ                | -17.53         | -13.15         
+UPS    | SPY              | -11.05       | -17.30        | QQQ                | -14.71         | -18.21         
+JBHT   | SPY              | -13.89       | -24.56        | QQQ                | -17.54         | -25.46         
+EXPD   | SPY              | -2.10        | 8.30          | QQQ                | -5.76          | 7.39           
+KEX    | SPY              | -7.58        | -4.31         | QQQ                | -11.24         | -5.22          
+R      | SPY              | -4.45        | -12.85        | QQQ                | -8.10          | -13.76         
+XPO    | SPY              | -8.42        | -19.64        | QQQ                | -12.08         | -20.55         
+BOAT   | SPY              | 3.70         | 27.30         | QQQ                | 0.04           | 26.39          
+FRO    | SPY              | 7.75         | 26.31         | QQQ                | 4.09           | 25.40          
+MATX   | SPY              | -0.10        | 7.02          | QQQ                | -3.76          | 6.11           
+CHRW   | SPY              | -2.03        | -25.75        | QQQ                | -5.68          | -26.66         
+HAFN   | SPY              | 11.09        | 30.78         | QQQ                | 7.43           | 29.87          
+NSC    | SPY              | -10.49       | -6.19         | QQQ                | -14.15         | -7.10          
+UNP    | SPY              | -10.78       | -6.11         | QQQ                | -14.44         | -7.02          
+CSX    | SPY              | -8.79        | -7.62         | QQQ                | -12.44         | -8.53          
+VVV    | SPY              | -10.19       | -29.57        | QQQ                | -13.85         | -30.47         
+ORLY   | SPY              | -2.95        | -8.14         | QQQ                | -6.61          | -9.05          
+JOBY   | SPY              | -9.72        | -29.13        | QQQ                | -13.37         | -30.04         
+ACM    | SPY              | -12.23       | -13.68        | QQQ                | -15.89         | -14.59         
+EMR    | SPY              | 1.71         | 10.61         | QQQ                | -1.95          | 9.70           
+MOG-A  | SPY              | 3.25         | -10.60        | QQQ                | -0.41          | -11.51         
+AGX    | SPY              | -13.05       | -51.94        | QQQ                | -16.71         | -52.85         
+MOD    | SPY              | 11.25        | -17.81        | QQQ                | 7.59           | -18.72         
+PRIM   | SPY              | -0.90        | -21.20        | QQQ                | -4.56          | -22.11         
+PH     | SPY              | -1.74        | -1.76         | QQQ                | -5.40          | -2.67          
+STRL   | SPY              | 8.62         | -30.46        | QQQ                | 4.96           | -31.37         
+FLR    | SPY              | -5.69        | -1.69         | QQQ                | -9.34          | -2.60          
+DE     | SPY              | 9.28         | 7.57          | QQQ                | 5.62           | 6.66           
+AMTM   | SPY              | -5.77        | -13.22        | QQQ                | -9.43          | -14.13         
+MUFG   | SPY              | 2.27         | 10.36         | QQQ                | -1.39          | 9.45           
+HSBC   | SPY              | -2.75        | 1.24          | QQQ                | -6.41          | 0.34           
+LUV    | SPY              | 7.91         | -18.23        | QQQ                | 4.26           | -19.14         
+LTM    | SPY              | 3.54         | -10.62        | QQQ                | -0.12          | -11.53         
+PANW   | SPY              | 0.59         | 4.10          | QQQ                | -3.07          | 3.19           
+CRWD   | SPY              | 15.18        | 26.41         | QQQ                | 11.53          | 25.50          
+FTNT   | SPY              | 4.23         | 7.45          | QQQ                | 0.58           | 6.54           
+OKTA   | SPY              | 17.16        | 34.45         | QQQ                | 13.50          | 33.54          
+ZS     | SPY              | 4.53         | 27.46         | QQQ                | 0.87           | 26.56          
+LFUS   | SPY              | 5.61         | -0.80         | QQQ                | 1.95           | -1.71          
+BELFB  | SPY              | 1.35         | -8.88         | QQQ                | -2.31          | -9.79          
+ACQ    | SPY              | N/A          | N/A           | QQQ                | N/A            | N/A            
+VMC    | SPY              | -11.01       | -22.61        | QQQ                | -14.67         | -23.52         
+MLM    | SPY              | -8.92        | -22.64        | QQQ                | -12.57         | -23.55         
+RELY   | SPY              | -19.81       | -13.63        | QQQ                | -23.47         | -14.54         
+AMX    | SPY              | -5.22        | -16.89        | QQQ                | -8.88          | -17.80         
+BWXT   | SPY              | -9.67        | -30.98        | QQQ                | -13.33         | -31.89         
+LEU    | SPY              | -16.59       | -12.86        | QQQ                | -20.25         | -13.77         
+NNE    | SPY              | -5.71        | -18.74        | QQQ                | -9.37          | -19.65         
+IMSR   | SPY              | -15.85       | -36.93        | QQQ                | -19.51         | -37.84         
+USFD   | SPY              | -13.26       | -14.08        | QQQ                | -16.91         | -14.99         
+PM     | SPY              | -0.99        | 0.94          | QQQ                | -4.65          | 0.03           

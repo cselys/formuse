@@ -1,0 +1,11 @@
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,CRML,rare_metal_and_commodities,9.329999923706055,+38.63%,REVERSAL,62.2,40.0,+27.29%,improving_strong
+2,ARM,semiconductors,322.8999938964844,+17.16%,REVERSAL,79.1,50.0,+26.35%,improving_strong
+3,AXTI,light,79.93000030517578,+14.14%,REVERSAL,71.5,40.0,+9.06%,positive
+4,XXRP,crypto,36.560001373291016,+13.15%,REVERSAL,57.2,33.0,+6.29%,positive
+5,ALOY,rare_metal_and_commodities,9.329999923706055,+12.95%,BOTTOM_BREAKOUT,32.1,48.0,-29.29%,recovering
+6,LUNR,space,15.720000267028809,+12.93%,NEUTRAL,41.9,80.0,-18.12%,recovering
+7,KORU,triple_and_leveraged,22.549999237060547,+12.52%,REVERSAL,59.6,48.0,+6.83%,improving_strong
+8,ALAB,semiconductors,340.739990234375,+12.36%,REVERSAL,71.6,50.0,+13.22%,improving_strong
+9,MRNA,healthcare_and_bio,172.94000244140625,+12.27%,UPTREND,72.3,40.0,+22.37%,positive
+10,INTC,semiconductors,121.77999877929688,+12.14%,STRONG_UPTREND,75.8,50.0,+28.85%,improving_strong

@@ -1,0 +1,11 @@
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,SWKS,semiconductors,84.02999877929688,+9.79%,STRONG_UPTREND,81.0,60.0,+24.79%,improving_strong
+2,DUST,triple_and_leveraged,34.310001373291016,+6.85%,STRONG_DOWNTREND,22.9,40.0,-13.75%,recovering
+3,QRVO,semiconductors,112.36000061035156,+6.77%,STRONG_UPTREND,80.5,60.0,+18.57%,positive
+4,RDDT,technology,155.33999633789062,+6.08%,NEUTRAL,50.1,80.0,+3.31%,improving_strong
+5,AVAV,defense_and_aerospace,147.07000732421875,+4.45%,BOTTOM_BREAKOUT,36.5,58.0,-22.04%,lagging
+6,SEDG,energy_clean,36.75,+4.37%,BOTTOM_BREAKOUT,60.0,55.0,+16.85%,improving_strong
+7,MDB,software,373.8699951171875,+4.32%,NEUTRAL,47.9,58.0,-12.53%,lagging
+8,VUZI,technology,2.5399999618530273,+4.10%,REVERSAL,45.4,68.0,-0.98%,recovering
+9,AAPL,technology,326.57000732421875,+3.56%,STRONG_UPTREND,87.8,98.0,+10.12%,positive
+10,NMAX,penny,10.979999542236328,+3.39%,UPTREND,82.7,73.0,+26.00%,positive

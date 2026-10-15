@@ -1,0 +1,11 @@
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,ASTS,space,50.96500015258789,-10.48%,BOTTOM_BREAKOUT,28.8,48.0,-19.95%,lagging
+2,IDR,rare_metal_and_commodities,23.790000915527344,-9.58%,STRONG_DOWNTREND,21.5,50.0,-28.12%,lagging
+3,EOSE,energy_clean,2.5199999809265137,-8.86%,STRONG_DOWNTREND,18.5,40.0,-41.29%,recovering
+4,SIVEF,penny,2.740000009536743,-7.43%,DOWNTREND,31.3,48.0,-8.04%,recovering
+5,HPQ,hardware,30.200000762939453,-6.91%,NEUTRAL,47.8,58.0,-19.97%,lagging
+6,ASPI,rare_metal_and_commodities,2.6500000953674316,-6.36%,STRONG_DOWNTREND,19.4,40.0,-25.03%,recovering
+7,KXIAY,storage,10.170000076293945,-6.35%,AVOID,26.1,48.0,-74.46%,recovering
+8,LAES,technology,2.109999895095825,-6.22%,STRONG_DOWNTREND,21.9,50.0,-16.43%,recovering
+9,DUST,triple_and_leveraged,38.43000030517578,-5.95%,REVERSAL,70.7,88.0,+9.22%,improving_strong
+10,SWKS,semiconductors,76.3499984741211,-5.45%,NEUTRAL,51.5,58.0,-19.70%,lagging

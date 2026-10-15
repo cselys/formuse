@@ -1,0 +1,11 @@
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,SWKS,semiconductors,90.0,+13.55%,STRONG_UPTREND,75.0,43.0,+41.63%,positive
+2,QRVO,semiconductors,118.05999755859375,+9.34%,STRONG_UPTREND,78.0,53.0,+31.67%,positive
+3,EOSE,energy_clean,4.070000171661377,+6.54%,NEUTRAL,49.6,55.0,+7.03%,improving_strong
+4,DINO,motor oil,112.25,+4.99%,STRONG_UPTREND,89.1,75.0,+21.64%,positive
+5,TMO,healthcare_and_bio,641.3900146484375,+4.61%,STRONG_UPTREND,83.4,83.0,+9.18%,positive
+6,TWLO,software,242.16000366210938,+4.43%,UPTREND,77.4,73.0,+9.40%,positive
+7,VOYG,other,34.5099983215332,+4.26%,BOTTOM_FORMING,49.1,68.0,-18.06%,lagging
+8,QCOM,semiconductors,187.8000030517578,+4.25%,REVERSAL,83.9,75.0,+25.17%,improving_strong
+9,VLO,motor oil,397.0400085449219,+3.68%,STRONG_UPTREND,80.8,68.0,+17.83%,positive
+10,MPC,motor oil,410.8399963378906,+3.63%,STRONG_UPTREND,87.6,75.0,+18.49%,positive

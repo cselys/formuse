@@ -1,0 +1,11 @@
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,DNA,healthcare_and_bio,10.25,+19.46%,REVERSAL,66.5,50.0,+39.03%,improving_strong
+2,PL,freight_and_logistics,17.6200008392334,+7.57%,STRONG_DOWNTREND,28.8,60.0,-20.91%,recovering
+3,NBIS,datacenter_and_infrastructure,243.47999572753906,+7.44%,UPTREND,73.0,58.0,+9.63%,improving_strong
+4,MRNA,healthcare_and_bio,194.82000732421875,+6.98%,STRONG_UPTREND,75.0,43.0,+25.75%,positive
+5,CRML,rare_metal_and_commodities,8.170000076293945,+5.83%,BOTTOM_BREAKOUT,41.7,25.0,-1.93%,recovering
+6,IONQ,quantum,44.97999954223633,+5.74%,EARLY_UPTREND,52.6,35.0,+8.19%,improving_strong
+7,UMAC,defense_and_aerospace,23.93000030517578,+5.46%,NEUTRAL,58.1,70.0,-4.01%,lagging
+8,AFRM,financials,71.56999969482422,+5.11%,DOWNTREND,40.7,60.0,-1.70%,recovering
+9,CORT,healthcare_and_bio,118.51000213623047,+4.93%,UPTREND,74.4,88.0,-1.00%,lagging
+10,SOLT,crypto,74.66999816894531,+4.92%,UPTREND,67.1,33.0,+35.13%,positive

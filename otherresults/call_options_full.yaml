@@ -1,0 +1,190 @@
+generated_date: '2026-09-09'
+scanner_version: '1.0'
+option_type: CALL_FULL
+contracts:
+- symbol: TGT
+  stock:
+    candidate_score: 87.4
+    directional_stock_score: 87.4
+    signal: UPTREND
+    priority: 4
+    category: consumer_discretionary_and_retail
+    trend_score: 84.0
+    entry_quality: 98.0
+  option:
+    contract_symbol: TGT   260918C00155000
+    expiration: '2026-09-18'
+    dte: 9
+    strike: 155.0
+    option_type: CALL
+    bid: 5.55
+    ask: 6.05
+    mid: 5.8
+    spread_pct: 8.62
+    last: 5.9
+    volume: 414
+    open_interest: 3685
+    delta: 0.73
+    gamma: 0.045
+    theta: -0.139
+    vega: 0.083
+    iv: 0.29547
+  option_score: 63.5
+  trade_score: 75.5
+  combined_score: 75.5
+  rank: 1
+- symbol: MRK
+  stock:
+    candidate_score: 88.9
+    directional_stock_score: 88.9
+    signal: STRONG_UPTREND
+    priority: 3
+    category: healthcare_and_bio
+    trend_score: 87.0
+    entry_quality: 98.0
+  option:
+    contract_symbol: MRK   260918C00150000
+    expiration: '2026-09-18'
+    dte: 9
+    strike: 150.0
+    option_type: CALL
+    bid: 1.57
+    ask: 1.77
+    mid: 1.67
+    spread_pct: 11.98
+    last: 1.73
+    volume: 241
+    open_interest: 5655
+    delta: 0.366
+    gamma: 0.056
+    theta: -0.12
+    vega: 0.087
+    iv: 0.29687
+  option_score: 55.2
+  trade_score: 72.1
+  combined_score: 72.1
+  rank: 2
+- symbol: FRO
+  stock:
+    candidate_score: 89.7
+    directional_stock_score: 89.7
+    signal: STRONG_UPTREND
+    priority: 2
+    category: freight_and_logistics
+    trend_score: 94.0
+    entry_quality: 83.0
+  option:
+    contract_symbol: FRO   260918C00047000
+    expiration: '2026-09-18'
+    dte: 9
+    strike: 47.0
+    option_type: CALL
+    bid: 1.3
+    ask: 1.45
+    mid: 1.38
+    spread_pct: 10.91
+    last: 1.4
+    volume: 292
+    open_interest: 834
+    delta: 0.476
+    gamma: 0.118
+    theta: -0.046
+    vega: 0.026
+    iv: 0.61767
+  option_score: 45.6
+  trade_score: 67.7
+  combined_score: 67.7
+  rank: 3
+- symbol: TGT
+  stock:
+    candidate_score: 87.4
+    directional_stock_score: 87.4
+    signal: UPTREND
+    priority: 4
+    category: consumer_discretionary_and_retail
+    trend_score: 84.0
+    entry_quality: 98.0
+  option:
+    contract_symbol: TGT   260918C00160000
+    expiration: '2026-09-18'
+    dte: 9
+    strike: 160.0
+    option_type: CALL
+    bid: 2.55
+    ask: 2.74
+    mid: 2.65
+    spread_pct: 7.18
+    last: 2.65
+    volume: 99
+    open_interest: 1823
+    delta: 0.472
+    gamma: 0.053
+    theta: -0.17
+    vega: 0.1
+    iv: 0.29796
+  option_score: 44.2
+  trade_score: 65.8
+  combined_score: 65.8
+  rank: 4
+- symbol: TGT
+  stock:
+    candidate_score: 87.4
+    directional_stock_score: 87.4
+    signal: UPTREND
+    priority: 4
+    category: consumer_discretionary_and_retail
+    trend_score: 84.0
+    entry_quality: 98.0
+  option:
+    contract_symbol: TGT   260918C00162500
+    expiration: '2026-09-18'
+    dte: 9
+    strike: 162.5
+    option_type: CALL
+    bid: 1.57
+    ask: 1.74
+    mid: 1.66
+    spread_pct: 10.27
+    last: 1.77
+    volume: 382
+    open_interest: 271
+    delta: 0.343
+    gamma: 0.05
+    theta: -0.155
+    vega: 0.092
+    iv: 0.29602
+  option_score: 42.9
+  trade_score: 65.2
+  combined_score: 65.2
+  rank: 5
+- symbol: MRK
+  stock:
+    candidate_score: 88.9
+    directional_stock_score: 88.9
+    signal: STRONG_UPTREND
+    priority: 3
+    category: healthcare_and_bio
+    trend_score: 87.0
+    entry_quality: 98.0
+  option:
+    contract_symbol: MRK   260918C00149000
+    expiration: '2026-09-18'
+    dte: 9
+    strike: 149.0
+    option_type: CALL
+    bid: 1.93
+    ask: 2.16
+    mid: 2.04
+    spread_pct: 11.25
+    last: 2.04
+    volume: 107
+    open_interest: 103
+    delta: 0.421
+    gamma: 0.06
+    theta: -0.12
+    vega: 0.09
+    iv: 0.29212
+  option_score: 29.2
+  trade_score: 59.1
+  combined_score: 59.1
+  rank: 6

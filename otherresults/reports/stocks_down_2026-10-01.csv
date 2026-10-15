@@ -1,0 +1,11 @@
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,UMAC,defense_and_aerospace,21.780000686645508,-11.03%,NEUTRAL,41.3,40.0,-12.14%,lagging
+2,NMAX,penny,9.869999885559082,-8.70%,NEUTRAL,46.0,50.0,-14.90%,lagging
+3,LABU,triple_and_leveraged,249.64999389648438,-6.07%,NEUTRAL,35.2,40.0,-24.56%,recovering
+4,MPG,financials,3.489000082015991,-4.93%,STRONG_DOWNTREND,18.5,40.0,-23.68%,recovering
+5,PONY,china,6.239999771118164,-4.59%,STRONG_DOWNTREND,23.1,50.0,-15.86%,lagging
+6,CBRS,semiconductors,169.52000427246094,-4.58%,BOTTOM_BREAKOUT,28.8,48.0,-20.36%,lagging
+7,LTM,airlines,47.7400016784668,-4.31%,BOTTOM_BREAKOUT,46.1,68.0,-11.44%,recovering
+8,CURE,triple_and_leveraged,124.04000091552734,-4.21%,NEUTRAL,55.5,68.0,-16.03%,lagging
+9,EURL,triple_and_leveraged,40.279998779296875,-4.19%,BOTTOM_FORMING,41.4,68.0,-21.96%,lagging
+10,QGEN,healthcare_and_bio,42.040000915527344,-3.93%,BOTTOM_BREAKOUT,60.6,68.0,-0.98%,lagging

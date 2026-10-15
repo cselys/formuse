@@ -1,0 +1,11 @@
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,JBHT,freight_and_logistics,236.72999572753906,-13.30%,DOWNTREND,35.3,60.0,-11.88%,lagging
+2,RCAT,defense_and_aerospace,7.09499979019165,-10.92%,BOTTOM_BREAKOUT,28.8,48.0,-28.69%,recovering
+3,CSIQ,energy_clean,11.34000015258789,-7.35%,STRONG_DOWNTREND,18.5,40.0,-21.28%,recovering
+4,CHYM,financials,31.25,-7.02%,NEUTRAL,63.4,58.0,+1.23%,positive
+5,CRCL,crypto,80.44999694824219,-6.78%,BOTTOM_BREAKOUT,62.9,48.0,+13.94%,improving_strong
+6,OXY,energy,59.36000061035156,-6.55%,REVERSAL,68.7,78.0,-0.83%,recovering
+7,COP,energy,132.5399932861328,-6.15%,REVERSAL,76.1,78.0,+1.62%,positive
+8,EOG,energy,144.92999267578125,-5.73%,REVERSAL,66.3,82.0,-3.08%,recovering
+9,FSLR,energy_clean,191.07000732421875,-5.57%,STRONG_DOWNTREND,24.7,50.0,-11.37%,recovering
+10,HOOD,crypto,104.41999816894531,-5.46%,BOTTOM_FORMING,73.2,58.0,+15.87%,improving_strong

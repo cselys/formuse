@@ -1,0 +1,74 @@
+==============================================================================================================
+                                  STOCK SCANNER DAILY REPORT
+==============================================================================================================
+Date: 2026-09-18
+Data source: yfinance
+Universe: 290 stocks
+Market Regime: MARKET_NEUTRAL
+==============================================================================================================
+
+TOP 10 STOCKS UP
+--------------------------------------------------------------------------------------------------------------
+Rank  Symbol   Category        Close     Change %   State              Score    EntryQ   RS(20d)    RS Trend    
+--------------------------------------------------------------------------------------------------------------
+1     SOLT     crypto          71.20     +26.71%    REVERSAL           66.70    40.00    +60.78%    positive    
+2     XXRP     crypto          32.31     +17.62%    REVERSAL           68.30    63.00    +18.10%    positive    
+3     MSTR     crypto          153.92    +16.39%    UPTREND            76.20    50.00    +35.47%    positive    
+4     MARA     crypto          13.24     +13.75%    REVERSAL           67.00    40.00    +17.26%    improving_strong
+5     SBET     crypto          9.35      +13.20%    UPTREND            71.50    43.00    +21.71%    positive    
+6     BTBT     crypto          1.73      +13.07%    REVERSAL           57.00    33.00    +6.98%     improving_strong
+7     COIN     crypto          194.25    +11.66%    UPTREND            64.60    43.00    +11.23%    positive    
+8     SNDK     storage         1791.82   +10.99%    UPTREND            68.80    43.00    +10.47%    improving_strong
+9     HOOD     crypto          119.82    +9.12%     STRONG_UPTREND     80.00    58.00    +24.51%    improving_strong
+10    BMNR     crypto          25.99     +8.79%     UPTREND            75.60    58.00    +19.01%    positive    
+
+TOP 10 STOCKS DOWN
+--------------------------------------------------------------------------------------------------------------
+Rank  Symbol   Category        Close     Change %   State              Score    EntryQ   RS(20d)    RS Trend    
+--------------------------------------------------------------------------------------------------------------
+1     SMR      datacenter_and_infrastructure 8.27      -8.52%     BOTTOM_BREAKOUT    37.10    48.00    -10.30%    recovering  
+2     RDW      space           10.74     -7.01%     REVERSAL           42.20    48.00    -10.23%    lagging     
+3     ASTS     space           58.52     -6.68%     BOTTOM_BREAKOUT    36.20    48.00    -11.53%    recovering  
+4     LUNR     space           13.92     -5.88%     STRONG_DOWNTREND   19.60    40.00    -23.84%    recovering  
+5     QCOM     semiconductors  177.72    -5.82%     UPTREND            81.80    88.00    +9.33%     improving_strong
+6     BE       energy_clean    265.63    -5.39%     STRONG_UPTREND     81.50    63.00    +29.71%    improving_strong
+7     DAVE     financials      337.82    -5.24%     BOTTOM_FORMING     61.50    58.00    +2.75%     improving_strong
+8     RCAT     defense_and_aerospace 6.75      -4.86%     BOTTOM_BREAKOUT    28.80    48.00    -30.65%    lagging     
+9     RKLB     space           64.57     -4.79%     REVERSAL           41.90    58.00    -12.97%    recovering  
+10    NFLX     technology      71.79     -4.67%     BOTTOM_FORMING     39.90    68.00    -11.90%    lagging     
+
+TOP 3 SECTORS UP - STOCK BREADTH
+--------------------------------------------------------------------------------------------------------------
+Rank  Sector               Up     Down   Flat   Total    Up %     Down %   Avg Change
+--------------------------------------------------------------------------------------------------------------
+1     crypto               12     0      0      12       100.0%   0.0%     +12.67%   
+2     light                8      0      0      8        100.0%   0.0%     +3.60%    
+3     storage              4      0      0      4        100.0%   0.0%     +6.13%    
+
+TOP 3 SECTORS DOWN - STOCK BREADTH
+--------------------------------------------------------------------------------------------------------------
+Rank  Sector               Up     Down   Flat   Total    Up %     Down %   Avg Change
+--------------------------------------------------------------------------------------------------------------
+1     space                0      4      0      4        0.0%     100.0%   -6.09%    
+2     hardware             0      3      0      3        0.0%     100.0%   -1.56%    
+3     energy_clean         1      12     0      13       7.7%     92.3%    -2.69%    
+
+TOP 3 SECTOR INDEXES UP
+--------------------------------------------------------------------------------------------------------------
+Rank  Index    Sector                     Close      Change %  
+--------------------------------------------------------------------------------------------------------------
+1     XLK      Technology                 189.60     +0.82%    
+2     XLI      Industrials                169.75     +0.44%    
+3     XLF      Financials                 55.86      -0.04%    
+
+TOP 3 SECTOR INDEXES DOWN
+--------------------------------------------------------------------------------------------------------------
+Rank  Index    Sector                     Close      Change %  
+--------------------------------------------------------------------------------------------------------------
+1     XLB      Materials                  49.99      -1.42%    
+2     XLU      Utilities                  41.10      -1.42%    
+3     XLC      Communication Services     110.81     -1.37%    
+
+TOP SCANNER SIGNALS
+--------------------------------------------------------------------------------------------------------------
+[Existing scanner candidate/state tables appear below.]

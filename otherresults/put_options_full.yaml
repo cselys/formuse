@@ -1,0 +1,128 @@
+generated_date: '2026-09-09'
+scanner_version: '1.0'
+option_type: PUT_FULL
+contracts:
+- symbol: JOBY
+  stock:
+    candidate_score: 21.6
+    directional_stock_score: 78.4
+    signal: DOWNTREND
+    priority: 3
+    category: other
+    trend_score: 8.0
+    entry_quality: 50.0
+  option:
+    contract_symbol: JOBY  260918P00007000
+    expiration: '2026-09-18'
+    dte: 9
+    strike: 7.0
+    option_type: PUT
+    bid: 0.52
+    ask: 0.56
+    mid: 0.54
+    spread_pct: 7.41
+    last: 0.53
+    volume: 163
+    open_interest: 7552
+    delta: -0.726
+    gamma: 0.538
+    theta: -0.011
+    vega: 0.003
+    iv: 0.63409
+  option_score: 57.4
+  trade_score: 67.9
+  combined_score: 67.9
+  rank: 1
+- symbol: JOBY
+  stock:
+    candidate_score: 21.6
+    directional_stock_score: 78.4
+    signal: DOWNTREND
+    priority: 3
+    category: other
+    trend_score: 8.0
+    entry_quality: 50.0
+  option:
+    contract_symbol: JOBY  260918P00006500
+    expiration: '2026-09-18'
+    dte: 9
+    strike: 6.5
+    option_type: PUT
+    bid: 0.2
+    ask: 0.22
+    mid: 0.21
+    spread_pct: 9.52
+    last: 0.23
+    volume: 837
+    open_interest: 842
+    delta: -0.434
+    gamma: 0.64
+    theta: -0.013
+    vega: 0.004
+    iv: 0.6027600000000001
+  option_score: 57.0
+  trade_score: 67.7
+  combined_score: 67.7
+  rank: 2
+- symbol: PL
+  stock:
+    candidate_score: 20.8
+    directional_stock_score: 79.2
+    signal: STRONG_DOWNTREND
+    priority: 2
+    category: freight_and_logistics
+    trend_score: 15.0
+    entry_quality: 40.0
+  option:
+    contract_symbol: PL    260918P00017500
+    expiration: '2026-09-18'
+    dte: 9
+    strike: 17.5
+    option_type: PUT
+    bid: 0.85
+    ask: 0.95
+    mid: 0.9
+    spread_pct: 11.11
+    last: 0.85
+    volume: 30
+    open_interest: 147
+    delta: -0.51
+    gamma: 0.194
+    theta: -0.045
+    vega: 0.011
+    iv: 0.76048
+  option_score: 29.3
+  trade_score: 54.2
+  combined_score: 54.2
+  rank: 3
+- symbol: PL
+  stock:
+    candidate_score: 20.8
+    directional_stock_score: 79.2
+    signal: STRONG_DOWNTREND
+    priority: 2
+    category: freight_and_logistics
+    trend_score: 15.0
+    entry_quality: 40.0
+  option:
+    contract_symbol: PL    260918P00016500
+    expiration: '2026-09-18'
+    dte: 9
+    strike: 16.5
+    option_type: PUT
+    bid: 0.4
+    ask: 0.45
+    mid: 0.43
+    spread_pct: 11.76
+    last: 0.4
+    volume: 42
+    open_interest: 170
+    delta: -0.314
+    gamma: 0.18
+    theta: -0.038
+    vega: 0.01
+    iv: 0.7269199999999999
+  option_score: 20.5
+  trade_score: 49.9
+  combined_score: 49.9
+  rank: 4

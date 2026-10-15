@@ -1,0 +1,25 @@
+jobs:
+- name: call
+  stocks:
+  - PLTR
+  - CRWD
+  - ABBV
+  - ASX
+  - FTNT
+  - AFRM
+  - XLK
+  - ANET
+  - EBAY
+  - TEVA
+- name: put
+  stocks:
+  - EOSE
+  - IMSR
+  - SMR
+  - FLNC
+  - TE
+  - PONY
+  - ASPI
+  - NUGT
+  - ALOY
+  - UUUU

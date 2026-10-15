@@ -1,0 +1,11 @@
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,INOD,other,69.97000122070312,+14.61%,REVERSAL,64.8,50.0,+16.65%,improving_strong
+2,XXRP,crypto,40.650001525878906,+11.19%,UPTREND,63.2,40.0,+0.42%,positive
+3,VUZI,technology,3.0399999618530273,+10.55%,REVERSAL,60.6,50.0,-0.53%,lagging
+4,NAIL,triple_and_leveraged,32.25,+9.34%,STRONG_DOWNTREND,22.8,40.0,-25.48%,recovering
+5,TWLO,software,266.05999755859375,+9.11%,STRONG_UPTREND,79.7,60.0,+14.16%,positive
+6,APP,technology,330.1700134277344,+7.18%,REVERSAL,65.6,88.0,+4.05%,improving_strong
+7,SNDK,storage,1887.0400390625,+6.82%,UPTREND,75.3,50.0,+20.56%,improving_strong
+8,ALAB,semiconductors,363.4599914550781,+6.67%,REVERSAL,75.5,50.0,+19.87%,improving_strong
+9,LEU,energy_clean,154.85000610351562,+6.62%,STRONG_DOWNTREND,18.7,40.0,-20.79%,lagging
+10,RAM,triple_and_leveraged,15.350000381469727,+6.60%,REVERSAL,57.2,40.0,+26.85%,improving_strong

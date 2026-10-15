@@ -1,0 +1,74 @@
+==============================================================================================================
+                                  STOCK SCANNER DAILY REPORT
+==============================================================================================================
+Date: 2026-09-14
+Data source: yfinance
+Universe: 288 stocks
+Market Regime: MARKET_NEUTRAL
+==============================================================================================================
+
+TOP 10 STOCKS UP
+--------------------------------------------------------------------------------------------------------------
+Rank  Symbol   Category        Close     Change %   State              Score    EntryQ   RS(20d)    RS Trend    
+--------------------------------------------------------------------------------------------------------------
+1     XXRP     crypto          35.66     +15.18%    REVERSAL           64.10    33.00    +99.79%    improving_strong
+2     CRWD     software        235.38    +13.85%    STRONG_UPTREND     79.30    50.00    +11.49%    positive    
+3     PANW     software        373.94    +13.09%    UPTREND            69.50    73.00    +0.31%     positive    
+4     OKTA     software        186.45    +11.98%    STRONG_UPTREND     78.90    50.00    +29.46%    positive    
+5     COIN     crypto          191.45    +9.24%     UPTREND            72.30    58.00    +31.94%    improving_strong
+6     FTNT     software        170.18    +9.04%     STRONG_UPTREND     86.60    83.00    +9.35%     positive    
+7     CRCL     crypto          97.42     +7.53%     UPTREND            75.00    58.00    +39.06%    improving_strong
+8     NOW      software        142.35    +7.41%     UPTREND            78.70    73.00    +17.79%    positive    
+9     TEAM     software        192.77    +7.27%     STRONG_UPTREND     74.50    43.00    +21.83%    positive    
+10    PATH     other           14.66     +6.62%     NEUTRAL            48.20    50.00    -5.44%     lagging     
+
+TOP 10 STOCKS DOWN
+--------------------------------------------------------------------------------------------------------------
+Rank  Symbol   Category        Close     Change %   State              Score    EntryQ   RS(20d)    RS Trend    
+--------------------------------------------------------------------------------------------------------------
+1     KORU     triple_and_leveraged 18.57     -19.51%    BOTTOM_BREAKOUT    46.30    48.00    -11.03%    recovering  
+2     RAM      triple_and_leveraged 11.53     -14.02%    BOTTOM_FORMING     37.20    48.00    -9.66%     lagging     
+3     GLW      light           143.60    -13.70%    NEUTRAL            42.30    50.00    -10.33%    recovering  
+4     NOK      light           9.65      -13.30%    NEUTRAL            42.10    50.00    -7.32%     recovering  
+5     COHR     light           266.50    -12.73%    NEUTRAL            36.10    40.00    -15.21%    recovering  
+6     AEHR     semiconductors  83.37     -11.95%    BOTTOM_FORMING     41.40    48.00    -29.93%    lagging     
+7     AXTI     light           57.06     -11.90%    BOTTOM_FORMING     37.80    48.00    -27.11%    recovering  
+8     ALAB     semiconductors  257.04    -11.74%    DOWNTREND          29.20    40.00    -12.20%    recovering  
+9     BW       energy_clean    7.03      -11.46%    DOWNTREND          24.90    40.00    -28.69%    recovering  
+10    HPE      hardware        55.41     -10.76%    UPTREND            71.80    80.00    -2.63%     lagging     
+
+TOP 3 SECTORS UP - STOCK BREADTH
+--------------------------------------------------------------------------------------------------------------
+Rank  Sector               Up     Down   Flat   Total    Up %     Down %   Avg Change
+--------------------------------------------------------------------------------------------------------------
+1     software             12     1      0      13       92.3%    7.7%     +6.36%    
+2     consumer_discretionary_and_retail 15     3      0      18       83.3%    16.7%    +0.92%    
+3     healthcare_and_bio   20     4      1      25       80.0%    16.0%    +1.05%    
+
+TOP 3 SECTORS DOWN - STOCK BREADTH
+--------------------------------------------------------------------------------------------------------------
+Rank  Sector               Up     Down   Flat   Total    Up %     Down %   Avg Change
+--------------------------------------------------------------------------------------------------------------
+1     semiconductors       0      19     0      19       0.0%     100.0%   -6.33%    
+2     datacenter_and_infrastructure 0      9      0      9        0.0%     100.0%   -5.30%    
+3     lightrelated         0      6      0      6        0.0%     100.0%   -6.82%    
+
+TOP 3 SECTOR INDEXES UP
+--------------------------------------------------------------------------------------------------------------
+Rank  Index    Sector                     Close      Change %  
+--------------------------------------------------------------------------------------------------------------
+1     XLC      Communication Services     115.07     +2.19%    
+2     XLV      Healthcare                 167.75     +1.45%    
+3     XLP      Consumer Staples           84.42      +1.25%    
+
+TOP 3 SECTOR INDEXES DOWN
+--------------------------------------------------------------------------------------------------------------
+Rank  Index    Sector                     Close      Change %  
+--------------------------------------------------------------------------------------------------------------
+1     XLK      Technology                 184.28     -1.81%    
+2     XLI      Industrials                169.93     -1.42%    
+3     XLU      Utilities                  41.82      -1.34%    
+
+TOP SCANNER SIGNALS
+--------------------------------------------------------------------------------------------------------------
+[Existing scanner candidate/state tables appear below.]

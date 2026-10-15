@@ -1,0 +1,11 @@
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,TWLO,software,275.79998779296875,-7.96%,STRONG_UPTREND,76.1,58.0,+11.03%,positive
+2,BB,light,8.210000038146973,-5.96%,EARLY_UPTREND,63.0,80.0,-8.33%,recovering
+3,OKTA,software,195.19000244140625,-5.54%,UPTREND,76.0,65.0,+9.64%,positive
+4,HUT,datacenter_and_infrastructure,96.81999969482422,-4.65%,UPTREND,79.7,78.0,+7.88%,improving_strong
+5,VG,energy,12.619999885559082,-4.61%,BOTTOM_FORMING,47.0,58.0,-12.44%,lagging
+6,IREN,datacenter_and_infrastructure,44.125,-4.39%,REVERSAL,68.3,68.0,+5.63%,improving_strong
+7,CRCL,crypto,89.0,-4.30%,NEUTRAL,45.3,50.0,-8.80%,lagging
+8,CRML,rare_metal_and_commodities,7.829999923706055,-4.16%,NEUTRAL,39.9,55.0,-5.86%,recovering
+9,AVAV,defense_and_aerospace,152.0500030517578,-4.10%,STRONG_DOWNTREND,31.6,50.0,-3.39%,recovering
+10,PANW,software,374.739990234375,-3.89%,REVERSAL,72.4,88.0,-5.36%,lagging

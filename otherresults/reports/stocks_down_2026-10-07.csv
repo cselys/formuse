@@ -1,0 +1,11 @@
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,XXRP,crypto,31.149999618530273,-11.58%,NEUTRAL,34.5,40.0,-11.16%,lagging
+2,UUUU,rare_metal_and_commodities,10.260000228881836,-8.88%,STRONG_DOWNTREND,21.5,50.0,-35.27%,lagging
+3,MPG,financials,3.509999990463257,-8.78%,STRONG_DOWNTREND,17.6,40.0,-23.45%,lagging
+4,BB,light,8.770000457763672,-8.46%,STRONG_UPTREND,83.3,88.0,+7.38%,improving_strong
+5,VUZI,technology,2.690000057220459,-8.19%,NEUTRAL,48.4,40.0,+4.46%,positive
+6,SOLT,crypto,72.02999877929688,-8.17%,REVERSAL,76.9,78.0,+18.17%,positive
+7,CW,defense_and_aerospace,509.1000061035156,-8.00%,STRONG_DOWNTREND,29.3,60.0,-15.73%,recovering
+8,NAIL,triple_and_leveraged,25.829999923706055,-7.68%,STRONG_DOWNTREND,21.6,40.0,-23.07%,recovering
+9,DNA,healthcare_and_bio,11.470000267028809,-7.57%,UPTREND,73.2,40.0,+67.59%,improving_strong
+10,IMSR,nuclear,3.6500000953674316,-7.12%,STRONG_DOWNTREND,16.2,40.0,-37.17%,lagging

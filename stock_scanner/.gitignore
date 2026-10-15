@@ -17,7 +17,7 @@ data/history_lookup/
 *.csv
 *.ipynb
 .env
-data/
+/data/
 output/
 cache/
 .claude/

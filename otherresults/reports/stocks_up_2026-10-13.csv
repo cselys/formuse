@@ -1,0 +1,11 @@
+Rank,Symbol,Category,Close,Change %,State,Candidate Score,Entry Quality,RS(20d),RS Trend
+1,RGC,healthcare_and_bio,8.1899995803833,+14.87%,REVERSAL,63.0,40.0,+44.67%,positive
+2,QDEL,healthcare_and_bio,14.100000381469727,+6.42%,REVERSAL,63.8,50.0,+31.06%,improving_strong
+3,VG,energy,13.84000015258789,+5.41%,REVERSAL,67.7,88.0,-12.02%,recovering
+4,TTMI,semiconductors,116.0999984741211,+5.23%,BOTTOM_FORMING,43.4,48.0,-5.25%,recovering
+5,IMSR,nuclear,3.109999895095825,+5.07%,STRONG_DOWNTREND,18.5,40.0,-32.99%,recovering
+6,VLO,energy,456.4599914550781,+4.69%,STRONG_UPTREND,77.4,53.0,+12.43%,positive
+7,NVTS,semiconductors,10.449999809265137,+4.60%,DOWNTREND,23.9,40.0,-11.82%,recovering
+8,DINO,energy,128.22999572753906,+4.33%,STRONG_UPTREND,77.1,53.0,+11.70%,positive
+9,AXTI,light,64.62999725341797,+4.28%,BOTTOM_BREAKOUT,64.1,48.0,+6.36%,positive
+10,ORCL,technology,143.1999969482422,+4.23%,NEUTRAL,49.5,80.0,-3.62%,lagging

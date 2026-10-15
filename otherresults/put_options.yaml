@@ -1,0 +1,4338 @@
+generated_date: '2026-09-09'
+scanner_version: '1.0'
+option_type: PUT
+selection_basis: best_contract_per_stock
+ranking_basis: trade_score
+contracts:
+- symbol: JOBY
+  stock:
+    candidate_score: 21.6
+    directional_stock_score: 78.4
+    signal: DOWNTREND
+    priority: 3
+    category: other
+    trend_score: 8.0
+    entry_quality: 50.0
+  option:
+    contract_symbol: JOBY  260918P00007000
+    expiration: '2026-09-18'
+    dte: 9
+    strike: 7.0
+    option_type: PUT
+    bid: 0.52
+    ask: 0.56
+    mid: 0.54
+    spread_pct: 7.41
+    last: 0.53
+    volume: 163
+    open_interest: 7552
+    delta: -0.726
+    gamma: 0.538
+    theta: -0.011
+    vega: 0.003
+    iv: 0.63409
+  option_score: 57.4
+  trade_score: 67.9
+  combined_score: 67.9
+  rank: 1
+  ranking_basis: trade_score
+  selection_basis: best_contract_per_stock
+- symbol: PL
+  stock:
+    candidate_score: 20.8
+    directional_stock_score: 79.2
+    signal: STRONG_DOWNTREND
+    priority: 2
+    category: freight_and_logistics
+    trend_score: 15.0
+    entry_quality: 40.0
+  option:
+    contract_symbol: PL    260918P00017500
+    expiration: '2026-09-18'
+    dte: 9
+    strike: 17.5
+    option_type: PUT
+    bid: 0.85
+    ask: 0.95
+    mid: 0.9
+    spread_pct: 11.11
+    last: 0.85
+    volume: 30
+    open_interest: 147
+    delta: -0.51
+    gamma: 0.194
+    theta: -0.045
+    vega: 0.011
+    iv: 0.76048
+  option_score: 29.3
+  trade_score: 54.2
+  combined_score: 54.2
+  rank: 2
+  ranking_basis: trade_score
+  selection_basis: best_contract_per_stock
+rejected:
+- symbol: RCAT
+  contract_symbol: RCAT  260911P00003000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  260911P00003500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  260911P00004000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  260911P00004500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  260911P00005000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  260911P00005500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  260911P00006000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  260911P00006500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  260911P00007000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  260911P00016000
+  reason: INVALID_IMPLIED_VOLATILITY
+- symbol: RCAT
+  contract_symbol: RCAT  260911P00017000
+  reason: INVALID_IMPLIED_VOLATILITY
+- symbol: RCAT
+  contract_symbol: RCAT  260911P00018000
+  reason: INVALID_IMPLIED_VOLATILITY
+- symbol: RCAT
+  contract_symbol: RCAT  260918P00001000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  260918P00002000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  260918P00003000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  260918P00004000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  260918P00004500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  260918P00005000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  260918P00005500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  260918P00006000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  260918P00006500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  260925P00003000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  260925P00003500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  260925P00004000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  260925P00004500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  260925P00005000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  260925P00005500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  260925P00006000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  261002P00003000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  261002P00004000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  261002P00004500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  261002P00005000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  261002P00005500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  261002P00008500
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: RCAT
+  contract_symbol: RCAT  261009P00003000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  261009P00004000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  261009P00004500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  261009P00005000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  261009P00005500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  261016P00003000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  261016P00004000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  261016P00005000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  261016P00020000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: RCAT
+  contract_symbol: RCAT  261016P00021000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: RCAT
+  contract_symbol: RCAT  261016P00023000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: RCAT
+  contract_symbol: RCAT  261016P00026000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: RCAT
+  contract_symbol: RCAT  261016P00029000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: RCAT
+  contract_symbol: RCAT  261023P00003000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  261023P00004000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  261023P00004500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  261023P00005000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  261120P00003000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  261120P00019000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: RCAT
+  contract_symbol: RCAT  270115P00017000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: RCAT
+  contract_symbol: RCAT  270115P00020000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: RCAT
+  contract_symbol: RCAT  270115P00022000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: RCAT
+  contract_symbol: RCAT  270115P00025000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: RCAT
+  contract_symbol: RCAT  270115P00035000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: RCAT
+  contract_symbol: RCAT  270416P00002000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: RCAT
+  contract_symbol: RCAT  280121P00017000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: RCAT
+  contract_symbol: RCAT  260925P00006500
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: RCAT
+  contract_symbol: RCAT  260925P00007000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: RCAT
+  contract_symbol: RCAT  260925P00007500
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: RCAT
+  contract_symbol: RCAT  260925P00008000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: RCAT
+  contract_symbol: RCAT  260925P00008500
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: RCAT
+  contract_symbol: RCAT  260925P00009000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: RCAT
+  contract_symbol: RCAT  260925P00009500
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: RCAT
+  contract_symbol: RCAT  260925P00010000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: RCAT
+  contract_symbol: RCAT  260925P00010500
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: RCAT
+  contract_symbol: RCAT  260925P00011000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: RCAT
+  contract_symbol: RCAT  260925P00011500
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: RCAT
+  contract_symbol: RCAT  260925P00012000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: RCAT
+  contract_symbol: RCAT  260925P00012500
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: RCAT
+  contract_symbol: RCAT  260925P00013000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: RCAT
+  contract_symbol: RCAT  260925P00014000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: RCAT
+  contract_symbol: RCAT  260925P00015000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: RCAT
+  contract_symbol: RCAT  260925P00016000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: RCAT
+  contract_symbol: RCAT  260925P00017000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: RCAT
+  contract_symbol: RCAT  260925P00018000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: RCAT
+  contract_symbol: RCAT  260925P00019000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: RCAT
+  contract_symbol: RCAT  261002P00006000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: RCAT
+  contract_symbol: RCAT  261002P00006500
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: RCAT
+  contract_symbol: RCAT  261002P00007000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: RCAT
+  contract_symbol: RCAT  261002P00007500
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: RCAT
+  contract_symbol: RCAT  261002P00008000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: RCAT
+  contract_symbol: RCAT  261002P00009000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: RCAT
+  contract_symbol: RCAT  261002P00009500
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: RCAT
+  contract_symbol: RCAT  261002P00010000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: RCAT
+  contract_symbol: RCAT  261002P00010500
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: RCAT
+  contract_symbol: RCAT  261002P00011000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: RCAT
+  contract_symbol: RCAT  261002P00011500
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: RCAT
+  contract_symbol: RCAT  261002P00012000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: RCAT
+  contract_symbol: RCAT  261002P00012500
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: RCAT
+  contract_symbol: RCAT  261002P00013000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: RCAT
+  contract_symbol: RCAT  261002P00013500
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: RCAT
+  contract_symbol: RCAT  261002P00014000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: RCAT
+  contract_symbol: RCAT  261002P00014500
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: RCAT
+  contract_symbol: RCAT  261002P00015000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: RCAT
+  contract_symbol: RCAT  261002P00015500
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: RCAT
+  contract_symbol: RCAT  261002P00016000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: RCAT
+  contract_symbol: RCAT  261002P00017000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: RCAT
+  contract_symbol: RCAT  261002P00018000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: RCAT
+  contract_symbol: RCAT  261002P00019000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: RCAT
+  contract_symbol: RCAT  261009P00006000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: RCAT
+  contract_symbol: RCAT  261009P00006500
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: RCAT
+  contract_symbol: RCAT  261009P00007000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: RCAT
+  contract_symbol: RCAT  261009P00007500
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: RCAT
+  contract_symbol: RCAT  261009P00008000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: RCAT
+  contract_symbol: RCAT  261009P00008500
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: RCAT
+  contract_symbol: RCAT  261009P00009000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: RCAT
+  contract_symbol: RCAT  261009P00009500
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: RCAT
+  contract_symbol: RCAT  261009P00010000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: RCAT
+  contract_symbol: RCAT  261009P00010500
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: RCAT
+  contract_symbol: RCAT  261009P00011000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: RCAT
+  contract_symbol: RCAT  261009P00011500
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: RCAT
+  contract_symbol: RCAT  261009P00012000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: RCAT
+  contract_symbol: RCAT  261009P00012500
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: RCAT
+  contract_symbol: RCAT  261009P00013000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: RCAT
+  contract_symbol: RCAT  261009P00013500
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: RCAT
+  contract_symbol: RCAT  261009P00014000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: RCAT
+  contract_symbol: RCAT  261009P00014500
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: RCAT
+  contract_symbol: RCAT  261009P00015000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: RCAT
+  contract_symbol: RCAT  261009P00016000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: RCAT
+  contract_symbol: RCAT  261009P00017000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: RCAT
+  contract_symbol: RCAT  261009P00018000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: RCAT
+  contract_symbol: RCAT  261016P00006000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: RCAT
+  contract_symbol: RCAT  261016P00007000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: RCAT
+  contract_symbol: RCAT  261016P00008000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: RCAT
+  contract_symbol: RCAT  261016P00009000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: RCAT
+  contract_symbol: RCAT  261016P00010000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: RCAT
+  contract_symbol: RCAT  261016P00011000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: RCAT
+  contract_symbol: RCAT  261016P00012000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: RCAT
+  contract_symbol: RCAT  261016P00013000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: RCAT
+  contract_symbol: RCAT  261016P00014000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: RCAT
+  contract_symbol: RCAT  261016P00015000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: RCAT
+  contract_symbol: RCAT  261016P00016000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: RCAT
+  contract_symbol: RCAT  261016P00017000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: RCAT
+  contract_symbol: RCAT  261016P00018000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: RCAT
+  contract_symbol: RCAT  261016P00019000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: RCAT
+  contract_symbol: RCAT  261016P00022000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: RCAT
+  contract_symbol: RCAT  261016P00024000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: RCAT
+  contract_symbol: RCAT  261016P00025000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: RCAT
+  contract_symbol: RCAT  261016P00027000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: RCAT
+  contract_symbol: RCAT  261016P00028000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: RCAT
+  contract_symbol: RCAT  261016P00030000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: RCAT
+  contract_symbol: RCAT  261016P00031000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: RCAT
+  contract_symbol: RCAT  261016P00032000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: RCAT
+  contract_symbol: RCAT  261023P00005500
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: RCAT
+  contract_symbol: RCAT  261023P00006000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: RCAT
+  contract_symbol: RCAT  261023P00006500
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: RCAT
+  contract_symbol: RCAT  261023P00007000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: RCAT
+  contract_symbol: RCAT  261023P00007500
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: RCAT
+  contract_symbol: RCAT  261023P00008000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: RCAT
+  contract_symbol: RCAT  261023P00008500
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: RCAT
+  contract_symbol: RCAT  261023P00009000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: RCAT
+  contract_symbol: RCAT  261023P00009500
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: RCAT
+  contract_symbol: RCAT  261023P00010000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: RCAT
+  contract_symbol: RCAT  261023P00010500
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: RCAT
+  contract_symbol: RCAT  261023P00011000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: RCAT
+  contract_symbol: RCAT  261023P00011500
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: RCAT
+  contract_symbol: RCAT  261023P00012000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: RCAT
+  contract_symbol: RCAT  261023P00012500
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: RCAT
+  contract_symbol: RCAT  261023P00013000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: RCAT
+  contract_symbol: RCAT  261023P00013500
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: RCAT
+  contract_symbol: RCAT  261023P00014000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: RCAT
+  contract_symbol: RCAT  261023P00014500
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: RCAT
+  contract_symbol: RCAT  261023P00015000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: RCAT
+  contract_symbol: RCAT  261023P00016000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: RCAT
+  contract_symbol: RCAT  261023P00017000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: RCAT
+  contract_symbol: RCAT  261120P00004000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: RCAT
+  contract_symbol: RCAT  261120P00005000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: RCAT
+  contract_symbol: RCAT  261120P00006000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: RCAT
+  contract_symbol: RCAT  261120P00007000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: RCAT
+  contract_symbol: RCAT  261120P00008000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: RCAT
+  contract_symbol: RCAT  261120P00009000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: RCAT
+  contract_symbol: RCAT  261120P00010000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: RCAT
+  contract_symbol: RCAT  261120P00011000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: RCAT
+  contract_symbol: RCAT  261120P00012000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: RCAT
+  contract_symbol: RCAT  261120P00013000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: RCAT
+  contract_symbol: RCAT  261120P00014000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: RCAT
+  contract_symbol: RCAT  261120P00015000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: RCAT
+  contract_symbol: RCAT  261120P00016000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: RCAT
+  contract_symbol: RCAT  261120P00017000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: RCAT
+  contract_symbol: RCAT  261120P00018000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: RCAT
+  contract_symbol: RCAT  261120P00020000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: RCAT
+  contract_symbol: RCAT  261120P00025000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: RCAT
+  contract_symbol: RCAT  261120P00026000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: RCAT
+  contract_symbol: RCAT  261120P00027000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: RCAT
+  contract_symbol: RCAT  261120P00028000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: RCAT
+  contract_symbol: RCAT  261120P00029000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: RCAT
+  contract_symbol: RCAT  261120P00030000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: RCAT
+  contract_symbol: RCAT  270115P00003000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: RCAT
+  contract_symbol: RCAT  270115P00004000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: RCAT
+  contract_symbol: RCAT  270115P00005000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: RCAT
+  contract_symbol: RCAT  270115P00006000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: RCAT
+  contract_symbol: RCAT  270115P00007000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: RCAT
+  contract_symbol: RCAT  270115P00008000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: RCAT
+  contract_symbol: RCAT  270115P00009000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: RCAT
+  contract_symbol: RCAT  270115P00010000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: RCAT
+  contract_symbol: RCAT  270115P00011000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: RCAT
+  contract_symbol: RCAT  270115P00012000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: RCAT
+  contract_symbol: RCAT  270115P00013000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: RCAT
+  contract_symbol: RCAT  270115P00014000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: RCAT
+  contract_symbol: RCAT  270115P00015000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: RCAT
+  contract_symbol: RCAT  270115P00016000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: RCAT
+  contract_symbol: RCAT  270115P00018000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: RCAT
+  contract_symbol: RCAT  270115P00019000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: RCAT
+  contract_symbol: RCAT  270115P00027000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: RCAT
+  contract_symbol: RCAT  270115P00030000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: RCAT
+  contract_symbol: RCAT  270115P00032000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: RCAT
+  contract_symbol: RCAT  270416P00003000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: RCAT
+  contract_symbol: RCAT  270416P00004000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: RCAT
+  contract_symbol: RCAT  270416P00005000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: RCAT
+  contract_symbol: RCAT  270416P00006000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: RCAT
+  contract_symbol: RCAT  270416P00007000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: RCAT
+  contract_symbol: RCAT  270416P00008000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: RCAT
+  contract_symbol: RCAT  270416P00009000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: RCAT
+  contract_symbol: RCAT  270416P00010000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: RCAT
+  contract_symbol: RCAT  270416P00011000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: RCAT
+  contract_symbol: RCAT  270416P00012000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: RCAT
+  contract_symbol: RCAT  270416P00013000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: RCAT
+  contract_symbol: RCAT  270416P00014000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: RCAT
+  contract_symbol: RCAT  270416P00015000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: RCAT
+  contract_symbol: RCAT  270416P00016000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: RCAT
+  contract_symbol: RCAT  270416P00017000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: RCAT
+  contract_symbol: RCAT  270416P00018000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: RCAT
+  contract_symbol: RCAT  280121P00003000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: RCAT
+  contract_symbol: RCAT  280121P00005000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: RCAT
+  contract_symbol: RCAT  280121P00008000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: RCAT
+  contract_symbol: RCAT  280121P00010000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: RCAT
+  contract_symbol: RCAT  280121P00012000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: RCAT
+  contract_symbol: RCAT  280121P00015000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: RCAT
+  contract_symbol: RCAT  280121P00020000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: RCAT
+  contract_symbol: RCAT  280121P00022000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: RCAT
+  contract_symbol: RCAT  280121P00025000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: RCAT
+  contract_symbol: RCAT  280121P00027000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: RCAT
+  contract_symbol: RCAT  280121P00030000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: RCAT
+  contract_symbol: RCAT  280121P00032000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: RCAT
+  contract_symbol: RCAT  280121P00035000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: RCAT
+  contract_symbol: RCAT  260911P00007500
+  reason: VOLUME_TOO_LOW
+  open_interest: 266
+  volume: 7
+- symbol: RCAT
+  contract_symbol: RCAT  260911P00009500
+  reason: VOLUME_TOO_LOW
+  open_interest: 194
+  volume: 0
+- symbol: RCAT
+  contract_symbol: RCAT  260911P00010500
+  reason: VOLUME_TOO_LOW
+  open_interest: 170
+  volume: 6
+- symbol: RCAT
+  contract_symbol: RCAT  260911P00011000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 84
+  volume: 7
+- symbol: RCAT
+  contract_symbol: RCAT  260911P00011500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 33
+  volume: 2
+- symbol: RCAT
+  contract_symbol: RCAT  260911P00012000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 8
+  volume: 0
+- symbol: RCAT
+  contract_symbol: RCAT  260911P00012500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 4
+  volume: 2
+- symbol: RCAT
+  contract_symbol: RCAT  260911P00013000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 4
+  volume: 0
+- symbol: RCAT
+  contract_symbol: RCAT  260911P00013500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 1
+  volume: 0
+- symbol: RCAT
+  contract_symbol: RCAT  260911P00014000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 5
+- symbol: RCAT
+  contract_symbol: RCAT  260911P00014500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 3
+  volume: 3
+- symbol: RCAT
+  contract_symbol: RCAT  260911P00015000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 0
+- symbol: RCAT
+  contract_symbol: RCAT  260911P00015500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 1
+  volume: 0
+- symbol: RCAT
+  contract_symbol: RCAT  260918P00009500
+  reason: VOLUME_TOO_LOW
+  open_interest: 176
+  volume: 5
+- symbol: RCAT
+  contract_symbol: RCAT  260918P00010500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 5
+  volume: 0
+- symbol: RCAT
+  contract_symbol: RCAT  260918P00011000
+  reason: VOLUME_TOO_LOW
+  open_interest: 312
+  volume: 11
+- symbol: RCAT
+  contract_symbol: RCAT  260918P00011500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 1
+  volume: 0
+- symbol: RCAT
+  contract_symbol: RCAT  260918P00012000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 63
+  volume: 2
+- symbol: RCAT
+  contract_symbol: RCAT  260918P00012500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 1
+  volume: 0
+- symbol: RCAT
+  contract_symbol: RCAT  260918P00013000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 62
+  volume: 1
+- symbol: RCAT
+  contract_symbol: RCAT  260918P00013500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 4
+  volume: 0
+- symbol: RCAT
+  contract_symbol: RCAT  260918P00014000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 6
+  volume: 0
+- symbol: RCAT
+  contract_symbol: RCAT  260918P00014500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 1
+  volume: 0
+- symbol: RCAT
+  contract_symbol: RCAT  260918P00015000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 2
+  volume: 0
+- symbol: RCAT
+  contract_symbol: RCAT  260918P00015500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 0
+- symbol: RCAT
+  contract_symbol: RCAT  260918P00016000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 1
+  volume: 0
+- symbol: RCAT
+  contract_symbol: RCAT  260918P00017000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 2
+  volume: 0
+- symbol: RCAT
+  contract_symbol: RCAT  260918P00018000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 1
+  volume: 0
+- symbol: RCAT
+  contract_symbol: RCAT  260911P00008000
+  reason: SPREAD_TOO_WIDE
+  spread_pct: 15.38
+- symbol: RCAT
+  contract_symbol: RCAT  260911P00008500
+  reason: SPREAD_TOO_WIDE
+  spread_pct: 22.78
+- symbol: RCAT
+  contract_symbol: RCAT  260911P00009000
+  reason: SPREAD_TOO_WIDE
+  spread_pct: 20.78
+- symbol: RCAT
+  contract_symbol: RCAT  260918P00007000
+  reason: SPREAD_TOO_WIDE
+  spread_pct: 18.18
+- symbol: RCAT
+  contract_symbol: RCAT  260918P00007500
+  reason: SPREAD_TOO_WIDE
+  spread_pct: 20.69
+- symbol: RCAT
+  contract_symbol: RCAT  260918P00008000
+  reason: SPREAD_TOO_WIDE
+  spread_pct: 20.9
+- symbol: RCAT
+  contract_symbol: RCAT  260918P00008500
+  reason: SPREAD_TOO_WIDE
+  spread_pct: 20.34
+- symbol: RCAT
+  contract_symbol: RCAT  260918P00009000
+  reason: SPREAD_TOO_WIDE
+  spread_pct: 18.18
+- symbol: RCAT
+  contract_symbol: RCAT  260911P00010000
+  reason: DELTA_TOO_HIGH
+  delta: -1.0
+- symbol: RCAT
+  contract_symbol: RCAT  260918P00010000
+  reason: DELTA_TOO_HIGH
+  delta: -0.915
+- symbol: PL
+  contract_symbol: PL    260911P00010000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    260911P00011000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    260911P00012000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    260911P00013000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    260911P00014000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    260911P00014500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    260911P00015000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    260911P00015500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    260911P00016000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    260911P00031000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    260911P00033000
+  reason: INVALID_IMPLIED_VOLATILITY
+- symbol: PL
+  contract_symbol: PL    260911P00034000
+  reason: INVALID_IMPLIED_VOLATILITY
+- symbol: PL
+  contract_symbol: PL    260918P00010000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    260918P00011000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    260918P00012000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    260918P00013000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    260918P00014000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    260918P00036000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    260918P00037000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    260918P00041000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    260918P00042000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    260918P00044000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    260918P00045000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    260918P00050000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    260925P00010000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    260925P00011000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    260925P00012000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    260925P00013000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    260925P00035000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    261002P00010000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    261002P00011000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    261002P00012000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    261009P00010000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    261009P00011000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    261009P00012000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    261016P00010000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    261016P00011000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    261016P00012000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    261016P00038000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    261016P00042000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    261016P00043000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    261016P00044000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    261016P00045000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    261016P00046000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    261016P00047000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    261016P00048000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    261016P00050000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    261016P00055000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    261016P00060000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    261016P00075000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    261023P00010000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    261023P00011000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    261120P00031000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    261120P00032000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    270115P00003000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    270115P00005000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    270115P00037000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    270115P00038000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    270115P00043000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    270115P00044000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    270115P00046000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    270115P00047000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    270115P00048000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    270115P00055000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    270115P00060000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    270115P00065000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    270115P00070000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    280121P00003000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: PL
+  contract_symbol: PL    280121P00027000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    280121P00037000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    280121P00047000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    280121P00060000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: PL
+  contract_symbol: PL    260925P00014000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: PL
+  contract_symbol: PL    260925P00015000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: PL
+  contract_symbol: PL    260925P00016000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: PL
+  contract_symbol: PL    260925P00017000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: PL
+  contract_symbol: PL    260925P00018000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: PL
+  contract_symbol: PL    260925P00019000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: PL
+  contract_symbol: PL    260925P00020000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: PL
+  contract_symbol: PL    260925P00021000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: PL
+  contract_symbol: PL    260925P00022000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: PL
+  contract_symbol: PL    260925P00023000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: PL
+  contract_symbol: PL    260925P00024000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: PL
+  contract_symbol: PL    260925P00025000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: PL
+  contract_symbol: PL    260925P00026000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: PL
+  contract_symbol: PL    260925P00027000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: PL
+  contract_symbol: PL    260925P00028000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: PL
+  contract_symbol: PL    260925P00029000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: PL
+  contract_symbol: PL    260925P00030000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: PL
+  contract_symbol: PL    260925P00031000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: PL
+  contract_symbol: PL    260925P00032000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: PL
+  contract_symbol: PL    260925P00033000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: PL
+  contract_symbol: PL    260925P00034000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: PL
+  contract_symbol: PL    261002P00013000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: PL
+  contract_symbol: PL    261002P00014000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: PL
+  contract_symbol: PL    261002P00015000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: PL
+  contract_symbol: PL    261002P00016000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: PL
+  contract_symbol: PL    261002P00017000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: PL
+  contract_symbol: PL    261002P00018000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: PL
+  contract_symbol: PL    261002P00019000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: PL
+  contract_symbol: PL    261002P00020000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: PL
+  contract_symbol: PL    261002P00021000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: PL
+  contract_symbol: PL    261002P00022000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: PL
+  contract_symbol: PL    261002P00023000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: PL
+  contract_symbol: PL    261002P00024000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: PL
+  contract_symbol: PL    261002P00025000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: PL
+  contract_symbol: PL    261002P00026000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: PL
+  contract_symbol: PL    261002P00027000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: PL
+  contract_symbol: PL    261002P00028000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: PL
+  contract_symbol: PL    261002P00029000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: PL
+  contract_symbol: PL    261002P00030000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: PL
+  contract_symbol: PL    261002P00031000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: PL
+  contract_symbol: PL    261002P00032000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: PL
+  contract_symbol: PL    261002P00033000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: PL
+  contract_symbol: PL    261002P00034000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: PL
+  contract_symbol: PL    261002P00035000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: PL
+  contract_symbol: PL    261009P00013000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: PL
+  contract_symbol: PL    261009P00014000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: PL
+  contract_symbol: PL    261009P00015000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: PL
+  contract_symbol: PL    261009P00016000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: PL
+  contract_symbol: PL    261009P00017000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: PL
+  contract_symbol: PL    261009P00018000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: PL
+  contract_symbol: PL    261009P00019000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: PL
+  contract_symbol: PL    261009P00020000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: PL
+  contract_symbol: PL    261009P00021000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: PL
+  contract_symbol: PL    261009P00022000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: PL
+  contract_symbol: PL    261009P00023000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: PL
+  contract_symbol: PL    261009P00024000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: PL
+  contract_symbol: PL    261009P00025000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: PL
+  contract_symbol: PL    261009P00026000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: PL
+  contract_symbol: PL    261009P00027000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: PL
+  contract_symbol: PL    261009P00028000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: PL
+  contract_symbol: PL    261009P00029000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: PL
+  contract_symbol: PL    261009P00030000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: PL
+  contract_symbol: PL    261009P00031000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: PL
+  contract_symbol: PL    261016P00013000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: PL
+  contract_symbol: PL    261016P00014000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: PL
+  contract_symbol: PL    261016P00015000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: PL
+  contract_symbol: PL    261016P00016000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: PL
+  contract_symbol: PL    261016P00017000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: PL
+  contract_symbol: PL    261016P00018000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: PL
+  contract_symbol: PL    261016P00019000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: PL
+  contract_symbol: PL    261016P00020000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: PL
+  contract_symbol: PL    261016P00021000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: PL
+  contract_symbol: PL    261016P00022000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: PL
+  contract_symbol: PL    261016P00023000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: PL
+  contract_symbol: PL    261016P00024000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: PL
+  contract_symbol: PL    261016P00025000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: PL
+  contract_symbol: PL    261016P00026000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: PL
+  contract_symbol: PL    261016P00027000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: PL
+  contract_symbol: PL    261016P00028000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: PL
+  contract_symbol: PL    261016P00029000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: PL
+  contract_symbol: PL    261016P00030000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: PL
+  contract_symbol: PL    261016P00031000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: PL
+  contract_symbol: PL    261016P00032000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: PL
+  contract_symbol: PL    261016P00033000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: PL
+  contract_symbol: PL    261016P00034000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: PL
+  contract_symbol: PL    261016P00035000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: PL
+  contract_symbol: PL    261016P00036000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: PL
+  contract_symbol: PL    261016P00037000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: PL
+  contract_symbol: PL    261016P00039000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: PL
+  contract_symbol: PL    261016P00040000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: PL
+  contract_symbol: PL    261016P00041000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: PL
+  contract_symbol: PL    261016P00049000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: PL
+  contract_symbol: PL    261016P00065000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: PL
+  contract_symbol: PL    261016P00070000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: PL
+  contract_symbol: PL    261023P00012000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: PL
+  contract_symbol: PL    261023P00013000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: PL
+  contract_symbol: PL    261023P00014000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: PL
+  contract_symbol: PL    261023P00015000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: PL
+  contract_symbol: PL    261023P00016000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: PL
+  contract_symbol: PL    261023P00017000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: PL
+  contract_symbol: PL    261023P00018000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: PL
+  contract_symbol: PL    261023P00019000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: PL
+  contract_symbol: PL    261023P00020000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: PL
+  contract_symbol: PL    261023P00021000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: PL
+  contract_symbol: PL    261023P00022000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: PL
+  contract_symbol: PL    261023P00023000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: PL
+  contract_symbol: PL    261023P00024000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: PL
+  contract_symbol: PL    261023P00025000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: PL
+  contract_symbol: PL    261023P00026000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: PL
+  contract_symbol: PL    261023P00027000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: PL
+  contract_symbol: PL    261023P00028000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: PL
+  contract_symbol: PL    261023P00029000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: PL
+  contract_symbol: PL    261023P00030000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: PL
+  contract_symbol: PL    261023P00031000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: PL
+  contract_symbol: PL    261120P00012000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: PL
+  contract_symbol: PL    261120P00013000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: PL
+  contract_symbol: PL    261120P00014000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: PL
+  contract_symbol: PL    261120P00015000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: PL
+  contract_symbol: PL    261120P00016000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: PL
+  contract_symbol: PL    261120P00017000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: PL
+  contract_symbol: PL    261120P00018000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: PL
+  contract_symbol: PL    261120P00019000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: PL
+  contract_symbol: PL    261120P00020000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: PL
+  contract_symbol: PL    261120P00021000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: PL
+  contract_symbol: PL    261120P00022000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: PL
+  contract_symbol: PL    261120P00023000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: PL
+  contract_symbol: PL    261120P00024000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: PL
+  contract_symbol: PL    261120P00025000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: PL
+  contract_symbol: PL    261120P00026000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: PL
+  contract_symbol: PL    261120P00027000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: PL
+  contract_symbol: PL    261120P00028000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: PL
+  contract_symbol: PL    261120P00029000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: PL
+  contract_symbol: PL    261120P00030000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: PL
+  contract_symbol: PL    261120P00033000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: PL
+  contract_symbol: PL    261120P00034000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: PL
+  contract_symbol: PL    261120P00035000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: PL
+  contract_symbol: PL    261120P00036000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: PL
+  contract_symbol: PL    270115P00007000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: PL
+  contract_symbol: PL    270115P00010000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: PL
+  contract_symbol: PL    270115P00012000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: PL
+  contract_symbol: PL    270115P00015000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: PL
+  contract_symbol: PL    270115P00017000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: PL
+  contract_symbol: PL    270115P00020000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: PL
+  contract_symbol: PL    270115P00022000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: PL
+  contract_symbol: PL    270115P00025000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: PL
+  contract_symbol: PL    270115P00027000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: PL
+  contract_symbol: PL    270115P00030000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: PL
+  contract_symbol: PL    270115P00032000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: PL
+  contract_symbol: PL    270115P00033000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: PL
+  contract_symbol: PL    270115P00034000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: PL
+  contract_symbol: PL    270115P00035000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: PL
+  contract_symbol: PL    270115P00036000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: PL
+  contract_symbol: PL    270115P00039000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: PL
+  contract_symbol: PL    270115P00040000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: PL
+  contract_symbol: PL    270115P00041000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: PL
+  contract_symbol: PL    270115P00042000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: PL
+  contract_symbol: PL    270115P00045000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: PL
+  contract_symbol: PL    270115P00050000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: PL
+  contract_symbol: PL    270115P00075000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: PL
+  contract_symbol: PL    270416P00013000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: PL
+  contract_symbol: PL    270416P00014000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: PL
+  contract_symbol: PL    270416P00015000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: PL
+  contract_symbol: PL    270416P00016000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: PL
+  contract_symbol: PL    270416P00017000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: PL
+  contract_symbol: PL    270416P00018000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: PL
+  contract_symbol: PL    270416P00019000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: PL
+  contract_symbol: PL    270416P00020000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: PL
+  contract_symbol: PL    270416P00021000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: PL
+  contract_symbol: PL    270416P00022000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: PL
+  contract_symbol: PL    270416P00023000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: PL
+  contract_symbol: PL    270416P00024000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: PL
+  contract_symbol: PL    270416P00025000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: PL
+  contract_symbol: PL    270416P00026000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: PL
+  contract_symbol: PL    270416P00027000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: PL
+  contract_symbol: PL    270416P00028000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: PL
+  contract_symbol: PL    270416P00029000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: PL
+  contract_symbol: PL    270416P00030000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: PL
+  contract_symbol: PL    270416P00031000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: PL
+  contract_symbol: PL    270416P00032000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: PL
+  contract_symbol: PL    280121P00005000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: PL
+  contract_symbol: PL    280121P00007000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: PL
+  contract_symbol: PL    280121P00010000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: PL
+  contract_symbol: PL    280121P00012000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: PL
+  contract_symbol: PL    280121P00015000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: PL
+  contract_symbol: PL    280121P00017000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: PL
+  contract_symbol: PL    280121P00020000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: PL
+  contract_symbol: PL    280121P00022000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: PL
+  contract_symbol: PL    280121P00025000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: PL
+  contract_symbol: PL    280121P00030000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: PL
+  contract_symbol: PL    280121P00032000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: PL
+  contract_symbol: PL    280121P00035000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: PL
+  contract_symbol: PL    280121P00040000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: PL
+  contract_symbol: PL    280121P00042000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: PL
+  contract_symbol: PL    280121P00045000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: PL
+  contract_symbol: PL    280121P00050000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: PL
+  contract_symbol: PL    280121P00055000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: PL
+  contract_symbol: PL    280121P00065000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: PL
+  contract_symbol: PL    280121P00070000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: PL
+  contract_symbol: PL    280121P00075000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: PL
+  contract_symbol: PL    260911P00018500
+  reason: VOLUME_TOO_LOW
+  open_interest: 252
+  volume: 16
+- symbol: PL
+  contract_symbol: PL    260911P00019000
+  reason: VOLUME_TOO_LOW
+  open_interest: 143
+  volume: 16
+- symbol: PL
+  contract_symbol: PL    260911P00019500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 28
+  volume: 21
+- symbol: PL
+  contract_symbol: PL    260911P00020500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 60
+  volume: 20
+- symbol: PL
+  contract_symbol: PL    260911P00021000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 40
+  volume: 6
+- symbol: PL
+  contract_symbol: PL    260911P00021500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 27
+  volume: 1
+- symbol: PL
+  contract_symbol: PL    260911P00022000
+  reason: VOLUME_TOO_LOW
+  open_interest: 207
+  volume: 6
+- symbol: PL
+  contract_symbol: PL    260911P00022500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 2
+  volume: 2
+- symbol: PL
+  contract_symbol: PL    260911P00023000
+  reason: VOLUME_TOO_LOW
+  open_interest: 240
+  volume: 2
+- symbol: PL
+  contract_symbol: PL    260911P00023500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 4
+  volume: 0
+- symbol: PL
+  contract_symbol: PL    260911P00024000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 33
+  volume: 18
+- symbol: PL
+  contract_symbol: PL    260911P00024500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 4
+  volume: 4
+- symbol: PL
+  contract_symbol: PL    260911P00025000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 25
+  volume: 7
+- symbol: PL
+  contract_symbol: PL    260911P00025500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 2
+  volume: 2
+- symbol: PL
+  contract_symbol: PL    260911P00026000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 2
+  volume: 2
+- symbol: PL
+  contract_symbol: PL    260911P00026500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 2
+- symbol: PL
+  contract_symbol: PL    260911P00027000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 13
+  volume: 2
+- symbol: PL
+  contract_symbol: PL    260911P00027500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 1
+  volume: 1
+- symbol: PL
+  contract_symbol: PL    260911P00028000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 1
+  volume: 10
+- symbol: PL
+  contract_symbol: PL    260911P00028500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 1
+  volume: 3
+- symbol: PL
+  contract_symbol: PL    260911P00029000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 0
+- symbol: PL
+  contract_symbol: PL    260911P00030000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 7
+  volume: 1
+- symbol: PL
+  contract_symbol: PL    260911P00032000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 1
+- symbol: PL
+  contract_symbol: PL    260911P00035000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 2
+  volume: 7
+- symbol: PL
+  contract_symbol: PL    260918P00018500
+  reason: VOLUME_TOO_LOW
+  open_interest: 156
+  volume: 3
+- symbol: PL
+  contract_symbol: PL    260918P00019000
+  reason: VOLUME_TOO_LOW
+  open_interest: 345
+  volume: 2
+- symbol: PL
+  contract_symbol: PL    260918P00019500
+  reason: VOLUME_TOO_LOW
+  open_interest: 115
+  volume: 7
+- symbol: PL
+  contract_symbol: PL    260918P00021000
+  reason: VOLUME_TOO_LOW
+  open_interest: 795
+  volume: 4
+- symbol: PL
+  contract_symbol: PL    260918P00021500
+  reason: VOLUME_TOO_LOW
+  open_interest: 320
+  volume: 1
+- symbol: PL
+  contract_symbol: PL    260918P00022000
+  reason: VOLUME_TOO_LOW
+  open_interest: 1255
+  volume: 5
+- symbol: PL
+  contract_symbol: PL    260918P00022500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 26
+  volume: 0
+- symbol: PL
+  contract_symbol: PL    260918P00023000
+  reason: VOLUME_TOO_LOW
+  open_interest: 846
+  volume: 7
+- symbol: PL
+  contract_symbol: PL    260918P00023500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 6
+  volume: 1
+- symbol: PL
+  contract_symbol: PL    260918P00024000
+  reason: VOLUME_TOO_LOW
+  open_interest: 303
+  volume: 6
+- symbol: PL
+  contract_symbol: PL    260918P00024500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 4
+  volume: 5
+- symbol: PL
+  contract_symbol: PL    260918P00025000
+  reason: VOLUME_TOO_LOW
+  open_interest: 191
+  volume: 3
+- symbol: PL
+  contract_symbol: PL    260918P00025500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 13
+  volume: 4
+- symbol: PL
+  contract_symbol: PL    260918P00026000
+  reason: VOLUME_TOO_LOW
+  open_interest: 217
+  volume: 2
+- symbol: PL
+  contract_symbol: PL    260918P00026500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 2
+  volume: 4
+- symbol: PL
+  contract_symbol: PL    260918P00027000
+  reason: VOLUME_TOO_LOW
+  open_interest: 996
+  volume: 9
+- symbol: PL
+  contract_symbol: PL    260918P00027500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 2
+- symbol: PL
+  contract_symbol: PL    260918P00028000
+  reason: VOLUME_TOO_LOW
+  open_interest: 159
+  volume: 10
+- symbol: PL
+  contract_symbol: PL    260918P00029000
+  reason: VOLUME_TOO_LOW
+  open_interest: 217
+  volume: 0
+- symbol: PL
+  contract_symbol: PL    260918P00030000
+  reason: VOLUME_TOO_LOW
+  open_interest: 136
+  volume: 0
+- symbol: PL
+  contract_symbol: PL    260918P00031000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 19
+  volume: 1
+- symbol: PL
+  contract_symbol: PL    260918P00032000
+  reason: VOLUME_TOO_LOW
+  open_interest: 148
+  volume: 4
+- symbol: PL
+  contract_symbol: PL    260918P00033000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 15
+  volume: 0
+- symbol: PL
+  contract_symbol: PL    260918P00034000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 77
+  volume: 2
+- symbol: PL
+  contract_symbol: PL    260918P00035000
+  reason: VOLUME_TOO_LOW
+  open_interest: 106
+  volume: 0
+- symbol: PL
+  contract_symbol: PL    260918P00038000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 0
+- symbol: PL
+  contract_symbol: PL    260918P00039000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 6
+  volume: 1
+- symbol: PL
+  contract_symbol: PL    260918P00040000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 7
+  volume: 0
+- symbol: PL
+  contract_symbol: PL    260918P00043000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 0
+- symbol: PL
+  contract_symbol: PL    260918P00046000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 1
+  volume: 2
+- symbol: PL
+  contract_symbol: PL    260918P00047000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 0
+- symbol: PL
+  contract_symbol: PL    260918P00048000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 6
+- symbol: PL
+  contract_symbol: PL    260911P00016500
+  reason: SPREAD_TOO_WIDE
+  spread_pct: 40.0
+- symbol: PL
+  contract_symbol: PL    260911P00017000
+  reason: SPREAD_TOO_WIDE
+  spread_pct: 18.18
+- symbol: PL
+  contract_symbol: PL    260911P00017500
+  reason: SPREAD_TOO_WIDE
+  spread_pct: 26.09
+- symbol: PL
+  contract_symbol: PL    260911P00018000
+  reason: SPREAD_TOO_WIDE
+  spread_pct: 22.22
+- symbol: PL
+  contract_symbol: PL    260918P00015000
+  reason: SPREAD_TOO_WIDE
+  spread_pct: 66.67
+- symbol: PL
+  contract_symbol: PL    260918P00016000
+  reason: SPREAD_TOO_WIDE
+  spread_pct: 18.18
+- symbol: PL
+  contract_symbol: PL    260918P00017000
+  reason: SPREAD_TOO_WIDE
+  spread_pct: 15.38
+- symbol: PL
+  contract_symbol: PL    260918P00018000
+  reason: SPREAD_TOO_WIDE
+  spread_pct: 16.0
+- symbol: PL
+  contract_symbol: PL    260911P00020000
+  reason: DELTA_TOO_HIGH
+  delta: -0.955
+- symbol: PL
+  contract_symbol: PL    260918P00020000
+  reason: DELTA_TOO_HIGH
+  delta: -0.849
+- symbol: PL
+  contract_symbol: PL    260918P00020500
+  reason: DELTA_TOO_HIGH
+  delta: -0.886
+- symbol: JOBY
+  contract_symbol: JOBY  260911P00002000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  260911P00003000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  260911P00003500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  260911P00004000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  260911P00004500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  260911P00005000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  260911P00005500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  260911P00006000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  260911P00013500
+  reason: INVALID_IMPLIED_VOLATILITY
+- symbol: JOBY
+  contract_symbol: JOBY  260911P00015000
+  reason: INVALID_IMPLIED_VOLATILITY
+- symbol: JOBY
+  contract_symbol: JOBY  260918P00001000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  260918P00002000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  260918P00003000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  260918P00003500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  260918P00004000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  260918P00004500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  260918P00005000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  260918P00005500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  260925P00003000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  260925P00003500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  260925P00004000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  260925P00004500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  260925P00005000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  261002P00003000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  261002P00003500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  261002P00004000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  261002P00004500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  261002P00005000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  261002P00008000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: JOBY
+  contract_symbol: JOBY  261009P00003000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  261009P00003500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  261009P00004000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  261009P00004500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  261016P00002000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  261016P00003000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  261016P00004000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  261016P00018000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: JOBY
+  contract_symbol: JOBY  261023P00003000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  261023P00003500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  261023P00004000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  261120P00003000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  261120P00017000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: JOBY
+  contract_symbol: JOBY  261120P00027000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: JOBY
+  contract_symbol: JOBY  270115P00001000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  270115P00002000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  270115P00018000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: JOBY
+  contract_symbol: JOBY  270115P00025000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: JOBY
+  contract_symbol: JOBY  270115P00027000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: JOBY
+  contract_symbol: JOBY  270115P00030000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: JOBY
+  contract_symbol: JOBY  270115P00032000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: JOBY
+  contract_symbol: JOBY  270115P00035000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: JOBY
+  contract_symbol: JOBY  270115P00037000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: JOBY
+  contract_symbol: JOBY  270115P00040000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: JOBY
+  contract_symbol: JOBY  270319P00020000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: JOBY
+  contract_symbol: JOBY  270319P00025000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: JOBY
+  contract_symbol: JOBY  270319P00030000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: JOBY
+  contract_symbol: JOBY  270416P00001000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  270416P00002000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: JOBY
+  contract_symbol: JOBY  260925P00005500
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: JOBY
+  contract_symbol: JOBY  260925P00006000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: JOBY
+  contract_symbol: JOBY  260925P00006500
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: JOBY
+  contract_symbol: JOBY  260925P00007000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: JOBY
+  contract_symbol: JOBY  260925P00007500
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: JOBY
+  contract_symbol: JOBY  260925P00008000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: JOBY
+  contract_symbol: JOBY  260925P00008500
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: JOBY
+  contract_symbol: JOBY  260925P00009000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: JOBY
+  contract_symbol: JOBY  260925P00009500
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: JOBY
+  contract_symbol: JOBY  260925P00010000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: JOBY
+  contract_symbol: JOBY  260925P00010500
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: JOBY
+  contract_symbol: JOBY  260925P00011000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: JOBY
+  contract_symbol: JOBY  260925P00011500
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: JOBY
+  contract_symbol: JOBY  260925P00012000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: JOBY
+  contract_symbol: JOBY  260925P00012500
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: JOBY
+  contract_symbol: JOBY  260925P00013000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: JOBY
+  contract_symbol: JOBY  260925P00014000
+  reason: DTE_TOO_HIGH
+  dte: 16
+- symbol: JOBY
+  contract_symbol: JOBY  261002P00005500
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: JOBY
+  contract_symbol: JOBY  261002P00006000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: JOBY
+  contract_symbol: JOBY  261002P00006500
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: JOBY
+  contract_symbol: JOBY  261002P00007000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: JOBY
+  contract_symbol: JOBY  261002P00007500
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: JOBY
+  contract_symbol: JOBY  261002P00008500
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: JOBY
+  contract_symbol: JOBY  261002P00009000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: JOBY
+  contract_symbol: JOBY  261002P00009500
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: JOBY
+  contract_symbol: JOBY  261002P00010000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: JOBY
+  contract_symbol: JOBY  261002P00010500
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: JOBY
+  contract_symbol: JOBY  261002P00011000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: JOBY
+  contract_symbol: JOBY  261002P00011500
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: JOBY
+  contract_symbol: JOBY  261002P00012000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: JOBY
+  contract_symbol: JOBY  261002P00012500
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: JOBY
+  contract_symbol: JOBY  261002P00013000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: JOBY
+  contract_symbol: JOBY  261002P00014000
+  reason: DTE_TOO_HIGH
+  dte: 23
+- symbol: JOBY
+  contract_symbol: JOBY  261009P00005000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: JOBY
+  contract_symbol: JOBY  261009P00005500
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: JOBY
+  contract_symbol: JOBY  261009P00006000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: JOBY
+  contract_symbol: JOBY  261009P00006500
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: JOBY
+  contract_symbol: JOBY  261009P00007000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: JOBY
+  contract_symbol: JOBY  261009P00007500
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: JOBY
+  contract_symbol: JOBY  261009P00008000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: JOBY
+  contract_symbol: JOBY  261009P00008500
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: JOBY
+  contract_symbol: JOBY  261009P00009000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: JOBY
+  contract_symbol: JOBY  261009P00009500
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: JOBY
+  contract_symbol: JOBY  261009P00010000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: JOBY
+  contract_symbol: JOBY  261009P00010500
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: JOBY
+  contract_symbol: JOBY  261009P00011000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: JOBY
+  contract_symbol: JOBY  261009P00011500
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: JOBY
+  contract_symbol: JOBY  261009P00012000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: JOBY
+  contract_symbol: JOBY  261009P00012500
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: JOBY
+  contract_symbol: JOBY  261009P00013000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: JOBY
+  contract_symbol: JOBY  261009P00014000
+  reason: DTE_TOO_HIGH
+  dte: 30
+- symbol: JOBY
+  contract_symbol: JOBY  261016P00005000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: JOBY
+  contract_symbol: JOBY  261016P00006000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: JOBY
+  contract_symbol: JOBY  261016P00007000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: JOBY
+  contract_symbol: JOBY  261016P00008000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: JOBY
+  contract_symbol: JOBY  261016P00009000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: JOBY
+  contract_symbol: JOBY  261016P00010000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: JOBY
+  contract_symbol: JOBY  261016P00011000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: JOBY
+  contract_symbol: JOBY  261016P00012000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: JOBY
+  contract_symbol: JOBY  261016P00013000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: JOBY
+  contract_symbol: JOBY  261016P00014000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: JOBY
+  contract_symbol: JOBY  261016P00015000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: JOBY
+  contract_symbol: JOBY  261016P00016000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: JOBY
+  contract_symbol: JOBY  261016P00017000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: JOBY
+  contract_symbol: JOBY  261016P00020000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: JOBY
+  contract_symbol: JOBY  261023P00004500
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: JOBY
+  contract_symbol: JOBY  261023P00005000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: JOBY
+  contract_symbol: JOBY  261023P00005500
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: JOBY
+  contract_symbol: JOBY  261023P00006000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: JOBY
+  contract_symbol: JOBY  261023P00006500
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: JOBY
+  contract_symbol: JOBY  261023P00007000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: JOBY
+  contract_symbol: JOBY  261023P00007500
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: JOBY
+  contract_symbol: JOBY  261023P00008000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: JOBY
+  contract_symbol: JOBY  261023P00008500
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: JOBY
+  contract_symbol: JOBY  261023P00009000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: JOBY
+  contract_symbol: JOBY  261023P00009500
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: JOBY
+  contract_symbol: JOBY  261023P00010000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: JOBY
+  contract_symbol: JOBY  261023P00010500
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: JOBY
+  contract_symbol: JOBY  261023P00011000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: JOBY
+  contract_symbol: JOBY  261023P00011500
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: JOBY
+  contract_symbol: JOBY  261023P00012000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: JOBY
+  contract_symbol: JOBY  261023P00012500
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: JOBY
+  contract_symbol: JOBY  261023P00013000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: JOBY
+  contract_symbol: JOBY  261023P00014000
+  reason: DTE_TOO_HIGH
+  dte: 44
+- symbol: JOBY
+  contract_symbol: JOBY  261120P00004000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: JOBY
+  contract_symbol: JOBY  261120P00005000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: JOBY
+  contract_symbol: JOBY  261120P00006000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: JOBY
+  contract_symbol: JOBY  261120P00007000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: JOBY
+  contract_symbol: JOBY  261120P00008000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: JOBY
+  contract_symbol: JOBY  261120P00009000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: JOBY
+  contract_symbol: JOBY  261120P00010000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: JOBY
+  contract_symbol: JOBY  261120P00011000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: JOBY
+  contract_symbol: JOBY  261120P00012000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: JOBY
+  contract_symbol: JOBY  261120P00013000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: JOBY
+  contract_symbol: JOBY  261120P00014000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: JOBY
+  contract_symbol: JOBY  261120P00015000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: JOBY
+  contract_symbol: JOBY  261120P00016000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: JOBY
+  contract_symbol: JOBY  261120P00020000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: JOBY
+  contract_symbol: JOBY  261120P00022000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: JOBY
+  contract_symbol: JOBY  261120P00025000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: JOBY
+  contract_symbol: JOBY  261120P00030000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: JOBY
+  contract_symbol: JOBY  270115P00003000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: JOBY
+  contract_symbol: JOBY  270115P00004000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: JOBY
+  contract_symbol: JOBY  270115P00005000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: JOBY
+  contract_symbol: JOBY  270115P00006000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: JOBY
+  contract_symbol: JOBY  270115P00007000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: JOBY
+  contract_symbol: JOBY  270115P00008000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: JOBY
+  contract_symbol: JOBY  270115P00009000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: JOBY
+  contract_symbol: JOBY  270115P00010000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: JOBY
+  contract_symbol: JOBY  270115P00011000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: JOBY
+  contract_symbol: JOBY  270115P00012000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: JOBY
+  contract_symbol: JOBY  270115P00013000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: JOBY
+  contract_symbol: JOBY  270115P00014000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: JOBY
+  contract_symbol: JOBY  270115P00015000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: JOBY
+  contract_symbol: JOBY  270115P00016000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: JOBY
+  contract_symbol: JOBY  270115P00017000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: JOBY
+  contract_symbol: JOBY  270115P00020000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: JOBY
+  contract_symbol: JOBY  270115P00022000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: JOBY
+  contract_symbol: JOBY  270319P00003000
+  reason: DTE_TOO_HIGH
+  dte: 191
+- symbol: JOBY
+  contract_symbol: JOBY  270319P00004000
+  reason: DTE_TOO_HIGH
+  dte: 191
+- symbol: JOBY
+  contract_symbol: JOBY  270319P00005000
+  reason: DTE_TOO_HIGH
+  dte: 191
+- symbol: JOBY
+  contract_symbol: JOBY  270319P00006000
+  reason: DTE_TOO_HIGH
+  dte: 191
+- symbol: JOBY
+  contract_symbol: JOBY  270319P00007000
+  reason: DTE_TOO_HIGH
+  dte: 191
+- symbol: JOBY
+  contract_symbol: JOBY  270319P00008000
+  reason: DTE_TOO_HIGH
+  dte: 191
+- symbol: JOBY
+  contract_symbol: JOBY  270319P00009000
+  reason: DTE_TOO_HIGH
+  dte: 191
+- symbol: JOBY
+  contract_symbol: JOBY  270319P00010000
+  reason: DTE_TOO_HIGH
+  dte: 191
+- symbol: JOBY
+  contract_symbol: JOBY  270319P00011000
+  reason: DTE_TOO_HIGH
+  dte: 191
+- symbol: JOBY
+  contract_symbol: JOBY  270319P00012000
+  reason: DTE_TOO_HIGH
+  dte: 191
+- symbol: JOBY
+  contract_symbol: JOBY  270319P00013000
+  reason: DTE_TOO_HIGH
+  dte: 191
+- symbol: JOBY
+  contract_symbol: JOBY  270319P00014000
+  reason: DTE_TOO_HIGH
+  dte: 191
+- symbol: JOBY
+  contract_symbol: JOBY  270319P00015000
+  reason: DTE_TOO_HIGH
+  dte: 191
+- symbol: JOBY
+  contract_symbol: JOBY  270319P00017000
+  reason: DTE_TOO_HIGH
+  dte: 191
+- symbol: JOBY
+  contract_symbol: JOBY  270319P00022000
+  reason: DTE_TOO_HIGH
+  dte: 191
+- symbol: JOBY
+  contract_symbol: JOBY  270319P00027000
+  reason: DTE_TOO_HIGH
+  dte: 191
+- symbol: JOBY
+  contract_symbol: JOBY  270416P00003000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: JOBY
+  contract_symbol: JOBY  270416P00004000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: JOBY
+  contract_symbol: JOBY  270416P00005000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: JOBY
+  contract_symbol: JOBY  270416P00006000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: JOBY
+  contract_symbol: JOBY  270416P00007000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: JOBY
+  contract_symbol: JOBY  270416P00008000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: JOBY
+  contract_symbol: JOBY  270416P00009000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: JOBY
+  contract_symbol: JOBY  270416P00010000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: JOBY
+  contract_symbol: JOBY  270416P00011000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: JOBY
+  contract_symbol: JOBY  270416P00012000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: JOBY
+  contract_symbol: JOBY  270416P00013000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: JOBY
+  contract_symbol: JOBY  270416P00014000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: JOBY
+  contract_symbol: JOBY  270416P00015000
+  reason: DTE_TOO_HIGH
+  dte: 219
+- symbol: JOBY
+  contract_symbol: JOBY  280121P00003000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: JOBY
+  contract_symbol: JOBY  280121P00005000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: JOBY
+  contract_symbol: JOBY  280121P00008000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: JOBY
+  contract_symbol: JOBY  280121P00010000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: JOBY
+  contract_symbol: JOBY  280121P00012000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: JOBY
+  contract_symbol: JOBY  280121P00015000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: JOBY
+  contract_symbol: JOBY  280121P00017000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: JOBY
+  contract_symbol: JOBY  280121P00020000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: JOBY
+  contract_symbol: JOBY  280121P00022000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: JOBY
+  contract_symbol: JOBY  280121P00025000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: JOBY
+  contract_symbol: JOBY  280121P00027000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: JOBY
+  contract_symbol: JOBY  280121P00030000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: JOBY
+  contract_symbol: JOBY  280121P00032000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: JOBY
+  contract_symbol: JOBY  260911P00007500
+  reason: VOLUME_TOO_LOW
+  open_interest: 449
+  volume: 17
+- symbol: JOBY
+  contract_symbol: JOBY  260911P00008000
+  reason: VOLUME_TOO_LOW
+  open_interest: 234
+  volume: 1
+- symbol: JOBY
+  contract_symbol: JOBY  260911P00008500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 22
+  volume: 1
+- symbol: JOBY
+  contract_symbol: JOBY  260911P00009000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 79
+  volume: 1
+- symbol: JOBY
+  contract_symbol: JOBY  260911P00009500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 0
+- symbol: JOBY
+  contract_symbol: JOBY  260911P00010000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 3
+  volume: 0
+- symbol: JOBY
+  contract_symbol: JOBY  260911P00010500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 1
+  volume: 0
+- symbol: JOBY
+  contract_symbol: JOBY  260911P00011000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 1
+  volume: 3
+- symbol: JOBY
+  contract_symbol: JOBY  260911P00011500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 1
+  volume: 5
+- symbol: JOBY
+  contract_symbol: JOBY  260911P00012000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 0
+- symbol: JOBY
+  contract_symbol: JOBY  260911P00012500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 3
+- symbol: JOBY
+  contract_symbol: JOBY  260911P00013000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 6
+- symbol: JOBY
+  contract_symbol: JOBY  260911P00014000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 2
+- symbol: JOBY
+  contract_symbol: JOBY  260918P00008500
+  reason: VOLUME_TOO_LOW
+  open_interest: 131
+  volume: 4
+- symbol: JOBY
+  contract_symbol: JOBY  260918P00009000
+  reason: VOLUME_TOO_LOW
+  open_interest: 255
+  volume: 0
+- symbol: JOBY
+  contract_symbol: JOBY  260918P00009500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 3
+  volume: 0
+- symbol: JOBY
+  contract_symbol: JOBY  260918P00010000
+  reason: VOLUME_TOO_LOW
+  open_interest: 152
+  volume: 3
+- symbol: JOBY
+  contract_symbol: JOBY  260918P00010500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 2
+- symbol: JOBY
+  contract_symbol: JOBY  260918P00011000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 2
+- symbol: JOBY
+  contract_symbol: JOBY  260918P00011500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 2
+- symbol: JOBY
+  contract_symbol: JOBY  260918P00012000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 4
+- symbol: JOBY
+  contract_symbol: JOBY  260918P00012500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 0
+- symbol: JOBY
+  contract_symbol: JOBY  260918P00013000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 0
+- symbol: JOBY
+  contract_symbol: JOBY  260918P00013500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 0
+- symbol: JOBY
+  contract_symbol: JOBY  260918P00014000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 2
+- symbol: JOBY
+  contract_symbol: JOBY  260918P00015000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 4
+- symbol: JOBY
+  contract_symbol: JOBY  260911P00006500
+  reason: SPREAD_TOO_WIDE
+  spread_pct: 31.58
+- symbol: JOBY
+  contract_symbol: JOBY  260911P00007000
+  reason: SPREAD_TOO_WIDE
+  spread_pct: 15.38
+- symbol: JOBY
+  contract_symbol: JOBY  260918P00006000
+  reason: SPREAD_TOO_WIDE
+  spread_pct: 33.33
+- symbol: JOBY
+  contract_symbol: JOBY  260918P00007500
+  reason: DELTA_TOO_HIGH
+  delta: -0.884
+- symbol: JOBY
+  contract_symbol: JOBY  260918P00008000
+  reason: DELTA_TOO_HIGH
+  delta: -0.948
+- symbol: OSS
+  contract_symbol: OSS   260918P00002500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: OSS
+  contract_symbol: OSS   260918P00005000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: OSS
+  contract_symbol: OSS   260918P00007500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: OSS
+  contract_symbol: OSS   261016P00002500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: OSS
+  contract_symbol: OSS   261016P00005000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: OSS
+  contract_symbol: OSS   261120P00002500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: OSS
+  contract_symbol: OSS   261120P00005000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: OSS
+  contract_symbol: OSS   261120P00020000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: OSS
+  contract_symbol: OSS   261218P00002500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: OSS
+  contract_symbol: OSS   261218P00020000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: OSS
+  contract_symbol: OSS   270115P00002500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: OSS
+  contract_symbol: OSS   270115P00020000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: OSS
+  contract_symbol: OSS   270219P00002500
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: OSS
+  contract_symbol: OSS   261016P00007500
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: OSS
+  contract_symbol: OSS   261016P00010000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: OSS
+  contract_symbol: OSS   261016P00012500
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: OSS
+  contract_symbol: OSS   261016P00015000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: OSS
+  contract_symbol: OSS   261016P00017500
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: OSS
+  contract_symbol: OSS   261016P00020000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: OSS
+  contract_symbol: OSS   261016P00022500
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: OSS
+  contract_symbol: OSS   261016P00025000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: OSS
+  contract_symbol: OSS   261120P00007500
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: OSS
+  contract_symbol: OSS   261120P00010000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: OSS
+  contract_symbol: OSS   261120P00012500
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: OSS
+  contract_symbol: OSS   261120P00015000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: OSS
+  contract_symbol: OSS   261120P00017500
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: OSS
+  contract_symbol: OSS   261120P00022500
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: OSS
+  contract_symbol: OSS   261120P00025000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: OSS
+  contract_symbol: OSS   261120P00030000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: OSS
+  contract_symbol: OSS   261120P00035000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: OSS
+  contract_symbol: OSS   261218P00005000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: OSS
+  contract_symbol: OSS   261218P00007500
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: OSS
+  contract_symbol: OSS   261218P00010000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: OSS
+  contract_symbol: OSS   261218P00012500
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: OSS
+  contract_symbol: OSS   261218P00015000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: OSS
+  contract_symbol: OSS   261218P00017500
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: OSS
+  contract_symbol: OSS   261218P00022500
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: OSS
+  contract_symbol: OSS   261218P00025000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: OSS
+  contract_symbol: OSS   261218P00030000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: OSS
+  contract_symbol: OSS   261218P00035000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: OSS
+  contract_symbol: OSS   270115P00005000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: OSS
+  contract_symbol: OSS   270115P00007500
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: OSS
+  contract_symbol: OSS   270115P00010000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: OSS
+  contract_symbol: OSS   270115P00012500
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: OSS
+  contract_symbol: OSS   270115P00015000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: OSS
+  contract_symbol: OSS   270115P00017500
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: OSS
+  contract_symbol: OSS   270115P00022500
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: OSS
+  contract_symbol: OSS   270115P00025000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: OSS
+  contract_symbol: OSS   270115P00030000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: OSS
+  contract_symbol: OSS   270115P00035000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: OSS
+  contract_symbol: OSS   270219P00005000
+  reason: DTE_TOO_HIGH
+  dte: 163
+- symbol: OSS
+  contract_symbol: OSS   270219P00007500
+  reason: DTE_TOO_HIGH
+  dte: 163
+- symbol: OSS
+  contract_symbol: OSS   270219P00010000
+  reason: DTE_TOO_HIGH
+  dte: 163
+- symbol: OSS
+  contract_symbol: OSS   270219P00012500
+  reason: DTE_TOO_HIGH
+  dte: 163
+- symbol: OSS
+  contract_symbol: OSS   270219P00015000
+  reason: DTE_TOO_HIGH
+  dte: 163
+- symbol: OSS
+  contract_symbol: OSS   270219P00017500
+  reason: DTE_TOO_HIGH
+  dte: 163
+- symbol: OSS
+  contract_symbol: OSS   270219P00020000
+  reason: DTE_TOO_HIGH
+  dte: 163
+- symbol: OSS
+  contract_symbol: OSS   270219P00022500
+  reason: DTE_TOO_HIGH
+  dte: 163
+- symbol: OSS
+  contract_symbol: OSS   270219P00025000
+  reason: DTE_TOO_HIGH
+  dte: 163
+- symbol: OSS
+  contract_symbol: OSS   270219P00030000
+  reason: DTE_TOO_HIGH
+  dte: 163
+- symbol: OSS
+  contract_symbol: OSS   270219P00035000
+  reason: DTE_TOO_HIGH
+  dte: 163
+- symbol: OSS
+  contract_symbol: OSS   270219P00040000
+  reason: DTE_TOO_HIGH
+  dte: 163
+- symbol: OSS
+  contract_symbol: OSS   260918P00010000
+  reason: VOLUME_TOO_LOW
+  open_interest: 270
+  volume: 10
+- symbol: OSS
+  contract_symbol: OSS   260918P00012500
+  reason: VOLUME_TOO_LOW
+  open_interest: 503
+  volume: 2
+- symbol: OSS
+  contract_symbol: OSS   260918P00015000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 0
+- symbol: OSS
+  contract_symbol: OSS   260918P00017500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 0
+- symbol: OSS
+  contract_symbol: OSS   260918P00020000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 0
+- symbol: OSS
+  contract_symbol: OSS   260918P00022500
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 0
+- symbol: OSS
+  contract_symbol: OSS   260918P00025000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 0
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00001000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00002000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00003000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00004000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00020000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00021000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00023000
+  reason: INVALID_IMPLIED_VOLATILITY
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00024000
+  reason: INVALID_IMPLIED_VOLATILITY
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00026000
+  reason: INVALID_IMPLIED_VOLATILITY
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00027000
+  reason: INVALID_IMPLIED_VOLATILITY
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00028000
+  reason: INVALID_IMPLIED_VOLATILITY
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00029000
+  reason: INVALID_IMPLIED_VOLATILITY
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00030000
+  reason: INVALID_IMPLIED_VOLATILITY
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00031000
+  reason: INVALID_IMPLIED_VOLATILITY
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00032000
+  reason: INVALID_IMPLIED_VOLATILITY
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00033000
+  reason: INVALID_IMPLIED_VOLATILITY
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00034000
+  reason: INVALID_IMPLIED_VOLATILITY
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00035000
+  reason: INVALID_IMPLIED_VOLATILITY
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00036000
+  reason: INVALID_IMPLIED_VOLATILITY
+- symbol: LWLG
+  contract_symbol: LWLG  261016P00001000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: LWLG
+  contract_symbol: LWLG  261016P00002000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: LWLG
+  contract_symbol: LWLG  261016P00003000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: LWLG
+  contract_symbol: LWLG  261120P00001000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: LWLG
+  contract_symbol: LWLG  261120P00002000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: LWLG
+  contract_symbol: LWLG  261120P00003000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00001000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00002000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00017000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00020000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00001000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00002000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00018000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00019000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00020000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00021000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00022000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00023000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00025000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: LWLG
+  contract_symbol: LWLG  270319P00001000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: LWLG
+  contract_symbol: LWLG  270319P00002000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: LWLG
+  contract_symbol: LWLG  280121P00001000
+  reason: ZERO_OR_NEGATIVE_BID_ASK
+- symbol: LWLG
+  contract_symbol: LWLG  280121P00025000
+  reason: SUSPICIOUS_LAST_PRICE
+- symbol: LWLG
+  contract_symbol: LWLG  261016P00004000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: LWLG
+  contract_symbol: LWLG  261016P00005000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: LWLG
+  contract_symbol: LWLG  261016P00006000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: LWLG
+  contract_symbol: LWLG  261016P00007000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: LWLG
+  contract_symbol: LWLG  261016P00008000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: LWLG
+  contract_symbol: LWLG  261016P00009000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: LWLG
+  contract_symbol: LWLG  261016P00010000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: LWLG
+  contract_symbol: LWLG  261016P00011000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: LWLG
+  contract_symbol: LWLG  261016P00012000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: LWLG
+  contract_symbol: LWLG  261016P00013000
+  reason: DTE_TOO_HIGH
+  dte: 37
+- symbol: LWLG
+  contract_symbol: LWLG  261120P00004000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: LWLG
+  contract_symbol: LWLG  261120P00005000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: LWLG
+  contract_symbol: LWLG  261120P00006000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: LWLG
+  contract_symbol: LWLG  261120P00007000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: LWLG
+  contract_symbol: LWLG  261120P00008000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: LWLG
+  contract_symbol: LWLG  261120P00009000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: LWLG
+  contract_symbol: LWLG  261120P00010000
+  reason: DTE_TOO_HIGH
+  dte: 72
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00003000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00004000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00005000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00006000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00007000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00008000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00009000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00010000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00011000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00012000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00013000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00014000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00015000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00016000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00018000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00019000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00021000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00022000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00023000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00024000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00025000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00026000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00027000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00028000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00029000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00030000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00031000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00032000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00033000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00034000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00035000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  261218P00036000
+  reason: DTE_TOO_HIGH
+  dte: 100
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00003000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00004000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00005000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00006000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00007000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00008000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00009000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00010000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00011000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00012000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00013000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00014000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00015000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00016000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00017000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00024000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00026000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00027000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00028000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00029000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00030000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00031000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00032000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00033000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00034000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00035000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: LWLG
+  contract_symbol: LWLG  270115P00036000
+  reason: DTE_TOO_HIGH
+  dte: 128
+- symbol: LWLG
+  contract_symbol: LWLG  270319P00003000
+  reason: DTE_TOO_HIGH
+  dte: 191
+- symbol: LWLG
+  contract_symbol: LWLG  270319P00004000
+  reason: DTE_TOO_HIGH
+  dte: 191
+- symbol: LWLG
+  contract_symbol: LWLG  270319P00005000
+  reason: DTE_TOO_HIGH
+  dte: 191
+- symbol: LWLG
+  contract_symbol: LWLG  270319P00006000
+  reason: DTE_TOO_HIGH
+  dte: 191
+- symbol: LWLG
+  contract_symbol: LWLG  270319P00007000
+  reason: DTE_TOO_HIGH
+  dte: 191
+- symbol: LWLG
+  contract_symbol: LWLG  270319P00008000
+  reason: DTE_TOO_HIGH
+  dte: 191
+- symbol: LWLG
+  contract_symbol: LWLG  270319P00009000
+  reason: DTE_TOO_HIGH
+  dte: 191
+- symbol: LWLG
+  contract_symbol: LWLG  270319P00010000
+  reason: DTE_TOO_HIGH
+  dte: 191
+- symbol: LWLG
+  contract_symbol: LWLG  270319P00011000
+  reason: DTE_TOO_HIGH
+  dte: 191
+- symbol: LWLG
+  contract_symbol: LWLG  270319P00012000
+  reason: DTE_TOO_HIGH
+  dte: 191
+- symbol: LWLG
+  contract_symbol: LWLG  270319P00013000
+  reason: DTE_TOO_HIGH
+  dte: 191
+- symbol: LWLG
+  contract_symbol: LWLG  270319P00014000
+  reason: DTE_TOO_HIGH
+  dte: 191
+- symbol: LWLG
+  contract_symbol: LWLG  280121P00002000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: LWLG
+  contract_symbol: LWLG  280121P00003000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: LWLG
+  contract_symbol: LWLG  280121P00004000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: LWLG
+  contract_symbol: LWLG  280121P00005000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: LWLG
+  contract_symbol: LWLG  280121P00007000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: LWLG
+  contract_symbol: LWLG  280121P00010000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: LWLG
+  contract_symbol: LWLG  280121P00012000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: LWLG
+  contract_symbol: LWLG  280121P00015000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: LWLG
+  contract_symbol: LWLG  280121P00017000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: LWLG
+  contract_symbol: LWLG  280121P00020000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: LWLG
+  contract_symbol: LWLG  280121P00022000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: LWLG
+  contract_symbol: LWLG  280121P00027000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: LWLG
+  contract_symbol: LWLG  280121P00030000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: LWLG
+  contract_symbol: LWLG  280121P00035000
+  reason: DTE_TOO_HIGH
+  dte: 499
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00005000
+  reason: VOLUME_TOO_LOW
+  open_interest: 1040
+  volume: 4
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00006000
+  reason: VOLUME_TOO_LOW
+  open_interest: 799
+  volume: 1
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00007000
+  reason: VOLUME_TOO_LOW
+  open_interest: 1328
+  volume: 1
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00008000
+  reason: VOLUME_TOO_LOW
+  open_interest: 820
+  volume: 0
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00009000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 72
+  volume: 0
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00010000
+  reason: VOLUME_TOO_LOW
+  open_interest: 297
+  volume: 0
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00011000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 89
+  volume: 0
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00012000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 27
+  volume: 0
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00013000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 4
+  volume: 0
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00014000
+  reason: VOLUME_TOO_LOW
+  open_interest: 266
+  volume: 0
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00015000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 0
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00016000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 2
+  volume: 0
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00017000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 20
+  volume: 0
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00018000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 2
+  volume: 0
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00019000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 1
+  volume: 0
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00022000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 0
+- symbol: LWLG
+  contract_symbol: LWLG  260918P00025000
+  reason: OPEN_INTEREST_TOO_LOW
+  open_interest: 0
+  volume: 0
