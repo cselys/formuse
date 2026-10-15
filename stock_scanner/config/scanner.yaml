@@ -27,6 +27,12 @@ structure:
   swing_lookback: 5
   consolidation_threshold_pct: 3.0
   breakout_lookback: 20
+  lower_low_max_age_bars: 10   # 2026-10-15: stale lower lows expire (state-machine fix 1)
+
+state_gates:
+  bottom_washout_trend_max: 35      # fix 2: BOTTOM requires trend_score to have hit <= this
+  bottom_washout_lookback_days: 60  # fix 2: how far back to look for the washout
+  reversal_express_days: 3          # fix 3: N reversal-family days + rising trend -> UPTREND
 
 scoring:
   weights:
@@ -65,8 +71,8 @@ scoring:
       atr_pct_optimal_min: 1.5
       atr_pct_optimal_max: 4.5
     candidate:
-      trend_weight: 0.45
-      entry_quality_weight: 0.30
+      trend_weight: 0.30
+      entry_quality_weight: 0.45
       relative_strength_weight: 0.15
       state_quality_weight: 0.10
     state_quality:

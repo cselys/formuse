@@ -54,7 +54,8 @@ def run_daily_analysis(df: pd.DataFrame, config: dict) -> tuple[pd.DataFrame, di
 
     # Structure analysis
     struct_cfg = config['structure']
-    structure = analyze_market_structure(df, lookback=struct_cfg['swing_lookback'], breakout_lookback=struct_cfg['breakout_lookback'])
+    structure = analyze_market_structure(df, lookback=struct_cfg['swing_lookback'], breakout_lookback=struct_cfg['breakout_lookback'],
+                                         lower_low_max_age_bars=struct_cfg.get('lower_low_max_age_bars', 10))
 
     latest = df.iloc[-1]
     indicators = {

@@ -41,11 +41,23 @@ def classify_state(
     weekly_indicators: dict,
     structure_analysis: dict,
     rs_analysis: dict,
-    config: dict
+    config: dict,
+    state_history: list = None,
+    trend_history: list = None,
 ) -> str:
     """
     Classify stock into one of the defined market states using V1.2 deterministic rules.
     Incorporates flexible volume confirmation window for BOTTOM_BREAKOUT and early vs confirmed reversal distinction.
+
+    Optional history (causal: days strictly before today only):
+    - state_history: list of past state strings, oldest -> newest
+    - trend_history: list of past trend_scores, oldest -> newest
+    When provided, two 2026-10-15 gates apply:
+    - BOTTOM family requires a prior "washout" (trend_score <= bottom_washout_trend_max
+      within bottom_washout_lookback_days) — no washout, no bottom call.
+    - REVERSAL express lane: reversal_express_days consecutive reversal-family states
+      with a strictly rising trend_score promote straight to UPTREND.
+    When history is None, behavior is unchanged (V1.2 rules as before).
     """
     close = daily_indicators.get('close', 0)
     volume = daily_indicators.get('volume_sma', 0)
@@ -85,6 +97,21 @@ def classify_state(
     if trend_score >= 70 and close > d_ema20 and d_ema20 > d_ema50:
         return 'UPTREND'
 
+    # 2b. REVERSAL express lane (2026-10-15 fix 3): a stock that has sat in the
+    # reversal family for N days with a monotonically rising trend_score is
+    # already in an uptrend (WMT case: 8 REVERSAL days, trend 20.5 -> 62).
+    gates = config.get('state_gates', {}) or {}
+    _REV_FAMILY = ('REVERSAL', 'REVERSAL_CONFIRMED', 'EARLY_UPTREND')
+    _exp_n = int(gates.get('reversal_express_days', 3) or 3)
+    if (
+        state_history and trend_history
+        and len(state_history) >= _exp_n and len(trend_history) >= _exp_n
+        and all(s in _REV_FAMILY for s in state_history[-_exp_n:])
+        and all(b > a for a, b in zip(trend_history[-_exp_n:-1], trend_history[-_exp_n + 1:]))
+        and close > d_ema20
+    ):
+        return 'UPTREND'
+
     # 3. REVERSAL (Actionable early reversal)
     if reversal_score >= 55 and (structure_analysis.get('higher_low') or structure_analysis.get('recent_breakout')) and close >= d_ema20 * 0.97:
         return 'REVERSAL'
@@ -94,12 +121,17 @@ def classify_state(
         return 'REVERSAL_CONFIRMED'
 
     # 5. BOTTOM_BREAKOUT (V1.2 updated with flexible volume confirmation check)
+    # 2026-10-15 fix 2: no washout (trend never <= thresh) -> not a real bottom.
+    _wo_thresh = float(gates.get('bottom_washout_trend_max', 35) or 35)
+    _wo_lb = int(gates.get('bottom_washout_lookback_days', 60) or 60)
     vol_ratio = daily_indicators.get('volume_ratio', 1.0)
-    if bottom_score >= min_b_score and (structure_analysis.get('recent_breakout') or vol_ratio >= vol_thresh):
+    if bottom_score >= min_b_score and (structure_analysis.get('recent_breakout') or vol_ratio >= vol_thresh) \
+            and _had_washout(trend_history, _wo_thresh, _wo_lb):
         return 'BOTTOM_BREAKOUT'
 
     # 6. BOTTOM_FORMING
-    if bottom_score >= 55 and (structure_analysis.get('higher_low') or structure_analysis.get('base_formation')):
+    if bottom_score >= 55 and (structure_analysis.get('higher_low') or structure_analysis.get('base_formation')) \
+            and _had_washout(trend_history, _wo_thresh, _wo_lb):
         return 'BOTTOM_FORMING'
 
     # 7. EARLY_UPTREND
@@ -116,6 +148,20 @@ def classify_state(
 
     # 10. Default NEUTRAL
     return 'NEUTRAL'
+
+
+def _had_washout(trend_history, thresh: float, lookback_days: int) -> bool:
+    """True if trend_score hit <= thresh within the lookback window (fix 2).
+
+    None history -> True (gate not applicable, preserve old behavior).
+    """
+    if not trend_history:
+        return True
+    window = trend_history[-lookback_days:]
+    try:
+        return min(window) <= thresh
+    except (TypeError, ValueError):
+        return True
 
 
 def pd_is_nan(val) -> bool:

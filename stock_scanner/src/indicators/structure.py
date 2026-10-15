@@ -39,7 +39,8 @@ def detect_swing_points(df: pd.DataFrame, lookback: int = 5) -> pd.DataFrame:
     return df
 
 
-def analyze_market_structure(df: pd.DataFrame, lookback: int = 5, breakout_lookback: int = 20) -> dict:
+def analyze_market_structure(df: pd.DataFrame, lookback: int = 5, breakout_lookback: int = 20,
+                             lower_low_max_age_bars: int = 10) -> dict:
     """
     Analyze market structure over recent history.
     Returns a dict with structure summary:
@@ -47,7 +48,9 @@ def analyze_market_structure(df: pd.DataFrame, lookback: int = 5, breakout_lookb
     - higher_high: bool
     - higher_low: bool
     - lower_high: bool
-    - lower_low: bool
+    - lower_low: bool (only True if the most recent swing low formed within
+      lower_low_max_age_bars trading days; a stale lower low from weeks ago
+      no longer counts — 2026-10-15 fix)
     - recent_breakout: bool
     - recent_breakdown: bool
     - base_formation: bool
@@ -80,6 +83,19 @@ def analyze_market_structure(df: pd.DataFrame, lookback: int = 5, breakout_lookb
     if len(swing_lows) >= 2:
         hl = swing_lows.iloc[-1] > swing_lows.iloc[-2]
         ll = swing_lows.iloc[-1] < swing_lows.iloc[-2]
+        if ll:
+            # 2026-10-15 fix: a lower low only counts if it formed recently.
+            # Without an expiry, a weeks-old lower low kept feeding
+            # reversal_score.prior_downtrend forever (WMT case).
+            try:
+                last_low_pos = df.index.get_loc(swing_lows.index[-1])
+                if isinstance(last_low_pos, slice):
+                    last_low_pos = last_low_pos.stop - 1
+                ll_age_bars = (len(df) - 1) - int(last_low_pos)
+                if ll_age_bars > lower_low_max_age_bars:
+                    ll = False
+            except (KeyError, ValueError, TypeError):
+                pass
 
     current_close = df['Close'].iloc[-1]
     recent_high = df['High'].iloc[-breakout_lookback:-1].max()
